@@ -1,0 +1,3174 @@
+1.5685 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['pygame', 'sounddevice', 'PTB', 'pyo'] (in that order).
+2.0901 	WARNING 	Import Error: No module named 'psychtoolbox'. Using event module for keyboard component.
+19.4834 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9df4b5b828>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f9df4e29278>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+19.4835 	EXP 	window1: recordFrameIntervals = False
+19.6505 	EXP 	window1: recordFrameIntervals = True
+19.7871 	WARNING 	t of last frame was 21.47ms (=1/46)
+20.1496 	EXP 	window1: recordFrameIntervals = False
+20.2139 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.2152 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineWidth=1, name='polygon', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+20.2241 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.2254 	EXP 	Created polygon_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+20.2303 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Dziękuję za udział w badaniu!', units='height', win=Window(...), wrapWidth=1)
+20.2361 	EXP 	text: autoDraw = True
+35.7382 	DATA 	Keypress: space
+35.7448 	EXP 	Created sequence: random, trialTypes=1, nReps=150, seed=None
+35.7473 	EXP 	New trial (rep=0, index=0): None
+35.7560 	EXP 	text: autoDraw = False
+35.7560 	EXP 	polygon: opacity = 1.0
+35.7560 	EXP 	polygon: fillColor = 'blue (named)'
+35.7560 	EXP 	polygon: lineColor = 'blue (named)'
+37.5435 	EXP 	polygon: autoDraw = True
+37.8410 	EXP 	New trial (rep=1, index=0): None
+37.8619 	EXP 	polygon: autoDraw = False
+37.8619 	EXP 	polygon: autoDraw = False
+37.8619 	EXP 	polygon: opacity = 1.0
+37.8619 	EXP 	polygon: fillColor = 'blue (named)'
+37.8619 	EXP 	polygon: lineColor = 'blue (named)'
+39.4398 	EXP 	polygon: autoDraw = True
+39.7291 	EXP 	New trial (rep=2, index=0): None
+39.7438 	EXP 	polygon: autoDraw = False
+39.7438 	EXP 	polygon: autoDraw = False
+39.7438 	EXP 	polygon: opacity = 1.0
+39.7438 	EXP 	polygon: fillColor = 'red (named)'
+39.7438 	EXP 	polygon: lineColor = 'red (named)'
+41.3761 	EXP 	polygon: autoDraw = True
+41.6791 	EXP 	New trial (rep=3, index=0): None
+41.6929 	EXP 	polygon: autoDraw = False
+41.6929 	EXP 	polygon: autoDraw = False
+41.6929 	EXP 	polygon: opacity = 1.0
+41.6929 	EXP 	polygon: fillColor = 'red (named)'
+41.6929 	EXP 	polygon: lineColor = 'red (named)'
+43.2930 	EXP 	polygon: autoDraw = True
+43.5801 	EXP 	New trial (rep=4, index=0): None
+43.5916 	EXP 	polygon: autoDraw = False
+43.5916 	EXP 	polygon: autoDraw = False
+43.5916 	EXP 	polygon: opacity = 1.0
+43.5916 	EXP 	polygon: fillColor = 'blue (named)'
+43.5916 	EXP 	polygon: lineColor = 'blue (named)'
+44.8579 	EXP 	polygon: autoDraw = True
+45.1471 	EXP 	New trial (rep=5, index=0): None
+45.1606 	EXP 	polygon: autoDraw = False
+45.1606 	EXP 	polygon: autoDraw = False
+45.1606 	EXP 	polygon: opacity = 1.0
+45.1606 	EXP 	polygon: fillColor = 'red (named)'
+45.1606 	EXP 	polygon: lineColor = 'red (named)'
+46.9102 	EXP 	polygon: autoDraw = True
+47.1951 	EXP 	New trial (rep=6, index=0): None
+47.2091 	EXP 	polygon: autoDraw = False
+47.2091 	EXP 	polygon: autoDraw = False
+47.2091 	EXP 	polygon: opacity = 1.0
+47.2091 	EXP 	polygon: fillColor = 'red (named)'
+47.2091 	EXP 	polygon: lineColor = 'red (named)'
+48.6091 	EXP 	polygon: autoDraw = True
+48.8983 	EXP 	New trial (rep=7, index=0): None
+48.9121 	EXP 	polygon: autoDraw = False
+48.9121 	EXP 	polygon: autoDraw = False
+48.9121 	EXP 	polygon: opacity = 1.0
+48.9121 	EXP 	polygon: fillColor = 'blue (named)'
+48.9121 	EXP 	polygon: lineColor = 'blue (named)'
+50.6937 	EXP 	polygon: autoDraw = True
+50.9823 	EXP 	New trial (rep=8, index=0): None
+50.9979 	EXP 	polygon: autoDraw = False
+50.9979 	EXP 	polygon: autoDraw = False
+50.9979 	EXP 	polygon: opacity = 1.0
+50.9979 	EXP 	polygon: fillColor = 'blue (named)'
+50.9979 	EXP 	polygon: lineColor = 'blue (named)'
+52.1768 	EXP 	polygon: autoDraw = True
+52.4627 	EXP 	New trial (rep=9, index=0): None
+52.4767 	EXP 	polygon: autoDraw = False
+52.4767 	EXP 	polygon: autoDraw = False
+52.4767 	EXP 	polygon: opacity = 1.0
+52.4767 	EXP 	polygon: fillColor = 'red (named)'
+52.4767 	EXP 	polygon: lineColor = 'red (named)'
+53.6953 	EXP 	polygon: autoDraw = True
+54.0015 	EXP 	New trial (rep=10, index=0): None
+54.0120 	EXP 	polygon: autoDraw = False
+54.0120 	EXP 	polygon: autoDraw = False
+54.0120 	EXP 	polygon: opacity = 1.0
+54.0120 	EXP 	polygon: fillColor = 'red (named)'
+54.0120 	EXP 	polygon: lineColor = 'red (named)'
+55.6463 	EXP 	polygon: autoDraw = True
+55.9517 	EXP 	New trial (rep=11, index=0): None
+55.9623 	EXP 	polygon: autoDraw = False
+55.9623 	EXP 	polygon: autoDraw = False
+55.9623 	EXP 	polygon: opacity = 1.0
+55.9623 	EXP 	polygon: fillColor = 'blue (named)'
+55.9623 	EXP 	polygon: lineColor = 'blue (named)'
+57.7151 	EXP 	polygon: autoDraw = True
+58.0191 	EXP 	New trial (rep=12, index=0): None
+58.0296 	EXP 	polygon: autoDraw = False
+58.0296 	EXP 	polygon: autoDraw = False
+58.0296 	EXP 	polygon: opacity = 1.0
+58.0296 	EXP 	polygon: fillColor = 'blue (named)'
+58.0296 	EXP 	polygon: lineColor = 'blue (named)'
+59.5295 	EXP 	polygon: autoDraw = True
+59.8182 	EXP 	New trial (rep=13, index=0): None
+59.8295 	EXP 	polygon: autoDraw = False
+59.8295 	EXP 	polygon: autoDraw = False
+59.8295 	EXP 	polygon: opacity = 1.0
+59.8295 	EXP 	polygon: fillColor = 'blue (named)'
+59.8295 	EXP 	polygon: lineColor = 'blue (named)'
+61.4834 	EXP 	polygon: autoDraw = True
+61.7861 	EXP 	New trial (rep=14, index=0): None
+61.7982 	EXP 	polygon: autoDraw = False
+61.7982 	EXP 	polygon: autoDraw = False
+61.7982 	EXP 	polygon: opacity = 1.0
+61.7982 	EXP 	polygon: fillColor = 'blue (named)'
+61.7982 	EXP 	polygon: lineColor = 'blue (named)'
+63.3012 	EXP 	polygon: autoDraw = True
+63.5859 	EXP 	New trial (rep=15, index=0): None
+63.5977 	EXP 	polygon: autoDraw = False
+63.5977 	EXP 	polygon: autoDraw = False
+63.5977 	EXP 	polygon: opacity = 1.0
+63.5977 	EXP 	polygon: fillColor = 'blue (named)'
+63.5977 	EXP 	polygon: lineColor = 'blue (named)'
+64.8164 	EXP 	polygon: autoDraw = True
+65.1048 	EXP 	New trial (rep=16, index=0): None
+65.1184 	EXP 	polygon: autoDraw = False
+65.1184 	EXP 	polygon: autoDraw = False
+65.1184 	EXP 	polygon: opacity = 1.0
+65.1184 	EXP 	polygon: fillColor = 'blue (named)'
+65.1184 	EXP 	polygon: lineColor = 'blue (named)'
+66.5706 	EXP 	polygon: autoDraw = True
+66.8731 	EXP 	New trial (rep=17, index=0): None
+66.8839 	EXP 	polygon: autoDraw = False
+66.8839 	EXP 	polygon: autoDraw = False
+66.8839 	EXP 	polygon: opacity = 1.0
+66.8839 	EXP 	polygon: fillColor = 'blue (named)'
+66.8839 	EXP 	polygon: lineColor = 'blue (named)'
+68.1155 	EXP 	polygon: autoDraw = True
+68.4012 	EXP 	New trial (rep=18, index=0): None
+68.4183 	EXP 	polygon: autoDraw = False
+68.4183 	EXP 	polygon: autoDraw = False
+68.4183 	EXP 	polygon: opacity = 1.0
+68.4183 	EXP 	polygon: fillColor = 'blue (named)'
+68.4183 	EXP 	polygon: lineColor = 'blue (named)'
+69.7160 	EXP 	polygon: autoDraw = True
+70.0019 	EXP 	New trial (rep=19, index=0): None
+70.0160 	EXP 	polygon: autoDraw = False
+70.0160 	EXP 	polygon: autoDraw = False
+70.0160 	EXP 	polygon: opacity = 1.0
+70.0160 	EXP 	polygon: fillColor = 'blue (named)'
+70.0160 	EXP 	polygon: lineColor = 'blue (named)'
+71.2510 	EXP 	polygon: autoDraw = True
+71.5394 	EXP 	New trial (rep=20, index=0): None
+71.5508 	EXP 	polygon: autoDraw = False
+71.5508 	EXP 	polygon: autoDraw = False
+71.5508 	EXP 	polygon: opacity = 1.0
+71.5508 	EXP 	polygon: fillColor = 'blue (named)'
+71.5508 	EXP 	polygon: lineColor = 'blue (named)'
+73.0677 	EXP 	polygon: autoDraw = True
+73.3539 	EXP 	New trial (rep=21, index=0): None
+73.3675 	EXP 	polygon: autoDraw = False
+73.3675 	EXP 	polygon: autoDraw = False
+73.3675 	EXP 	polygon: opacity = 1.0
+73.3675 	EXP 	polygon: fillColor = 'blue (named)'
+73.3675 	EXP 	polygon: lineColor = 'blue (named)'
+74.6690 	EXP 	polygon: autoDraw = True
+74.9536 	EXP 	New trial (rep=22, index=0): None
+74.9709 	EXP 	polygon: autoDraw = False
+74.9709 	EXP 	polygon: autoDraw = False
+74.9709 	EXP 	polygon: opacity = 1.0
+74.9709 	EXP 	polygon: fillColor = 'blue (named)'
+74.9709 	EXP 	polygon: lineColor = 'blue (named)'
+76.1526 	EXP 	polygon: autoDraw = True
+76.4386 	EXP 	New trial (rep=23, index=0): None
+76.4526 	EXP 	polygon: autoDraw = False
+76.4526 	EXP 	polygon: autoDraw = False
+76.4526 	EXP 	polygon: opacity = 1.0
+76.4526 	EXP 	polygon: fillColor = 'red (named)'
+76.4526 	EXP 	polygon: lineColor = 'red (named)'
+77.6691 	EXP 	polygon: autoDraw = True
+77.9561 	EXP 	New trial (rep=24, index=0): None
+77.9735 	EXP 	polygon: autoDraw = False
+77.9735 	EXP 	polygon: autoDraw = False
+77.9735 	EXP 	polygon: opacity = 1.0
+77.9735 	EXP 	polygon: fillColor = 'red (named)'
+77.9735 	EXP 	polygon: lineColor = 'red (named)'
+79.6058 	EXP 	polygon: autoDraw = True
+79.9079 	EXP 	New trial (rep=25, index=0): None
+79.9202 	EXP 	polygon: autoDraw = False
+79.9202 	EXP 	polygon: autoDraw = False
+79.9202 	EXP 	polygon: opacity = 1.0
+79.9202 	EXP 	polygon: fillColor = 'red (named)'
+79.9202 	EXP 	polygon: lineColor = 'red (named)'
+81.5704 	EXP 	polygon: autoDraw = True
+81.8590 	EXP 	New trial (rep=26, index=0): None
+81.8708 	EXP 	polygon: autoDraw = False
+81.8708 	EXP 	polygon: autoDraw = False
+81.8708 	EXP 	polygon: opacity = 1.0
+81.8708 	EXP 	polygon: fillColor = 'blue (named)'
+81.8708 	EXP 	polygon: lineColor = 'blue (named)'
+83.1732 	EXP 	polygon: autoDraw = True
+83.4623 	EXP 	New trial (rep=27, index=0): None
+83.4735 	EXP 	polygon: autoDraw = False
+83.4735 	EXP 	polygon: autoDraw = False
+83.4735 	EXP 	polygon: opacity = 1.0
+83.4735 	EXP 	polygon: fillColor = 'blue (named)'
+83.4735 	EXP 	polygon: lineColor = 'blue (named)'
+84.9095 	EXP 	polygon: autoDraw = True
+85.2123 	EXP 	New trial (rep=28, index=0): None
+85.2244 	EXP 	polygon: autoDraw = False
+85.2244 	EXP 	polygon: autoDraw = False
+85.2244 	EXP 	polygon: opacity = 1.0
+85.2244 	EXP 	polygon: fillColor = 'blue (named)'
+85.2244 	EXP 	polygon: lineColor = 'blue (named)'
+86.8762 	EXP 	polygon: autoDraw = True
+87.1756 	EXP 	New trial (rep=29, index=0): None
+87.1891 	EXP 	polygon: autoDraw = False
+87.1891 	EXP 	polygon: autoDraw = False
+87.1891 	EXP 	polygon: opacity = 1.0
+87.1891 	EXP 	polygon: fillColor = 'red (named)'
+87.1891 	EXP 	polygon: lineColor = 'red (named)'
+88.6902 	EXP 	polygon: autoDraw = True
+88.9776 	EXP 	New trial (rep=30, index=0): None
+88.9894 	EXP 	polygon: autoDraw = False
+88.9894 	EXP 	polygon: autoDraw = False
+88.9894 	EXP 	polygon: opacity = 1.0
+88.9894 	EXP 	polygon: fillColor = 'blue (named)'
+88.9894 	EXP 	polygon: lineColor = 'blue (named)'
+90.4401 	EXP 	polygon: autoDraw = True
+90.7275 	EXP 	New trial (rep=31, index=0): None
+90.7407 	EXP 	polygon: autoDraw = False
+90.7407 	EXP 	polygon: autoDraw = False
+90.7407 	EXP 	polygon: opacity = 1.0
+90.7407 	EXP 	polygon: fillColor = 'blue (named)'
+90.7407 	EXP 	polygon: lineColor = 'blue (named)'
+92.0280 	EXP 	polygon: autoDraw = True
+92.3316 	EXP 	New trial (rep=32, index=0): None
+92.3417 	EXP 	polygon: autoDraw = False
+92.3417 	EXP 	polygon: autoDraw = False
+92.3417 	EXP 	polygon: opacity = 1.0
+92.3417 	EXP 	polygon: fillColor = 'blue (named)'
+92.3417 	EXP 	polygon: lineColor = 'blue (named)'
+93.5265 	EXP 	polygon: autoDraw = True
+93.8299 	EXP 	New trial (rep=33, index=0): None
+93.8429 	EXP 	polygon: autoDraw = False
+93.8429 	EXP 	polygon: autoDraw = False
+93.8429 	EXP 	polygon: opacity = 1.0
+93.8429 	EXP 	polygon: fillColor = 'red (named)'
+93.8429 	EXP 	polygon: lineColor = 'red (named)'
+95.3247 	EXP 	polygon: autoDraw = True
+95.6111 	EXP 	New trial (rep=34, index=0): None
+95.6306 	EXP 	polygon: autoDraw = False
+95.6306 	EXP 	polygon: autoDraw = False
+95.6306 	EXP 	polygon: opacity = 1.0
+95.6306 	EXP 	polygon: fillColor = 'red (named)'
+95.6306 	EXP 	polygon: lineColor = 'red (named)'
+97.3477 	EXP 	polygon: autoDraw = True
+97.6469 	EXP 	New trial (rep=35, index=0): None
+97.6593 	EXP 	polygon: autoDraw = False
+97.6593 	EXP 	polygon: autoDraw = False
+97.6593 	EXP 	polygon: opacity = 1.0
+97.6593 	EXP 	polygon: fillColor = 'red (named)'
+97.6593 	EXP 	polygon: lineColor = 'red (named)'
+99.4097 	EXP 	polygon: autoDraw = True
+99.6998 	EXP 	New trial (rep=36, index=0): None
+99.7121 	EXP 	polygon: autoDraw = False
+99.7121 	EXP 	polygon: autoDraw = False
+99.7121 	EXP 	polygon: opacity = 1.0
+99.7121 	EXP 	polygon: fillColor = 'blue (named)'
+99.7121 	EXP 	polygon: lineColor = 'blue (named)'
+101.2771 	EXP 	polygon: autoDraw = True
+101.5645 	EXP 	New trial (rep=37, index=0): None
+101.5768 	EXP 	polygon: autoDraw = False
+101.5768 	EXP 	polygon: autoDraw = False
+101.5768 	EXP 	polygon: opacity = 1.0
+101.5768 	EXP 	polygon: fillColor = 'blue (named)'
+101.5768 	EXP 	polygon: lineColor = 'blue (named)'
+103.1617 	EXP 	polygon: autoDraw = True
+103.4512 	EXP 	New trial (rep=38, index=0): None
+103.4634 	EXP 	polygon: autoDraw = False
+103.4634 	EXP 	polygon: autoDraw = False
+103.4634 	EXP 	polygon: opacity = 1.0
+103.4634 	EXP 	polygon: fillColor = 'red (named)'
+103.4634 	EXP 	polygon: lineColor = 'red (named)'
+105.0124 	EXP 	polygon: autoDraw = True
+105.3001 	EXP 	New trial (rep=39, index=0): None
+105.3127 	EXP 	polygon: autoDraw = False
+105.3127 	EXP 	polygon: autoDraw = False
+105.3127 	EXP 	polygon: opacity = 1.0
+105.3127 	EXP 	polygon: fillColor = 'red (named)'
+105.3127 	EXP 	polygon: lineColor = 'red (named)'
+106.7013 	EXP 	polygon: autoDraw = True
+106.9994 	EXP 	New trial (rep=40, index=0): None
+107.0139 	EXP 	polygon: autoDraw = False
+107.0139 	EXP 	polygon: autoDraw = False
+107.0139 	EXP 	polygon: opacity = 1.0
+107.0139 	EXP 	polygon: fillColor = 'red (named)'
+107.0139 	EXP 	polygon: lineColor = 'red (named)'
+108.5656 	EXP 	polygon: autoDraw = True
+108.8675 	EXP 	New trial (rep=41, index=0): None
+108.8798 	EXP 	polygon: autoDraw = False
+108.8798 	EXP 	polygon: autoDraw = False
+108.8798 	EXP 	polygon: opacity = 1.0
+108.8798 	EXP 	polygon: fillColor = 'red (named)'
+108.8798 	EXP 	polygon: lineColor = 'red (named)'
+110.6304 	EXP 	polygon: autoDraw = True
+110.9172 	EXP 	New trial (rep=42, index=0): None
+110.9326 	EXP 	polygon: autoDraw = False
+110.9326 	EXP 	polygon: autoDraw = False
+110.9326 	EXP 	polygon: opacity = 1.0
+110.9326 	EXP 	polygon: fillColor = 'blue (named)'
+110.9326 	EXP 	polygon: lineColor = 'blue (named)'
+112.5150 	EXP 	polygon: autoDraw = True
+112.8016 	EXP 	New trial (rep=43, index=0): None
+112.8161 	EXP 	polygon: autoDraw = False
+112.8161 	EXP 	polygon: autoDraw = False
+112.8161 	EXP 	polygon: opacity = 1.0
+112.8161 	EXP 	polygon: fillColor = 'red (named)'
+112.8161 	EXP 	polygon: lineColor = 'red (named)'
+114.0682 	EXP 	polygon: autoDraw = True
+114.3715 	EXP 	New trial (rep=44, index=0): None
+114.3842 	EXP 	polygon: autoDraw = False
+114.3842 	EXP 	polygon: autoDraw = False
+114.3842 	EXP 	polygon: opacity = 1.0
+114.3842 	EXP 	polygon: fillColor = 'red (named)'
+114.3842 	EXP 	polygon: lineColor = 'red (named)'
+115.7835 	EXP 	polygon: autoDraw = True
+116.0861 	EXP 	New trial (rep=45, index=0): None
+116.0988 	EXP 	polygon: autoDraw = False
+116.0988 	EXP 	polygon: autoDraw = False
+116.0988 	EXP 	polygon: opacity = 1.0
+116.0988 	EXP 	polygon: fillColor = 'red (named)'
+116.0988 	EXP 	polygon: lineColor = 'red (named)'
+117.6830 	EXP 	polygon: autoDraw = True
+117.9722 	EXP 	New trial (rep=46, index=0): None
+117.9848 	EXP 	polygon: autoDraw = False
+117.9848 	EXP 	polygon: autoDraw = False
+117.9848 	EXP 	polygon: opacity = 1.0
+117.9848 	EXP 	polygon: fillColor = 'red (named)'
+117.9848 	EXP 	polygon: lineColor = 'red (named)'
+119.2498 	EXP 	polygon: autoDraw = True
+119.5410 	EXP 	New trial (rep=47, index=0): None
+119.5544 	EXP 	polygon: autoDraw = False
+119.5544 	EXP 	polygon: autoDraw = False
+119.5544 	EXP 	polygon: opacity = 1.0
+119.5544 	EXP 	polygon: fillColor = 'blue (named)'
+119.5544 	EXP 	polygon: lineColor = 'blue (named)'
+120.8039 	EXP 	polygon: autoDraw = True
+121.1027 	EXP 	New trial (rep=48, index=0): None
+121.1167 	EXP 	polygon: autoDraw = False
+121.1167 	EXP 	polygon: autoDraw = False
+121.1167 	EXP 	polygon: opacity = 1.0
+121.1167 	EXP 	polygon: fillColor = 'blue (named)'
+121.1167 	EXP 	polygon: lineColor = 'blue (named)'
+122.5376 	EXP 	polygon: autoDraw = True
+122.8385 	EXP 	New trial (rep=49, index=0): None
+122.8515 	EXP 	polygon: autoDraw = False
+122.8515 	EXP 	polygon: autoDraw = False
+122.8515 	EXP 	polygon: opacity = 1.0
+122.8515 	EXP 	polygon: fillColor = 'red (named)'
+122.8515 	EXP 	polygon: lineColor = 'red (named)'
+124.1709 	EXP 	polygon: autoDraw = True
+124.4584 	EXP 	New trial (rep=50, index=0): None
+124.4679 	EXP 	polygon: autoDraw = False
+124.4679 	EXP 	polygon: autoDraw = False
+124.4679 	EXP 	polygon: opacity = 1.0
+124.4679 	EXP 	polygon: fillColor = 'blue (named)'
+124.4679 	EXP 	polygon: lineColor = 'blue (named)'
+125.8042 	EXP 	polygon: autoDraw = True
+126.0942 	EXP 	New trial (rep=51, index=0): None
+126.1024 	EXP 	polygon: autoDraw = False
+126.1024 	EXP 	polygon: autoDraw = False
+126.1024 	EXP 	polygon: opacity = 1.0
+126.1024 	EXP 	polygon: fillColor = 'blue (named)'
+126.1024 	EXP 	polygon: lineColor = 'blue (named)'
+127.3192 	EXP 	polygon: autoDraw = True
+127.6091 	EXP 	New trial (rep=52, index=0): None
+127.6208 	EXP 	polygon: autoDraw = False
+127.6208 	EXP 	polygon: autoDraw = False
+127.6208 	EXP 	polygon: opacity = 1.0
+127.6208 	EXP 	polygon: fillColor = 'red (named)'
+127.6208 	EXP 	polygon: lineColor = 'red (named)'
+129.0199 	EXP 	polygon: autoDraw = True
+129.3088 	EXP 	New trial (rep=53, index=0): None
+129.3204 	EXP 	polygon: autoDraw = False
+129.3204 	EXP 	polygon: autoDraw = False
+129.3204 	EXP 	polygon: opacity = 1.0
+129.3204 	EXP 	polygon: fillColor = 'blue (named)'
+129.3204 	EXP 	polygon: lineColor = 'blue (named)'
+131.0233 	EXP 	polygon: autoDraw = True
+131.3228 	EXP 	New trial (rep=54, index=0): None
+131.3370 	EXP 	polygon: autoDraw = False
+131.3370 	EXP 	polygon: autoDraw = False
+131.3370 	EXP 	polygon: opacity = 1.0
+131.3370 	EXP 	polygon: fillColor = 'red (named)'
+131.3370 	EXP 	polygon: lineColor = 'red (named)'
+133.0576 	EXP 	polygon: autoDraw = True
+133.3607 	EXP 	New trial (rep=55, index=0): None
+133.3727 	EXP 	polygon: autoDraw = False
+133.3727 	EXP 	polygon: autoDraw = False
+133.3727 	EXP 	polygon: opacity = 1.0
+133.3727 	EXP 	polygon: fillColor = 'blue (named)'
+133.3727 	EXP 	polygon: lineColor = 'blue (named)'
+134.6890 	EXP 	polygon: autoDraw = True
+134.9751 	EXP 	New trial (rep=56, index=0): None
+134.9885 	EXP 	polygon: autoDraw = False
+134.9885 	EXP 	polygon: autoDraw = False
+134.9885 	EXP 	polygon: opacity = 1.0
+134.9885 	EXP 	polygon: fillColor = 'red (named)'
+134.9885 	EXP 	polygon: lineColor = 'red (named)'
+136.7594 	EXP 	polygon: autoDraw = True
+137.0594 	EXP 	New trial (rep=57, index=0): None
+137.0744 	EXP 	polygon: autoDraw = False
+137.0744 	EXP 	polygon: autoDraw = False
+137.0744 	EXP 	polygon: opacity = 1.0
+137.0744 	EXP 	polygon: fillColor = 'blue (named)'
+137.0744 	EXP 	polygon: lineColor = 'blue (named)'
+138.8404 	EXP 	polygon: autoDraw = True
+139.1266 	EXP 	New trial (rep=58, index=0): None
+139.1451 	EXP 	polygon: autoDraw = False
+139.1451 	EXP 	polygon: autoDraw = False
+139.1451 	EXP 	polygon: opacity = 1.0
+139.1451 	EXP 	polygon: fillColor = 'blue (named)'
+139.1451 	EXP 	polygon: lineColor = 'blue (named)'
+140.6068 	EXP 	polygon: autoDraw = True
+140.8928 	EXP 	New trial (rep=59, index=0): None
+140.9069 	EXP 	polygon: autoDraw = False
+140.9069 	EXP 	polygon: autoDraw = False
+140.9069 	EXP 	polygon: opacity = 1.0
+140.9069 	EXP 	polygon: fillColor = 'blue (named)'
+140.9069 	EXP 	polygon: lineColor = 'blue (named)'
+142.3416 	EXP 	polygon: autoDraw = True
+142.6297 	EXP 	New trial (rep=60, index=0): None
+142.6454 	EXP 	polygon: autoDraw = False
+142.6454 	EXP 	polygon: autoDraw = False
+142.6454 	EXP 	polygon: opacity = 1.0
+142.6454 	EXP 	polygon: fillColor = 'red (named)'
+142.6454 	EXP 	polygon: lineColor = 'red (named)'
+144.2920 	EXP 	polygon: autoDraw = True
+144.5808 	EXP 	New trial (rep=61, index=0): None
+144.5932 	EXP 	polygon: autoDraw = False
+144.5932 	EXP 	polygon: autoDraw = False
+144.5932 	EXP 	polygon: opacity = 1.0
+144.5932 	EXP 	polygon: fillColor = 'blue (named)'
+144.5932 	EXP 	polygon: lineColor = 'blue (named)'
+145.8437 	EXP 	polygon: autoDraw = True
+146.1306 	EXP 	New trial (rep=62, index=0): None
+146.1440 	EXP 	polygon: autoDraw = False
+146.1440 	EXP 	polygon: autoDraw = False
+146.1440 	EXP 	polygon: opacity = 1.0
+146.1440 	EXP 	polygon: fillColor = 'blue (named)'
+146.1440 	EXP 	polygon: lineColor = 'blue (named)'
+147.5447 	EXP 	polygon: autoDraw = True
+147.8467 	EXP 	New trial (rep=63, index=0): None
+147.8624 	EXP 	polygon: autoDraw = False
+147.8624 	EXP 	polygon: autoDraw = False
+147.8624 	EXP 	polygon: opacity = 1.0
+147.8624 	EXP 	polygon: fillColor = 'blue (named)'
+147.8624 	EXP 	polygon: lineColor = 'blue (named)'
+149.3266 	EXP 	polygon: autoDraw = True
+149.6122 	EXP 	New trial (rep=64, index=0): None
+149.6266 	EXP 	polygon: autoDraw = False
+149.6266 	EXP 	polygon: autoDraw = False
+149.6266 	EXP 	polygon: opacity = 1.0
+149.6266 	EXP 	polygon: fillColor = 'blue (named)'
+149.6266 	EXP 	polygon: lineColor = 'blue (named)'
+150.9769 	EXP 	polygon: autoDraw = True
+151.2630 	EXP 	New trial (rep=65, index=0): None
+151.2770 	EXP 	polygon: autoDraw = False
+151.2770 	EXP 	polygon: autoDraw = False
+151.2770 	EXP 	polygon: opacity = 1.0
+151.2770 	EXP 	polygon: fillColor = 'blue (named)'
+151.2770 	EXP 	polygon: lineColor = 'blue (named)'
+152.8985 	EXP 	polygon: autoDraw = True
+153.2008 	EXP 	New trial (rep=66, index=0): None
+153.2128 	EXP 	polygon: autoDraw = False
+153.2128 	EXP 	polygon: autoDraw = False
+153.2128 	EXP 	polygon: opacity = 1.0
+153.2128 	EXP 	polygon: fillColor = 'blue (named)'
+153.2128 	EXP 	polygon: lineColor = 'blue (named)'
+154.7457 	EXP 	polygon: autoDraw = True
+155.0305 	EXP 	New trial (rep=67, index=0): None
+155.0486 	EXP 	polygon: autoDraw = False
+155.0486 	EXP 	polygon: autoDraw = False
+155.0486 	EXP 	polygon: opacity = 1.0
+155.0486 	EXP 	polygon: fillColor = 'red (named)'
+155.0486 	EXP 	polygon: lineColor = 'red (named)'
+156.2984 	EXP 	polygon: autoDraw = True
+156.6004 	EXP 	New trial (rep=68, index=0): None
+156.6151 	EXP 	polygon: autoDraw = False
+156.6151 	EXP 	polygon: autoDraw = False
+156.6151 	EXP 	polygon: opacity = 1.0
+156.6151 	EXP 	polygon: fillColor = 'red (named)'
+156.6151 	EXP 	polygon: lineColor = 'red (named)'
+158.2136 	EXP 	polygon: autoDraw = True
+158.5025 	EXP 	New trial (rep=69, index=0): None
+158.5133 	EXP 	polygon: autoDraw = False
+158.5133 	EXP 	polygon: autoDraw = False
+158.5133 	EXP 	polygon: opacity = 1.0
+158.5133 	EXP 	polygon: fillColor = 'red (named)'
+158.5133 	EXP 	polygon: lineColor = 'red (named)'
+160.2470 	EXP 	polygon: autoDraw = True
+160.5325 	EXP 	New trial (rep=70, index=0): None
+160.5469 	EXP 	polygon: autoDraw = False
+160.5469 	EXP 	polygon: autoDraw = False
+160.5469 	EXP 	polygon: opacity = 1.0
+160.5469 	EXP 	polygon: fillColor = 'blue (named)'
+160.5469 	EXP 	polygon: lineColor = 'blue (named)'
+162.2313 	EXP 	polygon: autoDraw = True
+162.5218 	EXP 	New trial (rep=71, index=0): None
+162.5369 	EXP 	polygon: autoDraw = False
+162.5369 	EXP 	polygon: autoDraw = False
+162.5369 	EXP 	polygon: opacity = 1.0
+162.5369 	EXP 	polygon: fillColor = 'red (named)'
+162.5369 	EXP 	polygon: lineColor = 'red (named)'
+163.8986 	EXP 	polygon: autoDraw = True
+164.1856 	EXP 	New trial (rep=72, index=0): None
+164.1982 	EXP 	polygon: autoDraw = False
+164.1982 	EXP 	polygon: autoDraw = False
+164.1982 	EXP 	polygon: opacity = 1.0
+164.1982 	EXP 	polygon: fillColor = 'red (named)'
+164.1982 	EXP 	polygon: lineColor = 'red (named)'
+165.5824 	EXP 	polygon: autoDraw = True
+165.8717 	EXP 	New trial (rep=73, index=0): None
+165.8845 	EXP 	polygon: autoDraw = False
+165.8845 	EXP 	polygon: autoDraw = False
+165.8845 	EXP 	polygon: opacity = 1.0
+165.8845 	EXP 	polygon: fillColor = 'blue (named)'
+165.8845 	EXP 	polygon: lineColor = 'blue (named)'
+167.5497 	EXP 	polygon: autoDraw = True
+167.8359 	EXP 	New trial (rep=74, index=0): None
+167.8537 	EXP 	polygon: autoDraw = False
+167.8537 	EXP 	polygon: autoDraw = False
+167.8537 	EXP 	polygon: opacity = 1.0
+167.8537 	EXP 	polygon: fillColor = 'blue (named)'
+167.8537 	EXP 	polygon: lineColor = 'blue (named)'
+169.1002 	EXP 	polygon: autoDraw = True
+169.3893 	EXP 	New trial (rep=75, index=0): None
+169.4039 	EXP 	polygon: autoDraw = False
+169.4039 	EXP 	polygon: autoDraw = False
+169.4039 	EXP 	polygon: opacity = 1.0
+169.4039 	EXP 	polygon: fillColor = 'red (named)'
+169.4039 	EXP 	polygon: lineColor = 'red (named)'
+170.8376 	EXP 	polygon: autoDraw = True
+171.1385 	EXP 	New trial (rep=76, index=0): None
+171.1509 	EXP 	polygon: autoDraw = False
+171.1509 	EXP 	polygon: autoDraw = False
+171.1509 	EXP 	polygon: opacity = 1.0
+171.1509 	EXP 	polygon: fillColor = 'red (named)'
+171.1509 	EXP 	polygon: lineColor = 'red (named)'
+172.5893 	EXP 	polygon: autoDraw = True
+172.8895 	EXP 	New trial (rep=77, index=0): None
+172.9015 	EXP 	polygon: autoDraw = False
+172.9015 	EXP 	polygon: autoDraw = False
+172.9015 	EXP 	polygon: opacity = 1.0
+172.9015 	EXP 	polygon: fillColor = 'red (named)'
+172.9015 	EXP 	polygon: lineColor = 'red (named)'
+174.2183 	EXP 	polygon: autoDraw = True
+174.5061 	EXP 	New trial (rep=78, index=0): None
+174.5184 	EXP 	polygon: autoDraw = False
+174.5184 	EXP 	polygon: autoDraw = False
+174.5184 	EXP 	polygon: opacity = 1.0
+174.5184 	EXP 	polygon: fillColor = 'red (named)'
+174.5184 	EXP 	polygon: lineColor = 'red (named)'
+176.0041 	EXP 	polygon: autoDraw = True
+176.2903 	EXP 	New trial (rep=79, index=0): None
+176.3036 	EXP 	polygon: autoDraw = False
+176.3036 	EXP 	polygon: autoDraw = False
+176.3036 	EXP 	polygon: opacity = 1.0
+176.3036 	EXP 	polygon: fillColor = 'blue (named)'
+176.3036 	EXP 	polygon: lineColor = 'blue (named)'
+178.0536 	EXP 	polygon: autoDraw = True
+178.3428 	EXP 	New trial (rep=80, index=0): None
+178.3553 	EXP 	polygon: autoDraw = False
+178.3553 	EXP 	polygon: autoDraw = False
+178.3553 	EXP 	polygon: opacity = 1.0
+178.3553 	EXP 	polygon: fillColor = 'red (named)'
+178.3553 	EXP 	polygon: lineColor = 'red (named)'
+179.8050 	EXP 	polygon: autoDraw = True
+180.0916 	EXP 	New trial (rep=81, index=0): None
+180.1084 	EXP 	polygon: autoDraw = False
+180.1084 	EXP 	polygon: autoDraw = False
+180.1084 	EXP 	polygon: opacity = 1.0
+180.1084 	EXP 	polygon: fillColor = 'red (named)'
+180.1084 	EXP 	polygon: lineColor = 'red (named)'
+181.4562 	EXP 	polygon: autoDraw = True
+181.7427 	EXP 	New trial (rep=82, index=0): None
+181.7562 	EXP 	polygon: autoDraw = False
+181.7562 	EXP 	polygon: autoDraw = False
+181.7562 	EXP 	polygon: opacity = 1.0
+181.7562 	EXP 	polygon: fillColor = 'red (named)'
+181.7562 	EXP 	polygon: lineColor = 'red (named)'
+183.4738 	EXP 	polygon: autoDraw = True
+183.7619 	EXP 	New trial (rep=83, index=0): None
+183.7739 	EXP 	polygon: autoDraw = False
+183.7739 	EXP 	polygon: autoDraw = False
+183.7739 	EXP 	polygon: opacity = 1.0
+183.7739 	EXP 	polygon: fillColor = 'blue (named)'
+183.7739 	EXP 	polygon: lineColor = 'blue (named)'
+185.5278 	EXP 	polygon: autoDraw = True
+185.8250 	EXP 	New trial (rep=84, index=0): None
+185.8389 	EXP 	polygon: autoDraw = False
+185.8389 	EXP 	polygon: autoDraw = False
+185.8389 	EXP 	polygon: opacity = 1.0
+185.8389 	EXP 	polygon: fillColor = 'blue (named)'
+185.8389 	EXP 	polygon: lineColor = 'blue (named)'
+187.1282 	EXP 	polygon: autoDraw = True
+187.4261 	EXP 	New trial (rep=85, index=0): None
+187.4395 	EXP 	polygon: autoDraw = False
+187.4395 	EXP 	polygon: autoDraw = False
+187.4395 	EXP 	polygon: opacity = 1.0
+187.4395 	EXP 	polygon: fillColor = 'blue (named)'
+187.4395 	EXP 	polygon: lineColor = 'blue (named)'
+189.0748 	EXP 	polygon: autoDraw = True
+189.3639 	EXP 	New trial (rep=86, index=0): None
+189.3765 	EXP 	polygon: autoDraw = False
+189.3765 	EXP 	polygon: autoDraw = False
+189.3765 	EXP 	polygon: opacity = 1.0
+189.3765 	EXP 	polygon: fillColor = 'red (named)'
+189.3765 	EXP 	polygon: lineColor = 'red (named)'
+190.6265 	EXP 	polygon: autoDraw = True
+190.9144 	EXP 	New trial (rep=87, index=0): None
+190.9257 	EXP 	polygon: autoDraw = False
+190.9257 	EXP 	polygon: autoDraw = False
+190.9257 	EXP 	polygon: opacity = 1.0
+190.9257 	EXP 	polygon: fillColor = 'blue (named)'
+190.9257 	EXP 	polygon: lineColor = 'blue (named)'
+192.5421 	EXP 	polygon: autoDraw = True
+192.8283 	EXP 	New trial (rep=88, index=0): None
+192.8412 	EXP 	polygon: autoDraw = False
+192.8412 	EXP 	polygon: autoDraw = False
+192.8412 	EXP 	polygon: opacity = 1.0
+192.8412 	EXP 	polygon: fillColor = 'blue (named)'
+192.8412 	EXP 	polygon: lineColor = 'blue (named)'
+194.5958 	EXP 	polygon: autoDraw = True
+194.8812 	EXP 	New trial (rep=89, index=0): None
+194.8940 	EXP 	polygon: autoDraw = False
+194.8940 	EXP 	polygon: autoDraw = False
+194.8940 	EXP 	polygon: opacity = 1.0
+194.8940 	EXP 	polygon: fillColor = 'red (named)'
+194.8940 	EXP 	polygon: lineColor = 'red (named)'
+196.3428 	EXP 	polygon: autoDraw = True
+196.6340 	EXP 	New trial (rep=90, index=0): None
+196.6472 	EXP 	polygon: autoDraw = False
+196.6472 	EXP 	polygon: autoDraw = False
+196.6472 	EXP 	polygon: opacity = 1.0
+196.6472 	EXP 	polygon: fillColor = 'blue (named)'
+196.6472 	EXP 	polygon: lineColor = 'blue (named)'
+198.0941 	EXP 	polygon: autoDraw = True
+198.3828 	EXP 	New trial (rep=91, index=0): None
+198.3951 	EXP 	polygon: autoDraw = False
+198.3951 	EXP 	polygon: autoDraw = False
+198.3951 	EXP 	polygon: opacity = 1.0
+198.3951 	EXP 	polygon: fillColor = 'blue (named)'
+198.3951 	EXP 	polygon: lineColor = 'blue (named)'
+200.1449 	EXP 	polygon: autoDraw = True
+200.4345 	EXP 	New trial (rep=92, index=0): None
+200.4450 	EXP 	polygon: autoDraw = False
+200.4450 	EXP 	polygon: autoDraw = False
+200.4450 	EXP 	polygon: opacity = 1.0
+200.4450 	EXP 	polygon: fillColor = 'red (named)'
+200.4450 	EXP 	polygon: lineColor = 'red (named)'
+201.8614 	EXP 	polygon: autoDraw = True
+202.1480 	EXP 	New trial (rep=93, index=0): None
+202.1611 	EXP 	polygon: autoDraw = False
+202.1611 	EXP 	polygon: autoDraw = False
+202.1611 	EXP 	polygon: opacity = 1.0
+202.1611 	EXP 	polygon: fillColor = 'blue (named)'
+202.1611 	EXP 	polygon: lineColor = 'blue (named)'
+203.5989 	EXP 	polygon: autoDraw = True
+203.8994 	EXP 	New trial (rep=94, index=0): None
+203.9172 	EXP 	polygon: autoDraw = False
+203.9172 	EXP 	polygon: autoDraw = False
+203.9172 	EXP 	polygon: opacity = 1.0
+203.9172 	EXP 	polygon: fillColor = 'red (named)'
+203.9172 	EXP 	polygon: lineColor = 'red (named)'
+205.6486 	EXP 	polygon: autoDraw = True
+205.9524 	EXP 	New trial (rep=95, index=0): None
+205.9628 	EXP 	polygon: autoDraw = False
+205.9628 	EXP 	polygon: autoDraw = False
+205.9628 	EXP 	polygon: opacity = 1.0
+205.9628 	EXP 	polygon: fillColor = 'blue (named)'
+205.9628 	EXP 	polygon: lineColor = 'blue (named)'
+207.6013 	EXP 	polygon: autoDraw = True
+207.9032 	EXP 	New trial (rep=96, index=0): None
+207.9165 	EXP 	polygon: autoDraw = False
+207.9165 	EXP 	polygon: autoDraw = False
+207.9165 	EXP 	polygon: opacity = 1.0
+207.9165 	EXP 	polygon: fillColor = 'red (named)'
+207.9165 	EXP 	polygon: lineColor = 'red (named)'
+209.5141 	EXP 	polygon: autoDraw = True
+209.8041 	EXP 	New trial (rep=97, index=0): None
+209.8146 	EXP 	polygon: autoDraw = False
+209.8146 	EXP 	polygon: autoDraw = False
+209.8146 	EXP 	polygon: opacity = 1.0
+209.8146 	EXP 	polygon: fillColor = 'red (named)'
+209.8146 	EXP 	polygon: lineColor = 'red (named)'
+211.1499 	EXP 	polygon: autoDraw = True
+211.4517 	EXP 	New trial (rep=98, index=0): None
+211.4647 	EXP 	polygon: autoDraw = False
+211.4647 	EXP 	polygon: autoDraw = False
+211.4647 	EXP 	polygon: opacity = 1.0
+211.4647 	EXP 	polygon: fillColor = 'red (named)'
+211.4647 	EXP 	polygon: lineColor = 'red (named)'
+212.8159 	EXP 	polygon: autoDraw = True
+213.1060 	EXP 	New trial (rep=99, index=0): None
+213.1154 	EXP 	polygon: autoDraw = False
+213.1154 	EXP 	polygon: autoDraw = False
+213.1154 	EXP 	polygon: opacity = 1.0
+213.1154 	EXP 	polygon: fillColor = 'blue (named)'
+213.1154 	EXP 	polygon: lineColor = 'blue (named)'
+214.8678 	EXP 	polygon: autoDraw = True
+215.1720 	EXP 	New trial (rep=100, index=0): None
+215.1854 	EXP 	polygon: autoDraw = False
+215.1854 	EXP 	polygon: autoDraw = False
+215.1854 	EXP 	polygon: opacity = 1.0
+215.1854 	EXP 	polygon: fillColor = 'blue (named)'
+215.1854 	EXP 	polygon: lineColor = 'blue (named)'
+216.6837 	EXP 	polygon: autoDraw = True
+216.9715 	EXP 	New trial (rep=101, index=0): None
+216.9829 	EXP 	polygon: autoDraw = False
+216.9829 	EXP 	polygon: autoDraw = False
+216.9829 	EXP 	polygon: opacity = 1.0
+216.9829 	EXP 	polygon: fillColor = 'red (named)'
+216.9829 	EXP 	polygon: lineColor = 'red (named)'
+218.5502 	EXP 	polygon: autoDraw = True
+218.8359 	EXP 	New trial (rep=102, index=0): None
+218.8503 	EXP 	polygon: autoDraw = False
+218.8503 	EXP 	polygon: autoDraw = False
+218.8503 	EXP 	polygon: opacity = 1.0
+218.8503 	EXP 	polygon: fillColor = 'blue (named)'
+218.8503 	EXP 	polygon: lineColor = 'blue (named)'
+220.4388 	EXP 	polygon: autoDraw = True
+220.7366 	EXP 	New trial (rep=103, index=0): None
+220.7508 	EXP 	polygon: autoDraw = False
+220.7508 	EXP 	polygon: autoDraw = False
+220.7508 	EXP 	polygon: opacity = 1.0
+220.7508 	EXP 	polygon: fillColor = 'blue (named)'
+220.7508 	EXP 	polygon: lineColor = 'blue (named)'
+222.3851 	EXP 	polygon: autoDraw = True
+222.6763 	EXP 	New trial (rep=104, index=0): None
+222.6860 	EXP 	polygon: autoDraw = False
+222.6860 	EXP 	polygon: autoDraw = False
+222.6860 	EXP 	polygon: opacity = 1.0
+222.6860 	EXP 	polygon: fillColor = 'red (named)'
+222.6860 	EXP 	polygon: lineColor = 'red (named)'
+223.9362 	EXP 	polygon: autoDraw = True
+224.2268 	EXP 	New trial (rep=105, index=0): None
+224.2358 	EXP 	polygon: autoDraw = False
+224.2358 	EXP 	polygon: autoDraw = False
+224.2358 	EXP 	polygon: opacity = 1.0
+224.2358 	EXP 	polygon: fillColor = 'red (named)'
+224.2358 	EXP 	polygon: lineColor = 'red (named)'
+225.8034 	EXP 	polygon: autoDraw = True
+226.0887 	EXP 	New trial (rep=106, index=0): None
+226.1030 	EXP 	polygon: autoDraw = False
+226.1030 	EXP 	polygon: autoDraw = False
+226.1030 	EXP 	polygon: opacity = 1.0
+226.1030 	EXP 	polygon: fillColor = 'blue (named)'
+226.1030 	EXP 	polygon: lineColor = 'blue (named)'
+227.8720 	EXP 	polygon: autoDraw = True
+228.1762 	EXP 	New trial (rep=107, index=0): None
+228.1898 	EXP 	polygon: autoDraw = False
+228.1898 	EXP 	polygon: autoDraw = False
+228.1898 	EXP 	polygon: opacity = 1.0
+228.1898 	EXP 	polygon: fillColor = 'red (named)'
+228.1898 	EXP 	polygon: lineColor = 'red (named)'
+229.4588 	EXP 	polygon: autoDraw = True
+229.7570 	EXP 	New trial (rep=108, index=0): None
+229.7705 	EXP 	polygon: autoDraw = False
+229.7705 	EXP 	polygon: autoDraw = False
+229.7705 	EXP 	polygon: opacity = 1.0
+229.7705 	EXP 	polygon: fillColor = 'red (named)'
+229.7705 	EXP 	polygon: lineColor = 'red (named)'
+231.0408 	EXP 	polygon: autoDraw = True
+231.3457 	EXP 	New trial (rep=109, index=0): None
+231.3570 	EXP 	polygon: autoDraw = False
+231.3570 	EXP 	polygon: autoDraw = False
+231.3570 	EXP 	polygon: opacity = 1.0
+231.3570 	EXP 	polygon: fillColor = 'red (named)'
+231.3570 	EXP 	polygon: lineColor = 'red (named)'
+232.6560 	EXP 	polygon: autoDraw = True
+232.9433 	EXP 	New trial (rep=110, index=0): None
+232.9559 	EXP 	polygon: autoDraw = False
+232.9559 	EXP 	polygon: autoDraw = False
+232.9559 	EXP 	polygon: opacity = 1.0
+232.9559 	EXP 	polygon: fillColor = 'red (named)'
+232.9559 	EXP 	polygon: lineColor = 'red (named)'
+234.2568 	EXP 	polygon: autoDraw = True
+234.5448 	EXP 	New trial (rep=111, index=0): None
+234.5561 	EXP 	polygon: autoDraw = False
+234.5561 	EXP 	polygon: autoDraw = False
+234.5561 	EXP 	polygon: opacity = 1.0
+234.5561 	EXP 	polygon: fillColor = 'red (named)'
+234.5561 	EXP 	polygon: lineColor = 'red (named)'
+235.9226 	EXP 	polygon: autoDraw = True
+236.2120 	EXP 	New trial (rep=112, index=0): None
+236.2227 	EXP 	polygon: autoDraw = False
+236.2227 	EXP 	polygon: autoDraw = False
+236.2227 	EXP 	polygon: opacity = 1.0
+236.2227 	EXP 	polygon: fillColor = 'red (named)'
+236.2227 	EXP 	polygon: lineColor = 'red (named)'
+237.5571 	EXP 	polygon: autoDraw = True
+237.8453 	EXP 	New trial (rep=113, index=0): None
+237.8591 	EXP 	polygon: autoDraw = False
+237.8591 	EXP 	polygon: autoDraw = False
+237.8591 	EXP 	polygon: opacity = 1.0
+237.8591 	EXP 	polygon: fillColor = 'red (named)'
+237.8591 	EXP 	polygon: lineColor = 'red (named)'
+239.2920 	EXP 	polygon: autoDraw = True
+239.5770 	EXP 	New trial (rep=114, index=0): None
+239.5937 	EXP 	polygon: autoDraw = False
+239.5937 	EXP 	polygon: autoDraw = False
+239.5937 	EXP 	polygon: opacity = 1.0
+239.5937 	EXP 	polygon: fillColor = 'red (named)'
+239.5937 	EXP 	polygon: lineColor = 'red (named)'
+241.1248 	EXP 	polygon: autoDraw = True
+241.4112 	EXP 	New trial (rep=115, index=0): None
+241.4281 	EXP 	polygon: autoDraw = False
+241.4281 	EXP 	polygon: autoDraw = False
+241.4281 	EXP 	polygon: opacity = 1.0
+241.4281 	EXP 	polygon: fillColor = 'red (named)'
+241.4281 	EXP 	polygon: lineColor = 'red (named)'
+242.7615 	EXP 	polygon: autoDraw = True
+243.0644 	EXP 	New trial (rep=116, index=0): None
+243.0768 	EXP 	polygon: autoDraw = False
+243.0768 	EXP 	polygon: autoDraw = False
+243.0768 	EXP 	polygon: opacity = 1.0
+243.0768 	EXP 	polygon: fillColor = 'red (named)'
+243.0768 	EXP 	polygon: lineColor = 'red (named)'
+244.8133 	EXP 	polygon: autoDraw = True
+245.1126 	EXP 	New trial (rep=117, index=0): None
+245.1262 	EXP 	polygon: autoDraw = False
+245.1262 	EXP 	polygon: autoDraw = False
+245.1262 	EXP 	polygon: opacity = 1.0
+245.1262 	EXP 	polygon: fillColor = 'red (named)'
+245.1262 	EXP 	polygon: lineColor = 'red (named)'
+246.5974 	EXP 	polygon: autoDraw = True
+246.8950 	EXP 	New trial (rep=118, index=0): None
+246.9140 	EXP 	polygon: autoDraw = False
+246.9140 	EXP 	polygon: autoDraw = False
+246.9140 	EXP 	polygon: opacity = 1.0
+246.9140 	EXP 	polygon: fillColor = 'blue (named)'
+246.9140 	EXP 	polygon: lineColor = 'blue (named)'
+248.1785 	EXP 	polygon: autoDraw = True
+248.4657 	EXP 	New trial (rep=119, index=0): None
+248.4780 	EXP 	polygon: autoDraw = False
+248.4780 	EXP 	polygon: autoDraw = False
+248.4780 	EXP 	polygon: opacity = 1.0
+248.4780 	EXP 	polygon: fillColor = 'blue (named)'
+248.4780 	EXP 	polygon: lineColor = 'blue (named)'
+249.8445 	EXP 	polygon: autoDraw = True
+250.1326 	EXP 	New trial (rep=120, index=0): None
+250.1442 	EXP 	polygon: autoDraw = False
+250.1442 	EXP 	polygon: autoDraw = False
+250.1442 	EXP 	polygon: opacity = 1.0
+250.1442 	EXP 	polygon: fillColor = 'red (named)'
+250.1442 	EXP 	polygon: lineColor = 'red (named)'
+251.5115 	EXP 	polygon: autoDraw = True
+251.7972 	EXP 	New trial (rep=121, index=0): None
+251.8134 	EXP 	polygon: autoDraw = False
+251.8134 	EXP 	polygon: autoDraw = False
+251.8134 	EXP 	polygon: opacity = 1.0
+251.8134 	EXP 	polygon: fillColor = 'blue (named)'
+251.8134 	EXP 	polygon: lineColor = 'blue (named)'
+253.4957 	EXP 	polygon: autoDraw = True
+253.7830 	EXP 	New trial (rep=122, index=0): None
+253.7959 	EXP 	polygon: autoDraw = False
+253.7959 	EXP 	polygon: autoDraw = False
+253.7959 	EXP 	polygon: opacity = 1.0
+253.7959 	EXP 	polygon: fillColor = 'red (named)'
+253.7959 	EXP 	polygon: lineColor = 'red (named)'
+255.1494 	EXP 	polygon: autoDraw = True
+255.4340 	EXP 	New trial (rep=123, index=0): None
+255.4469 	EXP 	polygon: autoDraw = False
+255.4469 	EXP 	polygon: autoDraw = False
+255.4469 	EXP 	polygon: opacity = 1.0
+255.4469 	EXP 	polygon: fillColor = 'blue (named)'
+255.4469 	EXP 	polygon: lineColor = 'blue (named)'
+256.9320 	EXP 	polygon: autoDraw = True
+257.2338 	EXP 	New trial (rep=124, index=0): None
+257.2471 	EXP 	polygon: autoDraw = False
+257.2471 	EXP 	polygon: autoDraw = False
+257.2471 	EXP 	polygon: opacity = 1.0
+257.2471 	EXP 	polygon: fillColor = 'blue (named)'
+257.2471 	EXP 	polygon: lineColor = 'blue (named)'
+258.6480 	EXP 	polygon: autoDraw = True
+258.9342 	EXP 	New trial (rep=125, index=0): None
+258.9481 	EXP 	polygon: autoDraw = False
+258.9481 	EXP 	polygon: autoDraw = False
+258.9481 	EXP 	polygon: opacity = 1.0
+258.9481 	EXP 	polygon: fillColor = 'red (named)'
+258.9481 	EXP 	polygon: lineColor = 'red (named)'
+260.2981 	EXP 	polygon: autoDraw = True
+260.5881 	EXP 	New trial (rep=126, index=0): None
+260.6006 	EXP 	polygon: autoDraw = False
+260.6006 	EXP 	polygon: autoDraw = False
+260.6006 	EXP 	polygon: opacity = 1.0
+260.6006 	EXP 	polygon: fillColor = 'blue (named)'
+260.6006 	EXP 	polygon: lineColor = 'blue (named)'
+261.8652 	EXP 	polygon: autoDraw = True
+262.1524 	EXP 	New trial (rep=127, index=0): None
+262.1659 	EXP 	polygon: autoDraw = False
+262.1659 	EXP 	polygon: autoDraw = False
+262.1659 	EXP 	polygon: opacity = 1.0
+262.1659 	EXP 	polygon: fillColor = 'red (named)'
+262.1659 	EXP 	polygon: lineColor = 'red (named)'
+263.4008 	EXP 	polygon: autoDraw = True
+263.7019 	EXP 	New trial (rep=128, index=0): None
+263.7159 	EXP 	polygon: autoDraw = False
+263.7159 	EXP 	polygon: autoDraw = False
+263.7159 	EXP 	polygon: opacity = 1.0
+263.7159 	EXP 	polygon: fillColor = 'red (named)'
+263.7159 	EXP 	polygon: lineColor = 'red (named)'
+265.1024 	EXP 	polygon: autoDraw = True
+265.4063 	EXP 	New trial (rep=129, index=0): None
+265.4198 	EXP 	polygon: autoDraw = False
+265.4198 	EXP 	polygon: autoDraw = False
+265.4198 	EXP 	polygon: opacity = 1.0
+265.4198 	EXP 	polygon: fillColor = 'blue (named)'
+265.4198 	EXP 	polygon: lineColor = 'blue (named)'
+266.8354 	EXP 	polygon: autoDraw = True
+267.1383 	EXP 	New trial (rep=130, index=0): None
+267.1526 	EXP 	polygon: autoDraw = False
+267.1526 	EXP 	polygon: autoDraw = False
+267.1526 	EXP 	polygon: opacity = 1.0
+267.1526 	EXP 	polygon: fillColor = 'blue (named)'
+267.1526 	EXP 	polygon: lineColor = 'blue (named)'
+268.8065 	EXP 	polygon: autoDraw = True
+269.1079 	EXP 	New trial (rep=131, index=0): None
+269.1178 	EXP 	polygon: autoDraw = False
+269.1178 	EXP 	polygon: autoDraw = False
+269.1178 	EXP 	polygon: opacity = 1.0
+269.1178 	EXP 	polygon: fillColor = 'red (named)'
+269.1178 	EXP 	polygon: lineColor = 'red (named)'
+270.7042 	EXP 	polygon: autoDraw = True
+271.0056 	EXP 	New trial (rep=132, index=0): None
+271.0184 	EXP 	polygon: autoDraw = False
+271.0184 	EXP 	polygon: autoDraw = False
+271.0184 	EXP 	polygon: opacity = 1.0
+271.0184 	EXP 	polygon: fillColor = 'blue (named)'
+271.0184 	EXP 	polygon: lineColor = 'blue (named)'
+272.4853 	EXP 	polygon: autoDraw = True
+272.7718 	EXP 	New trial (rep=133, index=0): None
+272.7853 	EXP 	polygon: autoDraw = False
+272.7853 	EXP 	polygon: autoDraw = False
+272.7853 	EXP 	polygon: opacity = 1.0
+272.7853 	EXP 	polygon: fillColor = 'red (named)'
+272.7853 	EXP 	polygon: lineColor = 'red (named)'
+274.3707 	EXP 	polygon: autoDraw = True
+274.6602 	EXP 	New trial (rep=134, index=0): None
+274.6703 	EXP 	polygon: autoDraw = False
+274.6703 	EXP 	polygon: autoDraw = False
+274.6703 	EXP 	polygon: opacity = 1.0
+274.6703 	EXP 	polygon: fillColor = 'blue (named)'
+274.6703 	EXP 	polygon: lineColor = 'blue (named)'
+275.9562 	EXP 	polygon: autoDraw = True
+276.2582 	EXP 	New trial (rep=135, index=0): None
+276.2725 	EXP 	polygon: autoDraw = False
+276.2725 	EXP 	polygon: autoDraw = False
+276.2725 	EXP 	polygon: opacity = 1.0
+276.2725 	EXP 	polygon: fillColor = 'blue (named)'
+276.2725 	EXP 	polygon: lineColor = 'blue (named)'
+277.6874 	EXP 	polygon: autoDraw = True
+277.9748 	EXP 	New trial (rep=136, index=0): None
+277.9908 	EXP 	polygon: autoDraw = False
+277.9908 	EXP 	polygon: autoDraw = False
+277.9908 	EXP 	polygon: opacity = 1.0
+277.9908 	EXP 	polygon: fillColor = 'red (named)'
+277.9908 	EXP 	polygon: lineColor = 'red (named)'
+279.3378 	EXP 	polygon: autoDraw = True
+279.6239 	EXP 	New trial (rep=137, index=0): None
+279.6379 	EXP 	polygon: autoDraw = False
+279.6379 	EXP 	polygon: autoDraw = False
+279.6379 	EXP 	polygon: opacity = 1.0
+279.6379 	EXP 	polygon: fillColor = 'red (named)'
+279.6379 	EXP 	polygon: lineColor = 'red (named)'
+281.2050 	EXP 	polygon: autoDraw = True
+281.4931 	EXP 	New trial (rep=138, index=0): None
+281.5049 	EXP 	polygon: autoDraw = False
+281.5049 	EXP 	polygon: autoDraw = False
+281.5049 	EXP 	polygon: opacity = 1.0
+281.5049 	EXP 	polygon: fillColor = 'blue (named)'
+281.5049 	EXP 	polygon: lineColor = 'blue (named)'
+283.0738 	EXP 	polygon: autoDraw = True
+283.3765 	EXP 	New trial (rep=139, index=0): None
+283.3933 	EXP 	polygon: autoDraw = False
+283.3933 	EXP 	polygon: autoDraw = False
+283.3933 	EXP 	polygon: opacity = 1.0
+283.3933 	EXP 	polygon: fillColor = 'blue (named)'
+283.3933 	EXP 	polygon: lineColor = 'blue (named)'
+284.9415 	EXP 	polygon: autoDraw = True
+285.2296 	EXP 	New trial (rep=140, index=0): None
+285.2401 	EXP 	polygon: autoDraw = False
+285.2401 	EXP 	polygon: autoDraw = False
+285.2401 	EXP 	polygon: opacity = 1.0
+285.2401 	EXP 	polygon: fillColor = 'red (named)'
+285.2401 	EXP 	polygon: lineColor = 'red (named)'
+286.4566 	EXP 	polygon: autoDraw = True
+286.7430 	EXP 	New trial (rep=141, index=0): None
+286.7570 	EXP 	polygon: autoDraw = False
+286.7570 	EXP 	polygon: autoDraw = False
+286.7570 	EXP 	polygon: opacity = 1.0
+286.7570 	EXP 	polygon: fillColor = 'red (named)'
+286.7570 	EXP 	polygon: lineColor = 'red (named)'
+288.4745 	EXP 	polygon: autoDraw = True
+288.7615 	EXP 	New trial (rep=142, index=0): None
+288.7765 	EXP 	polygon: autoDraw = False
+288.7765 	EXP 	polygon: autoDraw = False
+288.7765 	EXP 	polygon: opacity = 1.0
+288.7765 	EXP 	polygon: fillColor = 'blue (named)'
+288.7765 	EXP 	polygon: lineColor = 'blue (named)'
+290.2583 	EXP 	polygon: autoDraw = True
+290.5458 	EXP 	New trial (rep=143, index=0): None
+290.5638 	EXP 	polygon: autoDraw = False
+290.5638 	EXP 	polygon: autoDraw = False
+290.5638 	EXP 	polygon: opacity = 1.0
+290.5638 	EXP 	polygon: fillColor = 'red (named)'
+290.5638 	EXP 	polygon: lineColor = 'red (named)'
+292.0753 	EXP 	polygon: autoDraw = True
+292.3618 	EXP 	New trial (rep=144, index=0): None
+292.3752 	EXP 	polygon: autoDraw = False
+292.3752 	EXP 	polygon: autoDraw = False
+292.3752 	EXP 	polygon: opacity = 1.0
+292.3752 	EXP 	polygon: fillColor = 'red (named)'
+292.3752 	EXP 	polygon: lineColor = 'red (named)'
+294.1117 	EXP 	polygon: autoDraw = True
+294.4010 	EXP 	New trial (rep=145, index=0): None
+294.4112 	EXP 	polygon: autoDraw = False
+294.4112 	EXP 	polygon: autoDraw = False
+294.4112 	EXP 	polygon: opacity = 1.0
+294.4112 	EXP 	polygon: fillColor = 'blue (named)'
+294.4112 	EXP 	polygon: lineColor = 'blue (named)'
+295.9607 	EXP 	polygon: autoDraw = True
+296.2483 	EXP 	New trial (rep=146, index=0): None
+296.2608 	EXP 	polygon: autoDraw = False
+296.2608 	EXP 	polygon: autoDraw = False
+296.2608 	EXP 	polygon: opacity = 1.0
+296.2608 	EXP 	polygon: fillColor = 'blue (named)'
+296.2608 	EXP 	polygon: lineColor = 'blue (named)'
+297.4958 	EXP 	polygon: autoDraw = True
+297.7971 	EXP 	New trial (rep=147, index=0): None
+297.8126 	EXP 	polygon: autoDraw = False
+297.8126 	EXP 	polygon: autoDraw = False
+297.8126 	EXP 	polygon: opacity = 1.0
+297.8126 	EXP 	polygon: fillColor = 'blue (named)'
+297.8126 	EXP 	polygon: lineColor = 'blue (named)'
+299.2817 	EXP 	polygon: autoDraw = True
+299.5828 	EXP 	New trial (rep=148, index=0): None
+299.5983 	EXP 	polygon: autoDraw = False
+299.5983 	EXP 	polygon: autoDraw = False
+299.5983 	EXP 	polygon: opacity = 1.0
+299.5983 	EXP 	polygon: fillColor = 'red (named)'
+299.5983 	EXP 	polygon: lineColor = 'red (named)'
+301.3522 	EXP 	polygon: autoDraw = True
+301.6527 	EXP 	New trial (rep=149, index=0): None
+301.6621 	EXP 	polygon: autoDraw = False
+301.6621 	EXP 	polygon: autoDraw = False
+301.6621 	EXP 	polygon: opacity = 1.0
+301.6621 	EXP 	polygon: fillColor = 'red (named)'
+301.6621 	EXP 	polygon: lineColor = 'red (named)'
+303.3796 	EXP 	polygon: autoDraw = True
+303.6827 	EXP 	polygon: autoDraw = False
+303.6827 	EXP 	polygon: autoDraw = False
+303.6827 	EXP 	text_3: autoDraw = True
+312.5867 	DATA 	Keypress: space
+312.5894 	EXP 	Created sequence: random, trialTypes=1, nReps=300, seed=None
+312.5910 	EXP 	New trial (rep=0, index=0): None
+312.5985 	EXP 	text_3: autoDraw = False
+312.5985 	EXP 	polygon_2: opacity = 1.0
+312.5985 	EXP 	polygon_2: fillColor = 'blue (named)'
+312.5985 	EXP 	polygon_2: lineColor = 'blue (named)'
+314.3519 	EXP 	polygon_2: autoDraw = True
+314.6386 	EXP 	New trial (rep=1, index=0): None
+314.6493 	EXP 	polygon_2: autoDraw = False
+314.6493 	EXP 	polygon_2: autoDraw = False
+314.6493 	EXP 	polygon_2: opacity = 1.0
+314.6493 	EXP 	polygon_2: fillColor = 'blue (named)'
+314.6493 	EXP 	polygon_2: lineColor = 'blue (named)'
+315.9030 	EXP 	polygon_2: autoDraw = True
+316.1918 	EXP 	New trial (rep=2, index=0): None
+316.1998 	EXP 	polygon_2: autoDraw = False
+316.1998 	EXP 	polygon_2: autoDraw = False
+316.1998 	EXP 	polygon_2: opacity = 1.0
+316.1998 	EXP 	polygon_2: fillColor = 'red (named)'
+316.1998 	EXP 	polygon_2: lineColor = 'red (named)'
+317.6881 	EXP 	polygon_2: autoDraw = True
+317.9922 	EXP 	New trial (rep=3, index=0): None
+318.0007 	EXP 	polygon_2: autoDraw = False
+318.0007 	EXP 	polygon_2: autoDraw = False
+318.0007 	EXP 	polygon_2: opacity = 1.0
+318.0007 	EXP 	polygon_2: fillColor = 'blue (named)'
+318.0007 	EXP 	polygon_2: lineColor = 'blue (named)'
+319.5186 	EXP 	polygon_2: autoDraw = True
+319.8114 	EXP 	New trial (rep=4, index=0): None
+319.8180 	EXP 	polygon_2: autoDraw = False
+319.8180 	EXP 	polygon_2: autoDraw = False
+319.8180 	EXP 	polygon_2: opacity = 1.0
+319.8180 	EXP 	polygon_2: fillColor = 'blue (named)'
+319.8180 	EXP 	polygon_2: lineColor = 'blue (named)'
+321.0887 	EXP 	polygon_2: autoDraw = True
+321.3906 	EXP 	New trial (rep=5, index=0): None
+321.4030 	EXP 	polygon_2: autoDraw = False
+321.4030 	EXP 	polygon_2: autoDraw = False
+321.4030 	EXP 	polygon_2: opacity = 1.0
+321.4030 	EXP 	polygon_2: fillColor = 'blue (named)'
+321.4030 	EXP 	polygon_2: lineColor = 'blue (named)'
+323.0683 	EXP 	polygon_2: autoDraw = True
+323.3586 	EXP 	New trial (rep=6, index=0): None
+323.3727 	EXP 	polygon_2: autoDraw = False
+323.3727 	EXP 	polygon_2: autoDraw = False
+323.3727 	EXP 	polygon_2: opacity = 1.0
+323.3727 	EXP 	polygon_2: fillColor = 'red (named)'
+323.3727 	EXP 	polygon_2: lineColor = 'red (named)'
+324.9746 	EXP 	polygon_2: autoDraw = True
+325.2737 	EXP 	New trial (rep=7, index=0): None
+325.2861 	EXP 	polygon_2: autoDraw = False
+325.2861 	EXP 	polygon_2: autoDraw = False
+325.2861 	EXP 	polygon_2: opacity = 1.0
+325.2861 	EXP 	polygon_2: fillColor = 'blue (named)'
+325.2861 	EXP 	polygon_2: lineColor = 'blue (named)'
+326.7039 	EXP 	polygon_2: autoDraw = True
+326.9951 	EXP 	New trial (rep=8, index=0): None
+327.0046 	EXP 	polygon_2: autoDraw = False
+327.0046 	EXP 	polygon_2: autoDraw = False
+327.0046 	EXP 	polygon_2: opacity = 1.0
+327.0046 	EXP 	polygon_2: fillColor = 'red (named)'
+327.0046 	EXP 	polygon_2: lineColor = 'red (named)'
+328.4409 	EXP 	polygon_2: autoDraw = True
+328.7402 	EXP 	New trial (rep=9, index=0): None
+328.7570 	EXP 	polygon_2: autoDraw = False
+328.7570 	EXP 	polygon_2: autoDraw = False
+328.7570 	EXP 	polygon_2: opacity = 1.0
+328.7570 	EXP 	polygon_2: fillColor = 'red (named)'
+328.7570 	EXP 	polygon_2: lineColor = 'red (named)'
+330.3711 	EXP 	polygon_2: autoDraw = True
+330.6588 	EXP 	New trial (rep=10, index=0): None
+330.6714 	EXP 	polygon_2: autoDraw = False
+330.6714 	EXP 	polygon_2: autoDraw = False
+330.6714 	EXP 	polygon_2: opacity = 1.0
+330.6714 	EXP 	polygon_2: fillColor = 'blue (named)'
+330.6714 	EXP 	polygon_2: lineColor = 'blue (named)'
+331.8723 	EXP 	polygon_2: autoDraw = True
+332.1610 	EXP 	New trial (rep=11, index=0): None
+332.1725 	EXP 	polygon_2: autoDraw = False
+332.1725 	EXP 	polygon_2: autoDraw = False
+332.1725 	EXP 	polygon_2: opacity = 1.0
+332.1725 	EXP 	polygon_2: fillColor = 'red (named)'
+332.1725 	EXP 	polygon_2: lineColor = 'red (named)'
+333.6048 	EXP 	polygon_2: autoDraw = True
+333.8926 	EXP 	New trial (rep=12, index=0): None
+333.9046 	EXP 	polygon_2: autoDraw = False
+333.9046 	EXP 	polygon_2: autoDraw = False
+333.9046 	EXP 	polygon_2: opacity = 1.0
+333.9046 	EXP 	polygon_2: fillColor = 'blue (named)'
+333.9046 	EXP 	polygon_2: lineColor = 'blue (named)'
+335.1052 	EXP 	polygon_2: autoDraw = True
+335.3923 	EXP 	New trial (rep=13, index=0): None
+335.4052 	EXP 	polygon_2: autoDraw = False
+335.4052 	EXP 	polygon_2: autoDraw = False
+335.4052 	EXP 	polygon_2: opacity = 1.0
+335.4052 	EXP 	polygon_2: fillColor = 'blue (named)'
+335.4052 	EXP 	polygon_2: lineColor = 'blue (named)'
+337.1266 	EXP 	polygon_2: autoDraw = True
+337.4301 	EXP 	New trial (rep=14, index=0): None
+337.4416 	EXP 	polygon_2: autoDraw = False
+337.4416 	EXP 	polygon_2: autoDraw = False
+337.4416 	EXP 	polygon_2: opacity = 1.0
+337.4416 	EXP 	polygon_2: fillColor = 'blue (named)'
+337.4416 	EXP 	polygon_2: lineColor = 'blue (named)'
+338.6261 	EXP 	polygon_2: autoDraw = True
+338.9310 	EXP 	New trial (rep=15, index=0): None
+338.9404 	EXP 	polygon_2: autoDraw = False
+338.9404 	EXP 	polygon_2: autoDraw = False
+338.9404 	EXP 	polygon_2: opacity = 1.0
+338.9404 	EXP 	polygon_2: fillColor = 'blue (named)'
+338.9404 	EXP 	polygon_2: lineColor = 'blue (named)'
+340.2907 	EXP 	polygon_2: autoDraw = True
+340.5803 	EXP 	New trial (rep=16, index=0): None
+340.5928 	EXP 	polygon_2: autoDraw = False
+340.5928 	EXP 	polygon_2: autoDraw = False
+340.5928 	EXP 	polygon_2: opacity = 1.0
+340.5928 	EXP 	polygon_2: fillColor = 'red (named)'
+340.5928 	EXP 	polygon_2: lineColor = 'red (named)'
+342.3071 	EXP 	polygon_2: autoDraw = True
+342.5955 	EXP 	New trial (rep=17, index=0): None
+342.6079 	EXP 	polygon_2: autoDraw = False
+342.6079 	EXP 	polygon_2: autoDraw = False
+342.6079 	EXP 	polygon_2: opacity = 1.0
+342.6079 	EXP 	polygon_2: fillColor = 'blue (named)'
+342.6079 	EXP 	polygon_2: lineColor = 'blue (named)'
+344.0958 	EXP 	polygon_2: autoDraw = True
+344.3991 	EXP 	New trial (rep=18, index=0): None
+344.4108 	EXP 	polygon_2: autoDraw = False
+344.4108 	EXP 	polygon_2: autoDraw = False
+344.4108 	EXP 	polygon_2: opacity = 1.0
+344.4108 	EXP 	polygon_2: fillColor = 'blue (named)'
+344.4108 	EXP 	polygon_2: lineColor = 'blue (named)'
+345.9430 	EXP 	polygon_2: autoDraw = True
+346.2494 	EXP 	New trial (rep=19, index=0): None
+346.2588 	EXP 	polygon_2: autoDraw = False
+346.2588 	EXP 	polygon_2: autoDraw = False
+346.2588 	EXP 	polygon_2: opacity = 1.0
+346.2588 	EXP 	polygon_2: fillColor = 'red (named)'
+346.2588 	EXP 	polygon_2: lineColor = 'red (named)'
+347.8616 	EXP 	polygon_2: autoDraw = True
+348.1506 	EXP 	New trial (rep=20, index=0): None
+348.1593 	EXP 	polygon_2: autoDraw = False
+348.1593 	EXP 	polygon_2: autoDraw = False
+348.1593 	EXP 	polygon_2: opacity = 1.0
+348.1593 	EXP 	polygon_2: fillColor = 'blue (named)'
+348.1593 	EXP 	polygon_2: lineColor = 'blue (named)'
+349.6463 	EXP 	polygon_2: autoDraw = True
+349.9493 	EXP 	New trial (rep=21, index=0): None
+349.9597 	EXP 	polygon_2: autoDraw = False
+349.9597 	EXP 	polygon_2: autoDraw = False
+349.9597 	EXP 	polygon_2: opacity = 1.0
+349.9597 	EXP 	polygon_2: fillColor = 'blue (named)'
+349.9597 	EXP 	polygon_2: lineColor = 'blue (named)'
+351.7123 	EXP 	polygon_2: autoDraw = True
+352.0003 	EXP 	New trial (rep=22, index=0): None
+352.0108 	EXP 	polygon_2: autoDraw = False
+352.0108 	EXP 	polygon_2: autoDraw = False
+352.0108 	EXP 	polygon_2: opacity = 1.0
+352.0108 	EXP 	polygon_2: fillColor = 'blue (named)'
+352.0108 	EXP 	polygon_2: lineColor = 'blue (named)'
+353.6488 	EXP 	polygon_2: autoDraw = True
+353.9497 	EXP 	New trial (rep=23, index=0): None
+353.9614 	EXP 	polygon_2: autoDraw = False
+353.9614 	EXP 	polygon_2: autoDraw = False
+353.9614 	EXP 	polygon_2: opacity = 1.0
+353.9614 	EXP 	polygon_2: fillColor = 'blue (named)'
+353.9614 	EXP 	polygon_2: lineColor = 'blue (named)'
+355.1617 	EXP 	polygon_2: autoDraw = True
+355.4511 	EXP 	New trial (rep=24, index=0): None
+355.4629 	EXP 	polygon_2: autoDraw = False
+355.4629 	EXP 	polygon_2: autoDraw = False
+355.4629 	EXP 	polygon_2: opacity = 1.0
+355.4629 	EXP 	polygon_2: fillColor = 'blue (named)'
+355.4629 	EXP 	polygon_2: lineColor = 'blue (named)'
+356.7824 	EXP 	polygon_2: autoDraw = True
+357.0705 	EXP 	New trial (rep=25, index=0): None
+357.0783 	EXP 	polygon_2: autoDraw = False
+357.0783 	EXP 	polygon_2: autoDraw = False
+357.0783 	EXP 	polygon_2: opacity = 1.0
+357.0783 	EXP 	polygon_2: fillColor = 'red (named)'
+357.0783 	EXP 	polygon_2: lineColor = 'red (named)'
+358.3632 	EXP 	polygon_2: autoDraw = True
+358.6525 	EXP 	New trial (rep=26, index=0): None
+358.6645 	EXP 	polygon_2: autoDraw = False
+358.6645 	EXP 	polygon_2: autoDraw = False
+358.6645 	EXP 	polygon_2: opacity = 1.0
+358.6645 	EXP 	polygon_2: fillColor = 'blue (named)'
+358.6645 	EXP 	polygon_2: lineColor = 'blue (named)'
+360.0960 	EXP 	polygon_2: autoDraw = True
+360.3838 	EXP 	New trial (rep=27, index=0): None
+360.3960 	EXP 	polygon_2: autoDraw = False
+360.3960 	EXP 	polygon_2: autoDraw = False
+360.3960 	EXP 	polygon_2: opacity = 1.0
+360.3960 	EXP 	polygon_2: fillColor = 'red (named)'
+360.3960 	EXP 	polygon_2: lineColor = 'red (named)'
+361.6148 	EXP 	polygon_2: autoDraw = True
+361.9205 	EXP 	New trial (rep=28, index=0): None
+361.9303 	EXP 	polygon_2: autoDraw = False
+361.9303 	EXP 	polygon_2: autoDraw = False
+361.9303 	EXP 	polygon_2: opacity = 1.0
+361.9303 	EXP 	polygon_2: fillColor = 'blue (named)'
+361.9303 	EXP 	polygon_2: lineColor = 'blue (named)'
+363.4469 	EXP 	polygon_2: autoDraw = True
+363.7339 	EXP 	New trial (rep=29, index=0): None
+363.7469 	EXP 	polygon_2: autoDraw = False
+363.7469 	EXP 	polygon_2: autoDraw = False
+363.7469 	EXP 	polygon_2: opacity = 1.0
+363.7469 	EXP 	polygon_2: fillColor = 'blue (named)'
+363.7469 	EXP 	polygon_2: lineColor = 'blue (named)'
+365.0652 	EXP 	polygon_2: autoDraw = True
+365.3765 	EXP 	New trial (rep=30, index=0): None
+365.3821 	EXP 	polygon_2: autoDraw = False
+365.3821 	EXP 	polygon_2: autoDraw = False
+365.3821 	EXP 	polygon_2: opacity = 1.0
+365.3821 	EXP 	polygon_2: fillColor = 'blue (named)'
+365.3821 	EXP 	polygon_2: lineColor = 'blue (named)'
+366.6330 	EXP 	polygon_2: autoDraw = True
+366.9215 	EXP 	New trial (rep=31, index=0): None
+366.9320 	EXP 	polygon_2: autoDraw = False
+366.9320 	EXP 	polygon_2: autoDraw = False
+366.9320 	EXP 	polygon_2: opacity = 1.0
+366.9320 	EXP 	polygon_2: fillColor = 'blue (named)'
+366.9320 	EXP 	polygon_2: lineColor = 'blue (named)'
+368.3206 	EXP 	polygon_2: autoDraw = True
+368.6246 	EXP 	New trial (rep=32, index=0): None
+368.6352 	EXP 	polygon_2: autoDraw = False
+368.6352 	EXP 	polygon_2: autoDraw = False
+368.6352 	EXP 	polygon_2: opacity = 1.0
+368.6352 	EXP 	polygon_2: fillColor = 'blue (named)'
+368.6352 	EXP 	polygon_2: lineColor = 'blue (named)'
+369.8710 	EXP 	polygon_2: autoDraw = True
+370.1723 	EXP 	New trial (rep=33, index=0): None
+370.1831 	EXP 	polygon_2: autoDraw = False
+370.1831 	EXP 	polygon_2: autoDraw = False
+370.1831 	EXP 	polygon_2: opacity = 1.0
+370.1831 	EXP 	polygon_2: fillColor = 'blue (named)'
+370.1831 	EXP 	polygon_2: lineColor = 'blue (named)'
+371.9336 	EXP 	polygon_2: autoDraw = True
+372.2228 	EXP 	New trial (rep=34, index=0): None
+372.2337 	EXP 	polygon_2: autoDraw = False
+372.2337 	EXP 	polygon_2: autoDraw = False
+372.2337 	EXP 	polygon_2: opacity = 1.0
+372.2337 	EXP 	polygon_2: fillColor = 'blue (named)'
+372.2337 	EXP 	polygon_2: lineColor = 'blue (named)'
+373.9878 	EXP 	polygon_2: autoDraw = True
+374.2886 	EXP 	New trial (rep=35, index=0): None
+374.3011 	EXP 	polygon_2: autoDraw = False
+374.3011 	EXP 	polygon_2: autoDraw = False
+374.3011 	EXP 	polygon_2: opacity = 1.0
+374.3011 	EXP 	polygon_2: fillColor = 'blue (named)'
+374.3011 	EXP 	polygon_2: lineColor = 'blue (named)'
+376.0012 	EXP 	polygon_2: autoDraw = True
+376.2917 	EXP 	New trial (rep=36, index=0): None
+376.3011 	EXP 	polygon_2: autoDraw = False
+376.3011 	EXP 	polygon_2: autoDraw = False
+376.3011 	EXP 	polygon_2: opacity = 1.0
+376.3011 	EXP 	polygon_2: fillColor = 'blue (named)'
+376.3011 	EXP 	polygon_2: lineColor = 'blue (named)'
+378.0865 	EXP 	polygon_2: autoDraw = True
+378.3919 	EXP 	New trial (rep=37, index=0): None
+378.4019 	EXP 	polygon_2: autoDraw = False
+378.4019 	EXP 	polygon_2: autoDraw = False
+378.4019 	EXP 	polygon_2: opacity = 1.0
+378.4019 	EXP 	polygon_2: fillColor = 'blue (named)'
+378.4019 	EXP 	polygon_2: lineColor = 'blue (named)'
+380.1403 	EXP 	polygon_2: autoDraw = True
+380.4408 	EXP 	New trial (rep=38, index=0): None
+380.4571 	EXP 	polygon_2: autoDraw = False
+380.4571 	EXP 	polygon_2: autoDraw = False
+380.4571 	EXP 	polygon_2: opacity = 1.0
+380.4571 	EXP 	polygon_2: fillColor = 'blue (named)'
+380.4571 	EXP 	polygon_2: lineColor = 'blue (named)'
+381.8910 	EXP 	polygon_2: autoDraw = True
+382.1953 	EXP 	New trial (rep=39, index=0): None
+382.2046 	EXP 	polygon_2: autoDraw = False
+382.2046 	EXP 	polygon_2: autoDraw = False
+382.2046 	EXP 	polygon_2: opacity = 1.0
+382.2046 	EXP 	polygon_2: fillColor = 'blue (named)'
+382.2046 	EXP 	polygon_2: lineColor = 'blue (named)'
+383.7214 	EXP 	polygon_2: autoDraw = True
+384.0112 	EXP 	New trial (rep=40, index=0): None
+384.0202 	EXP 	polygon_2: autoDraw = False
+384.0202 	EXP 	polygon_2: autoDraw = False
+384.0202 	EXP 	polygon_2: opacity = 1.0
+384.0202 	EXP 	polygon_2: fillColor = 'blue (named)'
+384.0202 	EXP 	polygon_2: lineColor = 'blue (named)'
+385.5090 	EXP 	polygon_2: autoDraw = True
+385.8103 	EXP 	New trial (rep=41, index=0): None
+385.8207 	EXP 	polygon_2: autoDraw = False
+385.8207 	EXP 	polygon_2: autoDraw = False
+385.8207 	EXP 	polygon_2: opacity = 1.0
+385.8207 	EXP 	polygon_2: fillColor = 'blue (named)'
+385.8207 	EXP 	polygon_2: lineColor = 'blue (named)'
+387.1875 	EXP 	polygon_2: autoDraw = True
+387.4756 	EXP 	New trial (rep=42, index=0): None
+387.4875 	EXP 	polygon_2: autoDraw = False
+387.4875 	EXP 	polygon_2: autoDraw = False
+387.4875 	EXP 	polygon_2: opacity = 1.0
+387.4875 	EXP 	polygon_2: fillColor = 'blue (named)'
+387.4875 	EXP 	polygon_2: lineColor = 'blue (named)'
+388.7231 	EXP 	polygon_2: autoDraw = True
+389.0144 	EXP 	New trial (rep=43, index=0): None
+389.0221 	EXP 	polygon_2: autoDraw = False
+389.0221 	EXP 	polygon_2: autoDraw = False
+389.0221 	EXP 	polygon_2: opacity = 1.0
+389.0221 	EXP 	polygon_2: fillColor = 'blue (named)'
+389.0221 	EXP 	polygon_2: lineColor = 'blue (named)'
+390.7739 	EXP 	polygon_2: autoDraw = True
+391.0636 	EXP 	New trial (rep=44, index=0): None
+391.0728 	EXP 	polygon_2: autoDraw = False
+391.0728 	EXP 	polygon_2: autoDraw = False
+391.0728 	EXP 	polygon_2: opacity = 1.0
+391.0728 	EXP 	polygon_2: fillColor = 'blue (named)'
+391.0728 	EXP 	polygon_2: lineColor = 'blue (named)'
+392.7893 	EXP 	polygon_2: autoDraw = True
+393.0790 	EXP 	New trial (rep=45, index=0): None
+393.0893 	EXP 	polygon_2: autoDraw = False
+393.0893 	EXP 	polygon_2: autoDraw = False
+393.0893 	EXP 	polygon_2: opacity = 1.0
+393.0893 	EXP 	polygon_2: fillColor = 'red (named)'
+393.0893 	EXP 	polygon_2: lineColor = 'red (named)'
+394.8399 	EXP 	polygon_2: autoDraw = True
+395.1294 	EXP 	New trial (rep=46, index=0): None
+395.1399 	EXP 	polygon_2: autoDraw = False
+395.1399 	EXP 	polygon_2: autoDraw = False
+395.1399 	EXP 	polygon_2: opacity = 1.0
+395.1399 	EXP 	polygon_2: fillColor = 'blue (named)'
+395.1399 	EXP 	polygon_2: lineColor = 'blue (named)'
+396.6774 	EXP 	polygon_2: autoDraw = True
+396.9829 	EXP 	New trial (rep=47, index=0): None
+396.9911 	EXP 	polygon_2: autoDraw = False
+396.9911 	EXP 	polygon_2: autoDraw = False
+396.9911 	EXP 	polygon_2: opacity = 1.0
+396.9911 	EXP 	polygon_2: fillColor = 'red (named)'
+396.9911 	EXP 	polygon_2: lineColor = 'red (named)'
+398.7578 	EXP 	polygon_2: autoDraw = True
+399.0449 	EXP 	New trial (rep=48, index=0): None
+399.0577 	EXP 	polygon_2: autoDraw = False
+399.0577 	EXP 	polygon_2: autoDraw = False
+399.0577 	EXP 	polygon_2: opacity = 1.0
+399.0577 	EXP 	polygon_2: fillColor = 'blue (named)'
+399.0577 	EXP 	polygon_2: lineColor = 'blue (named)'
+400.4419 	EXP 	polygon_2: autoDraw = True
+400.7319 	EXP 	New trial (rep=49, index=0): None
+400.7421 	EXP 	polygon_2: autoDraw = False
+400.7421 	EXP 	polygon_2: autoDraw = False
+400.7421 	EXP 	polygon_2: opacity = 1.0
+400.7421 	EXP 	polygon_2: fillColor = 'blue (named)'
+400.7421 	EXP 	polygon_2: lineColor = 'blue (named)'
+402.0949 	EXP 	polygon_2: autoDraw = True
+402.3971 	EXP 	New trial (rep=50, index=0): None
+402.4089 	EXP 	polygon_2: autoDraw = False
+402.4089 	EXP 	polygon_2: autoDraw = False
+402.4089 	EXP 	polygon_2: opacity = 1.0
+402.4089 	EXP 	polygon_2: fillColor = 'blue (named)'
+402.4089 	EXP 	polygon_2: lineColor = 'blue (named)'
+403.7929 	EXP 	polygon_2: autoDraw = True
+404.0846 	EXP 	New trial (rep=51, index=0): None
+404.0946 	EXP 	polygon_2: autoDraw = False
+404.0946 	EXP 	polygon_2: autoDraw = False
+404.0946 	EXP 	polygon_2: opacity = 1.0
+404.0946 	EXP 	polygon_2: fillColor = 'blue (named)'
+404.0946 	EXP 	polygon_2: lineColor = 'blue (named)'
+405.3450 	EXP 	polygon_2: autoDraw = True
+405.6511 	EXP 	New trial (rep=52, index=0): None
+405.6607 	EXP 	polygon_2: autoDraw = False
+405.6607 	EXP 	polygon_2: autoDraw = False
+405.6607 	EXP 	polygon_2: opacity = 1.0
+405.6607 	EXP 	polygon_2: fillColor = 'blue (named)'
+405.6607 	EXP 	polygon_2: lineColor = 'blue (named)'
+407.0623 	EXP 	polygon_2: autoDraw = True
+407.3642 	EXP 	New trial (rep=53, index=0): None
+407.3821 	EXP 	polygon_2: autoDraw = False
+407.3821 	EXP 	polygon_2: autoDraw = False
+407.3821 	EXP 	polygon_2: opacity = 1.0
+407.3821 	EXP 	polygon_2: fillColor = 'blue (named)'
+407.3821 	EXP 	polygon_2: lineColor = 'blue (named)'
+408.6776 	EXP 	polygon_2: autoDraw = True
+408.9653 	EXP 	New trial (rep=54, index=0): None
+408.9776 	EXP 	polygon_2: autoDraw = False
+408.9776 	EXP 	polygon_2: autoDraw = False
+408.9776 	EXP 	polygon_2: opacity = 1.0
+408.9776 	EXP 	polygon_2: fillColor = 'blue (named)'
+408.9776 	EXP 	polygon_2: lineColor = 'blue (named)'
+410.2117 	EXP 	polygon_2: autoDraw = True
+410.5034 	EXP 	New trial (rep=55, index=0): None
+410.5141 	EXP 	polygon_2: autoDraw = False
+410.5141 	EXP 	polygon_2: autoDraw = False
+410.5141 	EXP 	polygon_2: opacity = 1.0
+410.5141 	EXP 	polygon_2: fillColor = 'blue (named)'
+410.5141 	EXP 	polygon_2: lineColor = 'blue (named)'
+412.0793 	EXP 	polygon_2: autoDraw = True
+412.3656 	EXP 	New trial (rep=56, index=0): None
+412.3785 	EXP 	polygon_2: autoDraw = False
+412.3785 	EXP 	polygon_2: autoDraw = False
+412.3785 	EXP 	polygon_2: opacity = 1.0
+412.3785 	EXP 	polygon_2: fillColor = 'blue (named)'
+412.3785 	EXP 	polygon_2: lineColor = 'blue (named)'
+414.1477 	EXP 	polygon_2: autoDraw = True
+414.4517 	EXP 	New trial (rep=57, index=0): None
+414.4643 	EXP 	polygon_2: autoDraw = False
+414.4643 	EXP 	polygon_2: autoDraw = False
+414.4643 	EXP 	polygon_2: opacity = 1.0
+414.4643 	EXP 	polygon_2: fillColor = 'blue (named)'
+414.4643 	EXP 	polygon_2: lineColor = 'blue (named)'
+415.8159 	EXP 	polygon_2: autoDraw = True
+416.1176 	EXP 	New trial (rep=58, index=0): None
+416.1300 	EXP 	polygon_2: autoDraw = False
+416.1300 	EXP 	polygon_2: autoDraw = False
+416.1300 	EXP 	polygon_2: opacity = 1.0
+416.1300 	EXP 	polygon_2: fillColor = 'blue (named)'
+416.1300 	EXP 	polygon_2: lineColor = 'blue (named)'
+417.7651 	EXP 	polygon_2: autoDraw = True
+418.0706 	EXP 	New trial (rep=59, index=0): None
+418.0812 	EXP 	polygon_2: autoDraw = False
+418.0812 	EXP 	polygon_2: autoDraw = False
+418.0812 	EXP 	polygon_2: opacity = 1.0
+418.0812 	EXP 	polygon_2: fillColor = 'red (named)'
+418.0812 	EXP 	polygon_2: lineColor = 'red (named)'
+419.3811 	EXP 	polygon_2: autoDraw = True
+419.6707 	EXP 	New trial (rep=60, index=0): None
+419.6817 	EXP 	polygon_2: autoDraw = False
+419.6817 	EXP 	polygon_2: autoDraw = False
+419.6817 	EXP 	polygon_2: opacity = 1.0
+419.6817 	EXP 	polygon_2: fillColor = 'blue (named)'
+419.6817 	EXP 	polygon_2: lineColor = 'blue (named)'
+421.4482 	EXP 	polygon_2: autoDraw = True
+421.7359 	EXP 	New trial (rep=61, index=0): None
+421.7480 	EXP 	polygon_2: autoDraw = False
+421.7480 	EXP 	polygon_2: autoDraw = False
+421.7480 	EXP 	polygon_2: opacity = 1.0
+421.7480 	EXP 	polygon_2: fillColor = 'blue (named)'
+421.7480 	EXP 	polygon_2: lineColor = 'blue (named)'
+423.3376 	EXP 	polygon_2: autoDraw = True
+423.6377 	EXP 	New trial (rep=62, index=0): None
+423.6523 	EXP 	polygon_2: autoDraw = False
+423.6523 	EXP 	polygon_2: autoDraw = False
+423.6523 	EXP 	polygon_2: opacity = 1.0
+423.6523 	EXP 	polygon_2: fillColor = 'red (named)'
+423.6523 	EXP 	polygon_2: lineColor = 'red (named)'
+425.4181 	EXP 	polygon_2: autoDraw = True
+425.7248 	EXP 	New trial (rep=63, index=0): None
+425.7365 	EXP 	polygon_2: autoDraw = False
+425.7365 	EXP 	polygon_2: autoDraw = False
+425.7365 	EXP 	polygon_2: opacity = 1.0
+425.7365 	EXP 	polygon_2: fillColor = 'blue (named)'
+425.7365 	EXP 	polygon_2: lineColor = 'blue (named)'
+427.3999 	EXP 	polygon_2: autoDraw = True
+427.6909 	EXP 	New trial (rep=64, index=0): None
+427.6999 	EXP 	polygon_2: autoDraw = False
+427.6999 	EXP 	polygon_2: autoDraw = False
+427.6999 	EXP 	polygon_2: opacity = 1.0
+427.6999 	EXP 	polygon_2: fillColor = 'blue (named)'
+427.6999 	EXP 	polygon_2: lineColor = 'blue (named)'
+429.3009 	EXP 	polygon_2: autoDraw = True
+429.5887 	EXP 	New trial (rep=65, index=0): None
+429.6005 	EXP 	polygon_2: autoDraw = False
+429.6005 	EXP 	polygon_2: autoDraw = False
+429.6005 	EXP 	polygon_2: opacity = 1.0
+429.6005 	EXP 	polygon_2: fillColor = 'blue (named)'
+429.6005 	EXP 	polygon_2: lineColor = 'blue (named)'
+431.0014 	EXP 	polygon_2: autoDraw = True
+431.2892 	EXP 	New trial (rep=66, index=0): None
+431.3028 	EXP 	polygon_2: autoDraw = False
+431.3028 	EXP 	polygon_2: autoDraw = False
+431.3028 	EXP 	polygon_2: opacity = 1.0
+431.3028 	EXP 	polygon_2: fillColor = 'blue (named)'
+431.3028 	EXP 	polygon_2: lineColor = 'blue (named)'
+433.0565 	EXP 	polygon_2: autoDraw = True
+433.3557 	EXP 	New trial (rep=67, index=0): None
+433.3698 	EXP 	polygon_2: autoDraw = False
+433.3698 	EXP 	polygon_2: autoDraw = False
+433.3698 	EXP 	polygon_2: opacity = 1.0
+433.3698 	EXP 	polygon_2: fillColor = 'blue (named)'
+433.3698 	EXP 	polygon_2: lineColor = 'blue (named)'
+435.1369 	EXP 	polygon_2: autoDraw = True
+435.4446 	EXP 	New trial (rep=68, index=0): None
+435.4527 	EXP 	polygon_2: autoDraw = False
+435.4527 	EXP 	polygon_2: autoDraw = False
+435.4527 	EXP 	polygon_2: opacity = 1.0
+435.4527 	EXP 	polygon_2: fillColor = 'red (named)'
+435.4527 	EXP 	polygon_2: lineColor = 'red (named)'
+437.1197 	EXP 	polygon_2: autoDraw = True
+437.4084 	EXP 	New trial (rep=69, index=0): None
+437.4216 	EXP 	polygon_2: autoDraw = False
+437.4216 	EXP 	polygon_2: autoDraw = False
+437.4216 	EXP 	polygon_2: opacity = 1.0
+437.4216 	EXP 	polygon_2: fillColor = 'blue (named)'
+437.4216 	EXP 	polygon_2: lineColor = 'blue (named)'
+439.0541 	EXP 	polygon_2: autoDraw = True
+439.3437 	EXP 	New trial (rep=70, index=0): None
+439.3551 	EXP 	polygon_2: autoDraw = False
+439.3551 	EXP 	polygon_2: autoDraw = False
+439.3551 	EXP 	polygon_2: opacity = 1.0
+439.3551 	EXP 	polygon_2: fillColor = 'red (named)'
+439.3551 	EXP 	polygon_2: lineColor = 'red (named)'
+440.6712 	EXP 	polygon_2: autoDraw = True
+440.9587 	EXP 	New trial (rep=71, index=0): None
+440.9711 	EXP 	polygon_2: autoDraw = False
+440.9711 	EXP 	polygon_2: autoDraw = False
+440.9711 	EXP 	polygon_2: opacity = 1.0
+440.9711 	EXP 	polygon_2: fillColor = 'blue (named)'
+440.9711 	EXP 	polygon_2: lineColor = 'blue (named)'
+442.2599 	EXP 	polygon_2: autoDraw = True
+442.5631 	EXP 	New trial (rep=72, index=0): None
+442.5715 	EXP 	polygon_2: autoDraw = False
+442.5715 	EXP 	polygon_2: autoDraw = False
+442.5715 	EXP 	polygon_2: opacity = 1.0
+442.5715 	EXP 	polygon_2: fillColor = 'blue (named)'
+442.5715 	EXP 	polygon_2: lineColor = 'blue (named)'
+444.2722 	EXP 	polygon_2: autoDraw = True
+444.5598 	EXP 	New trial (rep=73, index=0): None
+444.5723 	EXP 	polygon_2: autoDraw = False
+444.5723 	EXP 	polygon_2: autoDraw = False
+444.5723 	EXP 	polygon_2: opacity = 1.0
+444.5723 	EXP 	polygon_2: fillColor = 'blue (named)'
+444.5723 	EXP 	polygon_2: lineColor = 'blue (named)'
+446.2565 	EXP 	polygon_2: autoDraw = True
+446.5429 	EXP 	New trial (rep=74, index=0): None
+446.5613 	EXP 	polygon_2: autoDraw = False
+446.5613 	EXP 	polygon_2: autoDraw = False
+446.5613 	EXP 	polygon_2: opacity = 1.0
+446.5613 	EXP 	polygon_2: fillColor = 'blue (named)'
+446.5613 	EXP 	polygon_2: lineColor = 'blue (named)'
+448.3245 	EXP 	polygon_2: autoDraw = True
+448.6154 	EXP 	New trial (rep=75, index=0): None
+448.6247 	EXP 	polygon_2: autoDraw = False
+448.6247 	EXP 	polygon_2: autoDraw = False
+448.6247 	EXP 	polygon_2: opacity = 1.0
+448.6247 	EXP 	polygon_2: fillColor = 'blue (named)'
+448.6247 	EXP 	polygon_2: lineColor = 'blue (named)'
+450.3451 	EXP 	polygon_2: autoDraw = True
+450.6451 	EXP 	New trial (rep=76, index=0): None
+450.6570 	EXP 	polygon_2: autoDraw = False
+450.6570 	EXP 	polygon_2: autoDraw = False
+450.6570 	EXP 	polygon_2: opacity = 1.0
+450.6570 	EXP 	polygon_2: fillColor = 'blue (named)'
+450.6570 	EXP 	polygon_2: lineColor = 'blue (named)'
+452.0912 	EXP 	polygon_2: autoDraw = True
+452.3812 	EXP 	New trial (rep=77, index=0): None
+452.3912 	EXP 	polygon_2: autoDraw = False
+452.3912 	EXP 	polygon_2: autoDraw = False
+452.3912 	EXP 	polygon_2: opacity = 1.0
+452.3912 	EXP 	polygon_2: fillColor = 'blue (named)'
+452.3912 	EXP 	polygon_2: lineColor = 'blue (named)'
+453.6917 	EXP 	polygon_2: autoDraw = True
+453.9801 	EXP 	New trial (rep=78, index=0): None
+453.9954 	EXP 	polygon_2: autoDraw = False
+453.9954 	EXP 	polygon_2: autoDraw = False
+453.9954 	EXP 	polygon_2: opacity = 1.0
+453.9954 	EXP 	polygon_2: fillColor = 'blue (named)'
+453.9954 	EXP 	polygon_2: lineColor = 'blue (named)'
+455.3085 	EXP 	polygon_2: autoDraw = True
+455.5961 	EXP 	New trial (rep=79, index=0): None
+455.6085 	EXP 	polygon_2: autoDraw = False
+455.6085 	EXP 	polygon_2: autoDraw = False
+455.6085 	EXP 	polygon_2: opacity = 1.0
+455.6085 	EXP 	polygon_2: fillColor = 'blue (named)'
+455.6085 	EXP 	polygon_2: lineColor = 'blue (named)'
+457.3315 	EXP 	polygon_2: autoDraw = True
+457.6340 	EXP 	New trial (rep=80, index=0): None
+457.6447 	EXP 	polygon_2: autoDraw = False
+457.6447 	EXP 	polygon_2: autoDraw = False
+457.6447 	EXP 	polygon_2: opacity = 1.0
+457.6447 	EXP 	polygon_2: fillColor = 'blue (named)'
+457.6447 	EXP 	polygon_2: lineColor = 'blue (named)'
+459.1954 	EXP 	polygon_2: autoDraw = True
+459.4980 	EXP 	New trial (rep=81, index=0): None
+459.5101 	EXP 	polygon_2: autoDraw = False
+459.5101 	EXP 	polygon_2: autoDraw = False
+459.5101 	EXP 	polygon_2: opacity = 1.0
+459.5101 	EXP 	polygon_2: fillColor = 'blue (named)'
+459.5101 	EXP 	polygon_2: lineColor = 'blue (named)'
+460.8646 	EXP 	polygon_2: autoDraw = True
+461.1641 	EXP 	New trial (rep=82, index=0): None
+461.1770 	EXP 	polygon_2: autoDraw = False
+461.1770 	EXP 	polygon_2: autoDraw = False
+461.1770 	EXP 	polygon_2: opacity = 1.0
+461.1770 	EXP 	polygon_2: fillColor = 'blue (named)'
+461.1770 	EXP 	polygon_2: lineColor = 'blue (named)'
+462.8276 	EXP 	polygon_2: autoDraw = True
+463.1171 	EXP 	New trial (rep=83, index=0): None
+463.1279 	EXP 	polygon_2: autoDraw = False
+463.1279 	EXP 	polygon_2: autoDraw = False
+463.1279 	EXP 	polygon_2: opacity = 1.0
+463.1279 	EXP 	polygon_2: fillColor = 'blue (named)'
+463.1279 	EXP 	polygon_2: lineColor = 'blue (named)'
+464.6993 	EXP 	polygon_2: autoDraw = True
+465.0009 	EXP 	New trial (rep=84, index=0): None
+465.0123 	EXP 	polygon_2: autoDraw = False
+465.0123 	EXP 	polygon_2: autoDraw = False
+465.0123 	EXP 	polygon_2: opacity = 1.0
+465.0123 	EXP 	polygon_2: fillColor = 'blue (named)'
+465.0123 	EXP 	polygon_2: lineColor = 'blue (named)'
+466.4509 	EXP 	polygon_2: autoDraw = True
+466.7523 	EXP 	New trial (rep=85, index=0): None
+466.7637 	EXP 	polygon_2: autoDraw = False
+466.7637 	EXP 	polygon_2: autoDraw = False
+466.7637 	EXP 	polygon_2: opacity = 1.0
+466.7637 	EXP 	polygon_2: fillColor = 'blue (named)'
+466.7637 	EXP 	polygon_2: lineColor = 'blue (named)'
+468.3992 	EXP 	polygon_2: autoDraw = True
+468.7018 	EXP 	New trial (rep=86, index=0): None
+468.7137 	EXP 	polygon_2: autoDraw = False
+468.7137 	EXP 	polygon_2: autoDraw = False
+468.7137 	EXP 	polygon_2: opacity = 1.0
+468.7137 	EXP 	polygon_2: fillColor = 'blue (named)'
+468.7137 	EXP 	polygon_2: lineColor = 'blue (named)'
+470.2299 	EXP 	polygon_2: autoDraw = True
+470.5203 	EXP 	New trial (rep=87, index=0): None
+470.5299 	EXP 	polygon_2: autoDraw = False
+470.5299 	EXP 	polygon_2: autoDraw = False
+470.5299 	EXP 	polygon_2: opacity = 1.0
+470.5299 	EXP 	polygon_2: fillColor = 'red (named)'
+470.5299 	EXP 	polygon_2: lineColor = 'red (named)'
+472.0652 	EXP 	polygon_2: autoDraw = True
+472.3727 	EXP 	New trial (rep=88, index=0): None
+472.3814 	EXP 	polygon_2: autoDraw = False
+472.3814 	EXP 	polygon_2: autoDraw = False
+472.3814 	EXP 	polygon_2: opacity = 1.0
+472.3814 	EXP 	polygon_2: fillColor = 'blue (named)'
+472.3814 	EXP 	polygon_2: lineColor = 'blue (named)'
+474.0479 	EXP 	polygon_2: autoDraw = True
+474.3354 	EXP 	New trial (rep=89, index=0): None
+474.3478 	EXP 	polygon_2: autoDraw = False
+474.3478 	EXP 	polygon_2: autoDraw = False
+474.3478 	EXP 	polygon_2: opacity = 1.0
+474.3478 	EXP 	polygon_2: fillColor = 'blue (named)'
+474.3478 	EXP 	polygon_2: lineColor = 'blue (named)'
+475.9987 	EXP 	polygon_2: autoDraw = True
+476.2865 	EXP 	New trial (rep=90, index=0): None
+476.2983 	EXP 	polygon_2: autoDraw = False
+476.2983 	EXP 	polygon_2: autoDraw = False
+476.2983 	EXP 	polygon_2: opacity = 1.0
+476.2983 	EXP 	polygon_2: fillColor = 'blue (named)'
+476.2983 	EXP 	polygon_2: lineColor = 'blue (named)'
+478.0171 	EXP 	polygon_2: autoDraw = True
+478.3234 	EXP 	New trial (rep=91, index=0): None
+478.3329 	EXP 	polygon_2: autoDraw = False
+478.3329 	EXP 	polygon_2: autoDraw = False
+478.3329 	EXP 	polygon_2: opacity = 1.0
+478.3329 	EXP 	polygon_2: fillColor = 'blue (named)'
+478.3329 	EXP 	polygon_2: lineColor = 'blue (named)'
+479.6845 	EXP 	polygon_2: autoDraw = True
+479.9896 	EXP 	New trial (rep=92, index=0): None
+480.0004 	EXP 	polygon_2: autoDraw = False
+480.0004 	EXP 	polygon_2: autoDraw = False
+480.0004 	EXP 	polygon_2: opacity = 1.0
+480.0004 	EXP 	polygon_2: fillColor = 'blue (named)'
+480.0004 	EXP 	polygon_2: lineColor = 'blue (named)'
+481.7357 	EXP 	polygon_2: autoDraw = True
+482.0433 	EXP 	New trial (rep=93, index=0): None
+482.0519 	EXP 	polygon_2: autoDraw = False
+482.0519 	EXP 	polygon_2: autoDraw = False
+482.0519 	EXP 	polygon_2: opacity = 1.0
+482.0519 	EXP 	polygon_2: fillColor = 'blue (named)'
+482.0519 	EXP 	polygon_2: lineColor = 'blue (named)'
+483.7853 	EXP 	polygon_2: autoDraw = True
+484.0739 	EXP 	New trial (rep=94, index=0): None
+484.0890 	EXP 	polygon_2: autoDraw = False
+484.0890 	EXP 	polygon_2: autoDraw = False
+484.0890 	EXP 	polygon_2: opacity = 1.0
+484.0890 	EXP 	polygon_2: fillColor = 'red (named)'
+484.0890 	EXP 	polygon_2: lineColor = 'red (named)'
+485.7358 	EXP 	polygon_2: autoDraw = True
+486.0246 	EXP 	New trial (rep=95, index=0): None
+486.0392 	EXP 	polygon_2: autoDraw = False
+486.0392 	EXP 	polygon_2: autoDraw = False
+486.0392 	EXP 	polygon_2: opacity = 1.0
+486.0392 	EXP 	polygon_2: fillColor = 'blue (named)'
+486.0392 	EXP 	polygon_2: lineColor = 'blue (named)'
+487.4866 	EXP 	polygon_2: autoDraw = True
+487.7917 	EXP 	New trial (rep=96, index=0): None
+487.8065 	EXP 	polygon_2: autoDraw = False
+487.8065 	EXP 	polygon_2: autoDraw = False
+487.8065 	EXP 	polygon_2: opacity = 1.0
+487.8065 	EXP 	polygon_2: fillColor = 'red (named)'
+487.8065 	EXP 	polygon_2: lineColor = 'red (named)'
+489.0385 	EXP 	polygon_2: autoDraw = True
+489.3404 	EXP 	New trial (rep=97, index=0): None
+489.3529 	EXP 	polygon_2: autoDraw = False
+489.3529 	EXP 	polygon_2: autoDraw = False
+489.3529 	EXP 	polygon_2: opacity = 1.0
+489.3529 	EXP 	polygon_2: fillColor = 'blue (named)'
+489.3529 	EXP 	polygon_2: lineColor = 'blue (named)'
+490.6543 	EXP 	polygon_2: autoDraw = True
+490.9480 	EXP 	New trial (rep=98, index=0): None
+490.9541 	EXP 	polygon_2: autoDraw = False
+490.9541 	EXP 	polygon_2: autoDraw = False
+490.9541 	EXP 	polygon_2: opacity = 1.0
+490.9541 	EXP 	polygon_2: fillColor = 'blue (named)'
+490.9541 	EXP 	polygon_2: lineColor = 'blue (named)'
+492.4418 	EXP 	polygon_2: autoDraw = True
+492.7448 	EXP 	New trial (rep=99, index=0): None
+492.7559 	EXP 	polygon_2: autoDraw = False
+492.7559 	EXP 	polygon_2: autoDraw = False
+492.7559 	EXP 	polygon_2: opacity = 1.0
+492.7559 	EXP 	polygon_2: fillColor = 'blue (named)'
+492.7559 	EXP 	polygon_2: lineColor = 'blue (named)'
+494.5069 	EXP 	polygon_2: autoDraw = True
+494.7944 	EXP 	New trial (rep=100, index=0): None
+494.8049 	EXP 	polygon_2: autoDraw = False
+494.8049 	EXP 	polygon_2: autoDraw = False
+494.8049 	EXP 	polygon_2: opacity = 1.0
+494.8049 	EXP 	polygon_2: fillColor = 'blue (named)'
+494.8049 	EXP 	polygon_2: lineColor = 'blue (named)'
+496.0716 	EXP 	polygon_2: autoDraw = True
+496.3603 	EXP 	New trial (rep=101, index=0): None
+496.3715 	EXP 	polygon_2: autoDraw = False
+496.3715 	EXP 	polygon_2: autoDraw = False
+496.3715 	EXP 	polygon_2: opacity = 1.0
+496.3715 	EXP 	polygon_2: fillColor = 'red (named)'
+496.3715 	EXP 	polygon_2: lineColor = 'red (named)'
+497.6720 	EXP 	polygon_2: autoDraw = True
+497.9602 	EXP 	New trial (rep=102, index=0): None
+497.9766 	EXP 	polygon_2: autoDraw = False
+497.9766 	EXP 	polygon_2: autoDraw = False
+497.9766 	EXP 	polygon_2: opacity = 1.0
+497.9766 	EXP 	polygon_2: fillColor = 'red (named)'
+497.9766 	EXP 	polygon_2: lineColor = 'red (named)'
+499.2257 	EXP 	polygon_2: autoDraw = True
+499.5278 	EXP 	New trial (rep=103, index=0): None
+499.5389 	EXP 	polygon_2: autoDraw = False
+499.5389 	EXP 	polygon_2: autoDraw = False
+499.5389 	EXP 	polygon_2: opacity = 1.0
+499.5389 	EXP 	polygon_2: fillColor = 'blue (named)'
+499.5389 	EXP 	polygon_2: lineColor = 'blue (named)'
+500.9595 	EXP 	polygon_2: autoDraw = True
+501.2639 	EXP 	New trial (rep=104, index=0): None
+501.2742 	EXP 	polygon_2: autoDraw = False
+501.2742 	EXP 	polygon_2: autoDraw = False
+501.2742 	EXP 	polygon_2: opacity = 1.0
+501.2742 	EXP 	polygon_2: fillColor = 'blue (named)'
+501.2742 	EXP 	polygon_2: lineColor = 'blue (named)'
+502.9400 	EXP 	polygon_2: autoDraw = True
+503.2310 	EXP 	New trial (rep=105, index=0): None
+503.2402 	EXP 	polygon_2: autoDraw = False
+503.2402 	EXP 	polygon_2: autoDraw = False
+503.2402 	EXP 	polygon_2: opacity = 1.0
+503.2402 	EXP 	polygon_2: fillColor = 'blue (named)'
+503.2402 	EXP 	polygon_2: lineColor = 'blue (named)'
+504.8583 	EXP 	polygon_2: autoDraw = True
+505.1500 	EXP 	New trial (rep=106, index=0): None
+505.1587 	EXP 	polygon_2: autoDraw = False
+505.1587 	EXP 	polygon_2: autoDraw = False
+505.1587 	EXP 	polygon_2: opacity = 1.0
+505.1587 	EXP 	polygon_2: fillColor = 'blue (named)'
+505.1587 	EXP 	polygon_2: lineColor = 'blue (named)'
+506.4764 	EXP 	polygon_2: autoDraw = True
+506.7829 	EXP 	New trial (rep=107, index=0): None
+506.7921 	EXP 	polygon_2: autoDraw = False
+506.7921 	EXP 	polygon_2: autoDraw = False
+506.7921 	EXP 	polygon_2: opacity = 1.0
+506.7921 	EXP 	polygon_2: fillColor = 'blue (named)'
+506.7921 	EXP 	polygon_2: lineColor = 'blue (named)'
+508.5794 	EXP 	polygon_2: autoDraw = True
+508.8822 	EXP 	New trial (rep=108, index=0): None
+508.8952 	EXP 	polygon_2: autoDraw = False
+508.8952 	EXP 	polygon_2: autoDraw = False
+508.8952 	EXP 	polygon_2: opacity = 1.0
+508.8952 	EXP 	polygon_2: fillColor = 'blue (named)'
+508.8952 	EXP 	polygon_2: lineColor = 'blue (named)'
+510.4091 	EXP 	polygon_2: autoDraw = True
+510.6980 	EXP 	New trial (rep=109, index=0): None
+510.7091 	EXP 	polygon_2: autoDraw = False
+510.7091 	EXP 	polygon_2: autoDraw = False
+510.7091 	EXP 	polygon_2: opacity = 1.0
+510.7091 	EXP 	polygon_2: fillColor = 'blue (named)'
+510.7091 	EXP 	polygon_2: lineColor = 'blue (named)'
+511.8945 	EXP 	polygon_2: autoDraw = True
+512.1807 	EXP 	New trial (rep=110, index=0): None
+512.1969 	EXP 	polygon_2: autoDraw = False
+512.1969 	EXP 	polygon_2: autoDraw = False
+512.1969 	EXP 	polygon_2: opacity = 1.0
+512.1969 	EXP 	polygon_2: fillColor = 'blue (named)'
+512.1969 	EXP 	polygon_2: lineColor = 'blue (named)'
+513.5099 	EXP 	polygon_2: autoDraw = True
+513.8002 	EXP 	New trial (rep=111, index=0): None
+513.8100 	EXP 	polygon_2: autoDraw = False
+513.8100 	EXP 	polygon_2: autoDraw = False
+513.8100 	EXP 	polygon_2: opacity = 1.0
+513.8100 	EXP 	polygon_2: fillColor = 'blue (named)'
+513.8100 	EXP 	polygon_2: lineColor = 'blue (named)'
+515.2605 	EXP 	polygon_2: autoDraw = True
+515.5487 	EXP 	New trial (rep=112, index=0): None
+515.5606 	EXP 	polygon_2: autoDraw = False
+515.5606 	EXP 	polygon_2: autoDraw = False
+515.5606 	EXP 	polygon_2: opacity = 1.0
+515.5606 	EXP 	polygon_2: fillColor = 'blue (named)'
+515.5606 	EXP 	polygon_2: lineColor = 'blue (named)'
+516.8830 	EXP 	polygon_2: autoDraw = True
+517.1863 	EXP 	New trial (rep=113, index=0): None
+517.1959 	EXP 	polygon_2: autoDraw = False
+517.1959 	EXP 	polygon_2: autoDraw = False
+517.1959 	EXP 	polygon_2: opacity = 1.0
+517.1959 	EXP 	polygon_2: fillColor = 'blue (named)'
+517.1959 	EXP 	polygon_2: lineColor = 'blue (named)'
+518.4464 	EXP 	polygon_2: autoDraw = True
+518.7351 	EXP 	New trial (rep=114, index=0): None
+518.7470 	EXP 	polygon_2: autoDraw = False
+518.7470 	EXP 	polygon_2: autoDraw = False
+518.7470 	EXP 	polygon_2: opacity = 1.0
+518.7470 	EXP 	polygon_2: fillColor = 'blue (named)'
+518.7470 	EXP 	polygon_2: lineColor = 'blue (named)'
+520.3823 	EXP 	polygon_2: autoDraw = True
+520.6865 	EXP 	New trial (rep=115, index=0): None
+520.6978 	EXP 	polygon_2: autoDraw = False
+520.6978 	EXP 	polygon_2: autoDraw = False
+520.6978 	EXP 	polygon_2: opacity = 1.0
+520.6978 	EXP 	polygon_2: fillColor = 'blue (named)'
+520.6978 	EXP 	polygon_2: lineColor = 'blue (named)'
+522.1982 	EXP 	polygon_2: autoDraw = True
+522.5027 	EXP 	New trial (rep=116, index=0): None
+522.5137 	EXP 	polygon_2: autoDraw = False
+522.5137 	EXP 	polygon_2: autoDraw = False
+522.5137 	EXP 	polygon_2: opacity = 1.0
+522.5137 	EXP 	polygon_2: fillColor = 'blue (named)'
+522.5137 	EXP 	polygon_2: lineColor = 'blue (named)'
+523.7299 	EXP 	polygon_2: autoDraw = True
+524.0207 	EXP 	New trial (rep=117, index=0): None
+524.0298 	EXP 	polygon_2: autoDraw = False
+524.0298 	EXP 	polygon_2: autoDraw = False
+524.0298 	EXP 	polygon_2: opacity = 1.0
+524.0298 	EXP 	polygon_2: fillColor = 'blue (named)'
+524.0298 	EXP 	polygon_2: lineColor = 'blue (named)'
+525.6007 	EXP 	polygon_2: autoDraw = True
+525.9074 	EXP 	New trial (rep=118, index=0): None
+525.9147 	EXP 	polygon_2: autoDraw = False
+525.9147 	EXP 	polygon_2: autoDraw = False
+525.9147 	EXP 	polygon_2: opacity = 1.0
+525.9147 	EXP 	polygon_2: fillColor = 'blue (named)'
+525.9147 	EXP 	polygon_2: lineColor = 'blue (named)'
+527.2166 	EXP 	polygon_2: autoDraw = True
+527.5041 	EXP 	New trial (rep=119, index=0): None
+527.5172 	EXP 	polygon_2: autoDraw = False
+527.5172 	EXP 	polygon_2: autoDraw = False
+527.5172 	EXP 	polygon_2: opacity = 1.0
+527.5172 	EXP 	polygon_2: fillColor = 'red (named)'
+527.5172 	EXP 	polygon_2: lineColor = 'red (named)'
+529.0834 	EXP 	polygon_2: autoDraw = True
+529.3892 	EXP 	New trial (rep=120, index=0): None
+529.3989 	EXP 	polygon_2: autoDraw = False
+529.3989 	EXP 	polygon_2: autoDraw = False
+529.3989 	EXP 	polygon_2: opacity = 1.0
+529.3989 	EXP 	polygon_2: fillColor = 'blue (named)'
+529.3989 	EXP 	polygon_2: lineColor = 'blue (named)'
+531.1505 	EXP 	polygon_2: autoDraw = True
+531.4563 	EXP 	New trial (rep=121, index=0): None
+531.4667 	EXP 	polygon_2: autoDraw = False
+531.4667 	EXP 	polygon_2: autoDraw = False
+531.4667 	EXP 	polygon_2: opacity = 1.0
+531.4667 	EXP 	polygon_2: fillColor = 'blue (named)'
+531.4667 	EXP 	polygon_2: lineColor = 'blue (named)'
+532.9700 	EXP 	polygon_2: autoDraw = True
+533.2712 	EXP 	New trial (rep=122, index=0): None
+533.2831 	EXP 	polygon_2: autoDraw = False
+533.2831 	EXP 	polygon_2: autoDraw = False
+533.2831 	EXP 	polygon_2: opacity = 1.0
+533.2831 	EXP 	polygon_2: fillColor = 'blue (named)'
+533.2831 	EXP 	polygon_2: lineColor = 'blue (named)'
+535.0345 	EXP 	polygon_2: autoDraw = True
+535.3254 	EXP 	New trial (rep=123, index=0): None
+535.3355 	EXP 	polygon_2: autoDraw = False
+535.3355 	EXP 	polygon_2: autoDraw = False
+535.3355 	EXP 	polygon_2: opacity = 1.0
+535.3355 	EXP 	polygon_2: fillColor = 'blue (named)'
+535.3355 	EXP 	polygon_2: lineColor = 'blue (named)'
+536.7697 	EXP 	polygon_2: autoDraw = True
+537.0726 	EXP 	New trial (rep=124, index=0): None
+537.0852 	EXP 	polygon_2: autoDraw = False
+537.0852 	EXP 	polygon_2: autoDraw = False
+537.0852 	EXP 	polygon_2: opacity = 1.0
+537.0852 	EXP 	polygon_2: fillColor = 'blue (named)'
+537.0852 	EXP 	polygon_2: lineColor = 'blue (named)'
+538.7358 	EXP 	polygon_2: autoDraw = True
+539.0275 	EXP 	New trial (rep=125, index=0): None
+539.0360 	EXP 	polygon_2: autoDraw = False
+539.0360 	EXP 	polygon_2: autoDraw = False
+539.0360 	EXP 	polygon_2: opacity = 1.0
+539.0360 	EXP 	polygon_2: fillColor = 'blue (named)'
+539.0360 	EXP 	polygon_2: lineColor = 'blue (named)'
+540.4886 	EXP 	polygon_2: autoDraw = True
+540.7767 	EXP 	New trial (rep=126, index=0): None
+540.7871 	EXP 	polygon_2: autoDraw = False
+540.7871 	EXP 	polygon_2: autoDraw = False
+540.7871 	EXP 	polygon_2: opacity = 1.0
+540.7871 	EXP 	polygon_2: fillColor = 'blue (named)'
+540.7871 	EXP 	polygon_2: lineColor = 'blue (named)'
+542.1692 	EXP 	polygon_2: autoDraw = True
+542.4587 	EXP 	New trial (rep=127, index=0): None
+542.4703 	EXP 	polygon_2: autoDraw = False
+542.4703 	EXP 	polygon_2: autoDraw = False
+542.4703 	EXP 	polygon_2: opacity = 1.0
+542.4703 	EXP 	polygon_2: fillColor = 'blue (named)'
+542.4703 	EXP 	polygon_2: lineColor = 'blue (named)'
+544.2398 	EXP 	polygon_2: autoDraw = True
+544.5459 	EXP 	New trial (rep=128, index=0): None
+544.5535 	EXP 	polygon_2: autoDraw = False
+544.5535 	EXP 	polygon_2: autoDraw = False
+544.5535 	EXP 	polygon_2: opacity = 1.0
+544.5535 	EXP 	polygon_2: fillColor = 'blue (named)'
+544.5535 	EXP 	polygon_2: lineColor = 'blue (named)'
+545.9701 	EXP 	polygon_2: autoDraw = True
+546.2582 	EXP 	New trial (rep=129, index=0): None
+546.2701 	EXP 	polygon_2: autoDraw = False
+546.2701 	EXP 	polygon_2: autoDraw = False
+546.2701 	EXP 	polygon_2: opacity = 1.0
+546.2701 	EXP 	polygon_2: fillColor = 'blue (named)'
+546.2701 	EXP 	polygon_2: lineColor = 'blue (named)'
+547.9395 	EXP 	polygon_2: autoDraw = True
+548.2277 	EXP 	New trial (rep=130, index=0): None
+548.2412 	EXP 	polygon_2: autoDraw = False
+548.2412 	EXP 	polygon_2: autoDraw = False
+548.2412 	EXP 	polygon_2: opacity = 1.0
+548.2412 	EXP 	polygon_2: fillColor = 'blue (named)'
+548.2412 	EXP 	polygon_2: lineColor = 'blue (named)'
+549.6881 	EXP 	polygon_2: autoDraw = True
+549.9749 	EXP 	New trial (rep=131, index=0): None
+549.9931 	EXP 	polygon_2: autoDraw = False
+549.9931 	EXP 	polygon_2: autoDraw = False
+549.9931 	EXP 	polygon_2: opacity = 1.0
+549.9931 	EXP 	polygon_2: fillColor = 'blue (named)'
+549.9931 	EXP 	polygon_2: lineColor = 'blue (named)'
+551.1725 	EXP 	polygon_2: autoDraw = True
+551.4611 	EXP 	New trial (rep=132, index=0): None
+551.4774 	EXP 	polygon_2: autoDraw = False
+551.4774 	EXP 	polygon_2: autoDraw = False
+551.4774 	EXP 	polygon_2: opacity = 1.0
+551.4774 	EXP 	polygon_2: fillColor = 'blue (named)'
+551.4774 	EXP 	polygon_2: lineColor = 'blue (named)'
+552.7396 	EXP 	polygon_2: autoDraw = True
+553.0262 	EXP 	New trial (rep=133, index=0): None
+553.0446 	EXP 	polygon_2: autoDraw = False
+553.0446 	EXP 	polygon_2: autoDraw = False
+553.0446 	EXP 	polygon_2: opacity = 1.0
+553.0446 	EXP 	polygon_2: fillColor = 'blue (named)'
+553.0446 	EXP 	polygon_2: lineColor = 'blue (named)'
+554.6591 	EXP 	polygon_2: autoDraw = True
+554.9607 	EXP 	New trial (rep=134, index=0): None
+554.9733 	EXP 	polygon_2: autoDraw = False
+554.9733 	EXP 	polygon_2: autoDraw = False
+554.9733 	EXP 	polygon_2: opacity = 1.0
+554.9733 	EXP 	polygon_2: fillColor = 'blue (named)'
+554.9733 	EXP 	polygon_2: lineColor = 'blue (named)'
+556.7103 	EXP 	polygon_2: autoDraw = True
+557.0132 	EXP 	New trial (rep=135, index=0): None
+557.0245 	EXP 	polygon_2: autoDraw = False
+557.0245 	EXP 	polygon_2: autoDraw = False
+557.0245 	EXP 	polygon_2: opacity = 1.0
+557.0245 	EXP 	polygon_2: fillColor = 'blue (named)'
+557.0245 	EXP 	polygon_2: lineColor = 'blue (named)'
+558.2251 	EXP 	polygon_2: autoDraw = True
+558.5151 	EXP 	New trial (rep=136, index=0): None
+558.5265 	EXP 	polygon_2: autoDraw = False
+558.5265 	EXP 	polygon_2: autoDraw = False
+558.5265 	EXP 	polygon_2: opacity = 1.0
+558.5265 	EXP 	polygon_2: fillColor = 'red (named)'
+558.5265 	EXP 	polygon_2: lineColor = 'red (named)'
+560.2121 	EXP 	polygon_2: autoDraw = True
+560.5169 	EXP 	New trial (rep=137, index=0): None
+560.5297 	EXP 	polygon_2: autoDraw = False
+560.5297 	EXP 	polygon_2: autoDraw = False
+560.5297 	EXP 	polygon_2: opacity = 1.0
+560.5297 	EXP 	polygon_2: fillColor = 'blue (named)'
+560.5297 	EXP 	polygon_2: lineColor = 'blue (named)'
+562.2132 	EXP 	polygon_2: autoDraw = True
+562.5143 	EXP 	New trial (rep=138, index=0): None
+562.5286 	EXP 	polygon_2: autoDraw = False
+562.5286 	EXP 	polygon_2: autoDraw = False
+562.5286 	EXP 	polygon_2: opacity = 1.0
+562.5286 	EXP 	polygon_2: fillColor = 'red (named)'
+562.5286 	EXP 	polygon_2: lineColor = 'red (named)'
+563.9956 	EXP 	polygon_2: autoDraw = True
+564.2862 	EXP 	New trial (rep=139, index=0): None
+564.2931 	EXP 	polygon_2: autoDraw = False
+564.2931 	EXP 	polygon_2: autoDraw = False
+564.2931 	EXP 	polygon_2: opacity = 1.0
+564.2931 	EXP 	polygon_2: fillColor = 'blue (named)'
+564.2931 	EXP 	polygon_2: lineColor = 'blue (named)'
+565.6944 	EXP 	polygon_2: autoDraw = True
+565.9831 	EXP 	New trial (rep=140, index=0): None
+565.9934 	EXP 	polygon_2: autoDraw = False
+565.9934 	EXP 	polygon_2: autoDraw = False
+565.9934 	EXP 	polygon_2: opacity = 1.0
+565.9934 	EXP 	polygon_2: fillColor = 'blue (named)'
+565.9934 	EXP 	polygon_2: lineColor = 'blue (named)'
+567.1938 	EXP 	polygon_2: autoDraw = True
+567.4827 	EXP 	New trial (rep=141, index=0): None
+567.4939 	EXP 	polygon_2: autoDraw = False
+567.4939 	EXP 	polygon_2: autoDraw = False
+567.4939 	EXP 	polygon_2: opacity = 1.0
+567.4939 	EXP 	polygon_2: fillColor = 'blue (named)'
+567.4939 	EXP 	polygon_2: lineColor = 'blue (named)'
+569.2807 	EXP 	polygon_2: autoDraw = True
+569.5847 	EXP 	New trial (rep=142, index=0): None
+569.5953 	EXP 	polygon_2: autoDraw = False
+569.5953 	EXP 	polygon_2: autoDraw = False
+569.5953 	EXP 	polygon_2: opacity = 1.0
+569.5953 	EXP 	polygon_2: fillColor = 'blue (named)'
+569.5953 	EXP 	polygon_2: lineColor = 'blue (named)'
+570.9817 	EXP 	polygon_2: autoDraw = True
+571.2834 	EXP 	New trial (rep=143, index=0): None
+571.2954 	EXP 	polygon_2: autoDraw = False
+571.2954 	EXP 	polygon_2: autoDraw = False
+571.2954 	EXP 	polygon_2: opacity = 1.0
+571.2954 	EXP 	polygon_2: fillColor = 'blue (named)'
+571.2954 	EXP 	polygon_2: lineColor = 'blue (named)'
+573.0322 	EXP 	polygon_2: autoDraw = True
+573.3391 	EXP 	New trial (rep=144, index=0): None
+573.3473 	EXP 	polygon_2: autoDraw = False
+573.3473 	EXP 	polygon_2: autoDraw = False
+573.3473 	EXP 	polygon_2: opacity = 1.0
+573.3473 	EXP 	polygon_2: fillColor = 'blue (named)'
+573.3473 	EXP 	polygon_2: lineColor = 'blue (named)'
+575.1008 	EXP 	polygon_2: autoDraw = True
+575.4045 	EXP 	New trial (rep=145, index=0): None
+575.4131 	EXP 	polygon_2: autoDraw = False
+575.4131 	EXP 	polygon_2: autoDraw = False
+575.4131 	EXP 	polygon_2: opacity = 1.0
+575.4131 	EXP 	polygon_2: fillColor = 'blue (named)'
+575.4131 	EXP 	polygon_2: lineColor = 'blue (named)'
+576.7973 	EXP 	polygon_2: autoDraw = True
+577.0845 	EXP 	New trial (rep=146, index=0): None
+577.0973 	EXP 	polygon_2: autoDraw = False
+577.0973 	EXP 	polygon_2: autoDraw = False
+577.0973 	EXP 	polygon_2: opacity = 1.0
+577.0973 	EXP 	polygon_2: fillColor = 'blue (named)'
+577.0973 	EXP 	polygon_2: lineColor = 'blue (named)'
+578.5307 	EXP 	polygon_2: autoDraw = True
+578.8214 	EXP 	New trial (rep=147, index=0): None
+578.8304 	EXP 	polygon_2: autoDraw = False
+578.8304 	EXP 	polygon_2: autoDraw = False
+578.8304 	EXP 	polygon_2: opacity = 1.0
+578.8304 	EXP 	polygon_2: fillColor = 'blue (named)'
+578.8304 	EXP 	polygon_2: lineColor = 'blue (named)'
+580.2349 	EXP 	polygon_2: autoDraw = True
+580.5344 	EXP 	New trial (rep=148, index=0): None
+580.5481 	EXP 	polygon_2: autoDraw = False
+580.5481 	EXP 	polygon_2: autoDraw = False
+580.5481 	EXP 	polygon_2: opacity = 1.0
+580.5481 	EXP 	polygon_2: fillColor = 'blue (named)'
+580.5481 	EXP 	polygon_2: lineColor = 'blue (named)'
+581.7497 	EXP 	polygon_2: autoDraw = True
+582.0567 	EXP 	New trial (rep=149, index=0): None
+582.0653 	EXP 	polygon_2: autoDraw = False
+582.0653 	EXP 	polygon_2: autoDraw = False
+582.0653 	EXP 	polygon_2: opacity = 1.0
+582.0653 	EXP 	polygon_2: fillColor = 'blue (named)'
+582.0653 	EXP 	polygon_2: lineColor = 'blue (named)'
+583.5158 	EXP 	polygon_2: autoDraw = True
+583.8068 	EXP 	New trial (rep=150, index=0): None
+583.8171 	EXP 	polygon_2: autoDraw = False
+583.8171 	EXP 	polygon_2: autoDraw = False
+583.8171 	EXP 	polygon_2: opacity = 1.0
+583.8171 	EXP 	polygon_2: fillColor = 'blue (named)'
+583.8171 	EXP 	polygon_2: lineColor = 'blue (named)'
+585.0004 	EXP 	polygon_2: autoDraw = True
+585.2899 	EXP 	New trial (rep=151, index=0): None
+585.3006 	EXP 	polygon_2: autoDraw = False
+585.3006 	EXP 	polygon_2: autoDraw = False
+585.3006 	EXP 	polygon_2: opacity = 1.0
+585.3006 	EXP 	polygon_2: fillColor = 'blue (named)'
+585.3006 	EXP 	polygon_2: lineColor = 'blue (named)'
+586.7170 	EXP 	polygon_2: autoDraw = True
+587.0037 	EXP 	New trial (rep=152, index=0): None
+587.0187 	EXP 	polygon_2: autoDraw = False
+587.0187 	EXP 	polygon_2: autoDraw = False
+587.0187 	EXP 	polygon_2: opacity = 1.0
+587.0187 	EXP 	polygon_2: fillColor = 'blue (named)'
+587.0187 	EXP 	polygon_2: lineColor = 'blue (named)'
+588.5840 	EXP 	polygon_2: autoDraw = True
+588.8739 	EXP 	New trial (rep=153, index=0): None
+588.8854 	EXP 	polygon_2: autoDraw = False
+588.8854 	EXP 	polygon_2: autoDraw = False
+588.8854 	EXP 	polygon_2: opacity = 1.0
+588.8854 	EXP 	polygon_2: fillColor = 'red (named)'
+588.8854 	EXP 	polygon_2: lineColor = 'red (named)'
+590.3859 	EXP 	polygon_2: autoDraw = True
+590.6750 	EXP 	New trial (rep=154, index=0): None
+590.6852 	EXP 	polygon_2: autoDraw = False
+590.6852 	EXP 	polygon_2: autoDraw = False
+590.6852 	EXP 	polygon_2: opacity = 1.0
+590.6852 	EXP 	polygon_2: fillColor = 'blue (named)'
+590.6852 	EXP 	polygon_2: lineColor = 'blue (named)'
+592.1037 	EXP 	polygon_2: autoDraw = True
+592.4108 	EXP 	New trial (rep=155, index=0): None
+592.4220 	EXP 	polygon_2: autoDraw = False
+592.4220 	EXP 	polygon_2: autoDraw = False
+592.4220 	EXP 	polygon_2: opacity = 1.0
+592.4220 	EXP 	polygon_2: fillColor = 'red (named)'
+592.4220 	EXP 	polygon_2: lineColor = 'red (named)'
+594.1368 	EXP 	polygon_2: autoDraw = True
+594.4404 	EXP 	New trial (rep=156, index=0): None
+594.4524 	EXP 	polygon_2: autoDraw = False
+594.4524 	EXP 	polygon_2: autoDraw = False
+594.4524 	EXP 	polygon_2: opacity = 1.0
+594.4524 	EXP 	polygon_2: fillColor = 'red (named)'
+594.4524 	EXP 	polygon_2: lineColor = 'red (named)'
+596.0555 	EXP 	polygon_2: autoDraw = True
+596.3445 	EXP 	New trial (rep=157, index=0): None
+596.3584 	EXP 	polygon_2: autoDraw = False
+596.3584 	EXP 	polygon_2: autoDraw = False
+596.3584 	EXP 	polygon_2: opacity = 1.0
+596.3584 	EXP 	polygon_2: fillColor = 'red (named)'
+596.3584 	EXP 	polygon_2: lineColor = 'red (named)'
+597.6371 	EXP 	polygon_2: autoDraw = True
+597.9271 	EXP 	New trial (rep=158, index=0): None
+597.9384 	EXP 	polygon_2: autoDraw = False
+597.9384 	EXP 	polygon_2: autoDraw = False
+597.9384 	EXP 	polygon_2: opacity = 1.0
+597.9384 	EXP 	polygon_2: fillColor = 'red (named)'
+597.9384 	EXP 	polygon_2: lineColor = 'red (named)'
+599.1379 	EXP 	polygon_2: autoDraw = True
+599.4277 	EXP 	New trial (rep=159, index=0): None
+599.4378 	EXP 	polygon_2: autoDraw = False
+599.4378 	EXP 	polygon_2: autoDraw = False
+599.4378 	EXP 	polygon_2: opacity = 1.0
+599.4378 	EXP 	polygon_2: fillColor = 'blue (named)'
+599.4378 	EXP 	polygon_2: lineColor = 'blue (named)'
+600.8925 	EXP 	polygon_2: autoDraw = True
+601.1976 	EXP 	New trial (rep=160, index=0): None
+601.2057 	EXP 	polygon_2: autoDraw = False
+601.2057 	EXP 	polygon_2: autoDraw = False
+601.2057 	EXP 	polygon_2: opacity = 1.0
+601.2057 	EXP 	polygon_2: fillColor = 'red (named)'
+601.2057 	EXP 	polygon_2: lineColor = 'red (named)'
+602.3888 	EXP 	polygon_2: autoDraw = True
+602.6787 	EXP 	New trial (rep=161, index=0): None
+602.6917 	EXP 	polygon_2: autoDraw = False
+602.6917 	EXP 	polygon_2: autoDraw = False
+602.6917 	EXP 	polygon_2: opacity = 1.0
+602.6917 	EXP 	polygon_2: fillColor = 'blue (named)'
+602.6917 	EXP 	polygon_2: lineColor = 'blue (named)'
+604.0555 	EXP 	polygon_2: autoDraw = True
+604.3428 	EXP 	New trial (rep=162, index=0): None
+604.3570 	EXP 	polygon_2: autoDraw = False
+604.3570 	EXP 	polygon_2: autoDraw = False
+604.3570 	EXP 	polygon_2: opacity = 1.0
+604.3570 	EXP 	polygon_2: fillColor = 'red (named)'
+604.3570 	EXP 	polygon_2: lineColor = 'red (named)'
+605.9100 	EXP 	polygon_2: autoDraw = True
+606.1962 	EXP 	New trial (rep=163, index=0): None
+606.2071 	EXP 	polygon_2: autoDraw = False
+606.2071 	EXP 	polygon_2: autoDraw = False
+606.2071 	EXP 	polygon_2: opacity = 1.0
+606.2071 	EXP 	polygon_2: fillColor = 'blue (named)'
+606.2071 	EXP 	polygon_2: lineColor = 'blue (named)'
+607.6957 	EXP 	polygon_2: autoDraw = True
+607.9966 	EXP 	New trial (rep=164, index=0): None
+608.0110 	EXP 	polygon_2: autoDraw = False
+608.0110 	EXP 	polygon_2: autoDraw = False
+608.0110 	EXP 	polygon_2: opacity = 1.0
+608.0110 	EXP 	polygon_2: fillColor = 'red (named)'
+608.0110 	EXP 	polygon_2: lineColor = 'red (named)'
+609.6114 	EXP 	polygon_2: autoDraw = True
+609.9158 	EXP 	New trial (rep=165, index=0): None
+609.9255 	EXP 	polygon_2: autoDraw = False
+609.9255 	EXP 	polygon_2: autoDraw = False
+609.9255 	EXP 	polygon_2: opacity = 1.0
+609.9255 	EXP 	polygon_2: fillColor = 'blue (named)'
+609.9255 	EXP 	polygon_2: lineColor = 'blue (named)'
+611.2078 	EXP 	polygon_2: autoDraw = True
+611.4993 	EXP 	New trial (rep=166, index=0): None
+611.5110 	EXP 	polygon_2: autoDraw = False
+611.5110 	EXP 	polygon_2: autoDraw = False
+611.5110 	EXP 	polygon_2: opacity = 1.0
+611.5110 	EXP 	polygon_2: fillColor = 'blue (named)'
+611.5110 	EXP 	polygon_2: lineColor = 'blue (named)'
+613.0088 	EXP 	polygon_2: autoDraw = True
+613.2948 	EXP 	New trial (rep=167, index=0): None
+613.3123 	EXP 	polygon_2: autoDraw = False
+613.3123 	EXP 	polygon_2: autoDraw = False
+613.3123 	EXP 	polygon_2: opacity = 1.0
+613.3123 	EXP 	polygon_2: fillColor = 'red (named)'
+613.3123 	EXP 	polygon_2: lineColor = 'red (named)'
+615.0103 	EXP 	polygon_2: autoDraw = True
+615.3184 	EXP 	New trial (rep=168, index=0): None
+615.3273 	EXP 	polygon_2: autoDraw = False
+615.3273 	EXP 	polygon_2: autoDraw = False
+615.3273 	EXP 	polygon_2: opacity = 1.0
+615.3273 	EXP 	polygon_2: fillColor = 'blue (named)'
+615.3273 	EXP 	polygon_2: lineColor = 'blue (named)'
+616.9594 	EXP 	polygon_2: autoDraw = True
+617.2463 	EXP 	New trial (rep=169, index=0): None
+617.2635 	EXP 	polygon_2: autoDraw = False
+617.2635 	EXP 	polygon_2: autoDraw = False
+617.2635 	EXP 	polygon_2: opacity = 1.0
+617.2635 	EXP 	polygon_2: fillColor = 'blue (named)'
+617.2635 	EXP 	polygon_2: lineColor = 'blue (named)'
+619.0321 	EXP 	polygon_2: autoDraw = True
+619.3351 	EXP 	New trial (rep=170, index=0): None
+619.3442 	EXP 	polygon_2: autoDraw = False
+619.3442 	EXP 	polygon_2: autoDraw = False
+619.3442 	EXP 	polygon_2: opacity = 1.0
+619.3442 	EXP 	polygon_2: fillColor = 'red (named)'
+619.3442 	EXP 	polygon_2: lineColor = 'red (named)'
+620.7477 	EXP 	polygon_2: autoDraw = True
+621.0352 	EXP 	New trial (rep=171, index=0): None
+621.0491 	EXP 	polygon_2: autoDraw = False
+621.0491 	EXP 	polygon_2: autoDraw = False
+621.0491 	EXP 	polygon_2: opacity = 1.0
+621.0491 	EXP 	polygon_2: fillColor = 'red (named)'
+621.0491 	EXP 	polygon_2: lineColor = 'red (named)'
+622.7286 	EXP 	polygon_2: autoDraw = True
+623.0190 	EXP 	New trial (rep=172, index=0): None
+623.0313 	EXP 	polygon_2: autoDraw = False
+623.0313 	EXP 	polygon_2: autoDraw = False
+623.0313 	EXP 	polygon_2: opacity = 1.0
+623.0313 	EXP 	polygon_2: fillColor = 'blue (named)'
+623.0313 	EXP 	polygon_2: lineColor = 'blue (named)'
+624.2467 	EXP 	polygon_2: autoDraw = True
+624.5346 	EXP 	New trial (rep=173, index=0): None
+624.5497 	EXP 	polygon_2: autoDraw = False
+624.5497 	EXP 	polygon_2: autoDraw = False
+624.5497 	EXP 	polygon_2: opacity = 1.0
+624.5497 	EXP 	polygon_2: fillColor = 'blue (named)'
+624.5497 	EXP 	polygon_2: lineColor = 'blue (named)'
+625.8120 	EXP 	polygon_2: autoDraw = True
+626.1019 	EXP 	New trial (rep=174, index=0): None
+626.1121 	EXP 	polygon_2: autoDraw = False
+626.1121 	EXP 	polygon_2: autoDraw = False
+626.1121 	EXP 	polygon_2: opacity = 1.0
+626.1121 	EXP 	polygon_2: fillColor = 'blue (named)'
+626.1121 	EXP 	polygon_2: lineColor = 'blue (named)'
+627.5470 	EXP 	polygon_2: autoDraw = True
+627.8379 	EXP 	New trial (rep=175, index=0): None
+627.8493 	EXP 	polygon_2: autoDraw = False
+627.8493 	EXP 	polygon_2: autoDraw = False
+627.8493 	EXP 	polygon_2: opacity = 1.0
+627.8493 	EXP 	polygon_2: fillColor = 'red (named)'
+627.8493 	EXP 	polygon_2: lineColor = 'red (named)'
+629.0983 	EXP 	polygon_2: autoDraw = True
+629.4035 	EXP 	New trial (rep=176, index=0): None
+629.4175 	EXP 	polygon_2: autoDraw = False
+629.4175 	EXP 	polygon_2: autoDraw = False
+629.4175 	EXP 	polygon_2: opacity = 1.0
+629.4175 	EXP 	polygon_2: fillColor = 'red (named)'
+629.4175 	EXP 	polygon_2: lineColor = 'red (named)'
+631.2027 	EXP 	polygon_2: autoDraw = True
+631.5061 	EXP 	New trial (rep=177, index=0): None
+631.5185 	EXP 	polygon_2: autoDraw = False
+631.5185 	EXP 	polygon_2: autoDraw = False
+631.5185 	EXP 	polygon_2: opacity = 1.0
+631.5185 	EXP 	polygon_2: fillColor = 'blue (named)'
+631.5185 	EXP 	polygon_2: lineColor = 'blue (named)'
+632.7506 	EXP 	polygon_2: autoDraw = True
+633.0543 	EXP 	New trial (rep=178, index=0): None
+633.0647 	EXP 	polygon_2: autoDraw = False
+633.0647 	EXP 	polygon_2: autoDraw = False
+633.0647 	EXP 	polygon_2: opacity = 1.0
+633.0647 	EXP 	polygon_2: fillColor = 'red (named)'
+633.0647 	EXP 	polygon_2: lineColor = 'red (named)'
+634.7168 	EXP 	polygon_2: autoDraw = True
+635.0056 	EXP 	New trial (rep=179, index=0): None
+635.0187 	EXP 	polygon_2: autoDraw = False
+635.0187 	EXP 	polygon_2: autoDraw = False
+635.0187 	EXP 	polygon_2: opacity = 1.0
+635.0187 	EXP 	polygon_2: fillColor = 'red (named)'
+635.0187 	EXP 	polygon_2: lineColor = 'red (named)'
+636.7172 	EXP 	polygon_2: autoDraw = True
+637.0200 	EXP 	New trial (rep=180, index=0): None
+637.0327 	EXP 	polygon_2: autoDraw = False
+637.0327 	EXP 	polygon_2: autoDraw = False
+637.0327 	EXP 	polygon_2: opacity = 1.0
+637.0327 	EXP 	polygon_2: fillColor = 'blue (named)'
+637.0327 	EXP 	polygon_2: lineColor = 'blue (named)'
+638.4705 	EXP 	polygon_2: autoDraw = True
+638.7749 	EXP 	New trial (rep=181, index=0): None
+638.7832 	EXP 	polygon_2: autoDraw = False
+638.7832 	EXP 	polygon_2: autoDraw = False
+638.7832 	EXP 	polygon_2: opacity = 1.0
+638.7832 	EXP 	polygon_2: fillColor = 'blue (named)'
+638.7832 	EXP 	polygon_2: lineColor = 'blue (named)'
+640.5344 	EXP 	polygon_2: autoDraw = True
+640.8250 	EXP 	New trial (rep=182, index=0): None
+640.8338 	EXP 	polygon_2: autoDraw = False
+640.8338 	EXP 	polygon_2: autoDraw = False
+640.8338 	EXP 	polygon_2: opacity = 1.0
+640.8338 	EXP 	polygon_2: fillColor = 'blue (named)'
+640.8338 	EXP 	polygon_2: lineColor = 'blue (named)'
+642.3006 	EXP 	polygon_2: autoDraw = True
+642.5888 	EXP 	New trial (rep=183, index=0): None
+642.6008 	EXP 	polygon_2: autoDraw = False
+642.6008 	EXP 	polygon_2: autoDraw = False
+642.6008 	EXP 	polygon_2: opacity = 1.0
+642.6008 	EXP 	polygon_2: fillColor = 'blue (named)'
+642.6008 	EXP 	polygon_2: lineColor = 'blue (named)'
+643.8708 	EXP 	polygon_2: autoDraw = True
+644.1764 	EXP 	New trial (rep=184, index=0): None
+644.1884 	EXP 	polygon_2: autoDraw = False
+644.1884 	EXP 	polygon_2: autoDraw = False
+644.1884 	EXP 	polygon_2: opacity = 1.0
+644.1884 	EXP 	polygon_2: fillColor = 'blue (named)'
+644.1884 	EXP 	polygon_2: lineColor = 'blue (named)'
+645.5522 	EXP 	polygon_2: autoDraw = True
+645.8393 	EXP 	New trial (rep=185, index=0): None
+645.8518 	EXP 	polygon_2: autoDraw = False
+645.8518 	EXP 	polygon_2: autoDraw = False
+645.8518 	EXP 	polygon_2: opacity = 1.0
+645.8518 	EXP 	polygon_2: fillColor = 'blue (named)'
+645.8518 	EXP 	polygon_2: lineColor = 'blue (named)'
+647.4536 	EXP 	polygon_2: autoDraw = True
+647.7430 	EXP 	New trial (rep=186, index=0): None
+647.7524 	EXP 	polygon_2: autoDraw = False
+647.7524 	EXP 	polygon_2: autoDraw = False
+647.7524 	EXP 	polygon_2: opacity = 1.0
+647.7524 	EXP 	polygon_2: fillColor = 'blue (named)'
+647.7524 	EXP 	polygon_2: lineColor = 'blue (named)'
+648.9869 	EXP 	polygon_2: autoDraw = True
+649.2741 	EXP 	New trial (rep=187, index=0): None
+649.2871 	EXP 	polygon_2: autoDraw = False
+649.2871 	EXP 	polygon_2: autoDraw = False
+649.2871 	EXP 	polygon_2: opacity = 1.0
+649.2871 	EXP 	polygon_2: fillColor = 'blue (named)'
+649.2871 	EXP 	polygon_2: lineColor = 'blue (named)'
+650.6701 	EXP 	polygon_2: autoDraw = True
+650.9574 	EXP 	New trial (rep=188, index=0): None
+650.9702 	EXP 	polygon_2: autoDraw = False
+650.9702 	EXP 	polygon_2: autoDraw = False
+650.9702 	EXP 	polygon_2: opacity = 1.0
+650.9702 	EXP 	polygon_2: fillColor = 'red (named)'
+650.9702 	EXP 	polygon_2: lineColor = 'red (named)'
+652.2042 	EXP 	polygon_2: autoDraw = True
+652.4947 	EXP 	New trial (rep=189, index=0): None
+652.5039 	EXP 	polygon_2: autoDraw = False
+652.5039 	EXP 	polygon_2: autoDraw = False
+652.5039 	EXP 	polygon_2: opacity = 1.0
+652.5039 	EXP 	polygon_2: fillColor = 'blue (named)'
+652.5039 	EXP 	polygon_2: lineColor = 'blue (named)'
+653.9048 	EXP 	polygon_2: autoDraw = True
+654.1960 	EXP 	New trial (rep=190, index=0): None
+654.2048 	EXP 	polygon_2: autoDraw = False
+654.2048 	EXP 	polygon_2: autoDraw = False
+654.2048 	EXP 	polygon_2: opacity = 1.0
+654.2048 	EXP 	polygon_2: fillColor = 'blue (named)'
+654.2048 	EXP 	polygon_2: lineColor = 'blue (named)'
+655.9553 	EXP 	polygon_2: autoDraw = True
+656.2444 	EXP 	New trial (rep=191, index=0): None
+656.2567 	EXP 	polygon_2: autoDraw = False
+656.2567 	EXP 	polygon_2: autoDraw = False
+656.2567 	EXP 	polygon_2: opacity = 1.0
+656.2567 	EXP 	polygon_2: fillColor = 'blue (named)'
+656.2567 	EXP 	polygon_2: lineColor = 'blue (named)'
+657.7568 	EXP 	polygon_2: autoDraw = True
+658.0448 	EXP 	New trial (rep=192, index=0): None
+658.0560 	EXP 	polygon_2: autoDraw = False
+658.0560 	EXP 	polygon_2: autoDraw = False
+658.0560 	EXP 	polygon_2: opacity = 1.0
+658.0560 	EXP 	polygon_2: fillColor = 'blue (named)'
+658.0560 	EXP 	polygon_2: lineColor = 'blue (named)'
+659.4229 	EXP 	polygon_2: autoDraw = True
+659.7128 	EXP 	New trial (rep=193, index=0): None
+659.7229 	EXP 	polygon_2: autoDraw = False
+659.7229 	EXP 	polygon_2: autoDraw = False
+659.7229 	EXP 	polygon_2: opacity = 1.0
+659.7229 	EXP 	polygon_2: fillColor = 'blue (named)'
+659.7229 	EXP 	polygon_2: lineColor = 'blue (named)'
+660.9410 	EXP 	polygon_2: autoDraw = True
+661.2302 	EXP 	New trial (rep=194, index=0): None
+661.2443 	EXP 	polygon_2: autoDraw = False
+661.2443 	EXP 	polygon_2: autoDraw = False
+661.2443 	EXP 	polygon_2: opacity = 1.0
+661.2443 	EXP 	polygon_2: fillColor = 'red (named)'
+661.2443 	EXP 	polygon_2: lineColor = 'red (named)'
+662.5946 	EXP 	polygon_2: autoDraw = True
+662.8975 	EXP 	New trial (rep=195, index=0): None
+662.9103 	EXP 	polygon_2: autoDraw = False
+662.9103 	EXP 	polygon_2: autoDraw = False
+662.9103 	EXP 	polygon_2: opacity = 1.0
+662.9103 	EXP 	polygon_2: fillColor = 'blue (named)'
+662.9103 	EXP 	polygon_2: lineColor = 'blue (named)'
+664.3913 	EXP 	polygon_2: autoDraw = True
+664.6824 	EXP 	New trial (rep=196, index=0): None
+664.6912 	EXP 	polygon_2: autoDraw = False
+664.6912 	EXP 	polygon_2: autoDraw = False
+664.6912 	EXP 	polygon_2: opacity = 1.0
+664.6912 	EXP 	polygon_2: fillColor = 'blue (named)'
+664.6912 	EXP 	polygon_2: lineColor = 'blue (named)'
+666.3256 	EXP 	polygon_2: autoDraw = True
+666.6139 	EXP 	New trial (rep=197, index=0): None
+666.6254 	EXP 	polygon_2: autoDraw = False
+666.6254 	EXP 	polygon_2: autoDraw = False
+666.6254 	EXP 	polygon_2: opacity = 1.0
+666.6254 	EXP 	polygon_2: fillColor = 'red (named)'
+666.6254 	EXP 	polygon_2: lineColor = 'red (named)'
+668.0641 	EXP 	polygon_2: autoDraw = True
+668.3645 	EXP 	New trial (rep=198, index=0): None
+668.3760 	EXP 	polygon_2: autoDraw = False
+668.3760 	EXP 	polygon_2: autoDraw = False
+668.3760 	EXP 	polygon_2: opacity = 1.0
+668.3760 	EXP 	polygon_2: fillColor = 'blue (named)'
+668.3760 	EXP 	polygon_2: lineColor = 'blue (named)'
+669.9269 	EXP 	polygon_2: autoDraw = True
+670.2179 	EXP 	New trial (rep=199, index=0): None
+670.2266 	EXP 	polygon_2: autoDraw = False
+670.2266 	EXP 	polygon_2: autoDraw = False
+670.2266 	EXP 	polygon_2: opacity = 1.0
+670.2266 	EXP 	polygon_2: fillColor = 'red (named)'
+670.2266 	EXP 	polygon_2: lineColor = 'red (named)'
+671.7272 	EXP 	polygon_2: autoDraw = True
+672.0159 	EXP 	New trial (rep=200, index=0): None
+672.0296 	EXP 	polygon_2: autoDraw = False
+672.0296 	EXP 	polygon_2: autoDraw = False
+672.0296 	EXP 	polygon_2: opacity = 1.0
+672.0296 	EXP 	polygon_2: fillColor = 'blue (named)'
+672.0296 	EXP 	polygon_2: lineColor = 'blue (named)'
+673.5302 	EXP 	polygon_2: autoDraw = True
+673.8341 	EXP 	New trial (rep=201, index=0): None
+673.8445 	EXP 	polygon_2: autoDraw = False
+673.8445 	EXP 	polygon_2: autoDraw = False
+673.8445 	EXP 	polygon_2: opacity = 1.0
+673.8445 	EXP 	polygon_2: fillColor = 'blue (named)'
+673.8445 	EXP 	polygon_2: lineColor = 'blue (named)'
+675.3613 	EXP 	polygon_2: autoDraw = True
+675.6482 	EXP 	New trial (rep=202, index=0): None
+675.6635 	EXP 	polygon_2: autoDraw = False
+675.6635 	EXP 	polygon_2: autoDraw = False
+675.6635 	EXP 	polygon_2: opacity = 1.0
+675.6635 	EXP 	polygon_2: fillColor = 'blue (named)'
+675.6635 	EXP 	polygon_2: lineColor = 'blue (named)'
+676.9802 	EXP 	polygon_2: autoDraw = True
+677.2851 	EXP 	New trial (rep=203, index=0): None
+677.2964 	EXP 	polygon_2: autoDraw = False
+677.2964 	EXP 	polygon_2: autoDraw = False
+677.2964 	EXP 	polygon_2: opacity = 1.0
+677.2964 	EXP 	polygon_2: fillColor = 'blue (named)'
+677.2964 	EXP 	polygon_2: lineColor = 'blue (named)'
+678.7623 	EXP 	polygon_2: autoDraw = True
+679.0514 	EXP 	New trial (rep=204, index=0): None
+679.0628 	EXP 	polygon_2: autoDraw = False
+679.0628 	EXP 	polygon_2: autoDraw = False
+679.0628 	EXP 	polygon_2: opacity = 1.0
+679.0628 	EXP 	polygon_2: fillColor = 'blue (named)'
+679.0628 	EXP 	polygon_2: lineColor = 'blue (named)'
+680.2629 	EXP 	polygon_2: autoDraw = True
+680.5520 	EXP 	New trial (rep=205, index=0): None
+680.5629 	EXP 	polygon_2: autoDraw = False
+680.5629 	EXP 	polygon_2: autoDraw = False
+680.5629 	EXP 	polygon_2: opacity = 1.0
+680.5629 	EXP 	polygon_2: fillColor = 'blue (named)'
+680.5629 	EXP 	polygon_2: lineColor = 'blue (named)'
+681.8138 	EXP 	polygon_2: autoDraw = True
+682.1023 	EXP 	New trial (rep=206, index=0): None
+682.1133 	EXP 	polygon_2: autoDraw = False
+682.1133 	EXP 	polygon_2: autoDraw = False
+682.1133 	EXP 	polygon_2: opacity = 1.0
+682.1133 	EXP 	polygon_2: fillColor = 'blue (named)'
+682.1133 	EXP 	polygon_2: lineColor = 'blue (named)'
+683.7984 	EXP 	polygon_2: autoDraw = True
+684.0901 	EXP 	New trial (rep=207, index=0): None
+684.1003 	EXP 	polygon_2: autoDraw = False
+684.1003 	EXP 	polygon_2: autoDraw = False
+684.1003 	EXP 	polygon_2: opacity = 1.0
+684.1003 	EXP 	polygon_2: fillColor = 'blue (named)'
+684.1003 	EXP 	polygon_2: lineColor = 'blue (named)'
+685.7863 	EXP 	polygon_2: autoDraw = True
+686.0883 	EXP 	New trial (rep=208, index=0): None
+686.0994 	EXP 	polygon_2: autoDraw = False
+686.0994 	EXP 	polygon_2: autoDraw = False
+686.0994 	EXP 	polygon_2: opacity = 1.0
+686.0994 	EXP 	polygon_2: fillColor = 'blue (named)'
+686.0994 	EXP 	polygon_2: lineColor = 'blue (named)'
+687.7820 	EXP 	polygon_2: autoDraw = True
+688.0696 	EXP 	New trial (rep=209, index=0): None
+688.0820 	EXP 	polygon_2: autoDraw = False
+688.0820 	EXP 	polygon_2: autoDraw = False
+688.0820 	EXP 	polygon_2: opacity = 1.0
+688.0820 	EXP 	polygon_2: fillColor = 'red (named)'
+688.0820 	EXP 	polygon_2: lineColor = 'red (named)'
+689.3508 	EXP 	polygon_2: autoDraw = True
+689.6581 	EXP 	New trial (rep=210, index=0): None
+689.6674 	EXP 	polygon_2: autoDraw = False
+689.6674 	EXP 	polygon_2: autoDraw = False
+689.6674 	EXP 	polygon_2: opacity = 1.0
+689.6674 	EXP 	polygon_2: fillColor = 'blue (named)'
+689.6674 	EXP 	polygon_2: lineColor = 'blue (named)'
+691.1526 	EXP 	polygon_2: autoDraw = True
+691.4542 	EXP 	New trial (rep=211, index=0): None
+691.4667 	EXP 	polygon_2: autoDraw = False
+691.4667 	EXP 	polygon_2: autoDraw = False
+691.4667 	EXP 	polygon_2: opacity = 1.0
+691.4667 	EXP 	polygon_2: fillColor = 'blue (named)'
+691.4667 	EXP 	polygon_2: lineColor = 'blue (named)'
+692.7681 	EXP 	polygon_2: autoDraw = True
+693.0732 	EXP 	New trial (rep=212, index=0): None
+693.0836 	EXP 	polygon_2: autoDraw = False
+693.0836 	EXP 	polygon_2: autoDraw = False
+693.0836 	EXP 	polygon_2: opacity = 1.0
+693.0836 	EXP 	polygon_2: fillColor = 'red (named)'
+693.0836 	EXP 	polygon_2: lineColor = 'red (named)'
+694.8345 	EXP 	polygon_2: autoDraw = True
+695.1223 	EXP 	New trial (rep=213, index=0): None
+695.1345 	EXP 	polygon_2: autoDraw = False
+695.1345 	EXP 	polygon_2: autoDraw = False
+695.1345 	EXP 	polygon_2: opacity = 1.0
+695.1345 	EXP 	polygon_2: fillColor = 'blue (named)'
+695.1345 	EXP 	polygon_2: lineColor = 'blue (named)'
+696.4200 	EXP 	polygon_2: autoDraw = True
+696.7237 	EXP 	New trial (rep=214, index=0): None
+696.7387 	EXP 	polygon_2: autoDraw = False
+696.7387 	EXP 	polygon_2: autoDraw = False
+696.7387 	EXP 	polygon_2: opacity = 1.0
+696.7387 	EXP 	polygon_2: fillColor = 'red (named)'
+696.7387 	EXP 	polygon_2: lineColor = 'red (named)'
+698.3857 	EXP 	polygon_2: autoDraw = True
+698.6783 	EXP 	New trial (rep=215, index=0): None
+698.6857 	EXP 	polygon_2: autoDraw = False
+698.6857 	EXP 	polygon_2: autoDraw = False
+698.6857 	EXP 	polygon_2: opacity = 1.0
+698.6857 	EXP 	polygon_2: fillColor = 'blue (named)'
+698.6857 	EXP 	polygon_2: lineColor = 'blue (named)'
+700.2363 	EXP 	polygon_2: autoDraw = True
+700.5250 	EXP 	New trial (rep=216, index=0): None
+700.5410 	EXP 	polygon_2: autoDraw = False
+700.5410 	EXP 	polygon_2: autoDraw = False
+700.5410 	EXP 	polygon_2: opacity = 1.0
+700.5410 	EXP 	polygon_2: fillColor = 'blue (named)'
+700.5410 	EXP 	polygon_2: lineColor = 'blue (named)'
+702.0571 	EXP 	polygon_2: autoDraw = True
+702.3565 	EXP 	New trial (rep=217, index=0): None
+702.3741 	EXP 	polygon_2: autoDraw = False
+702.3741 	EXP 	polygon_2: autoDraw = False
+702.3741 	EXP 	polygon_2: opacity = 1.0
+702.3741 	EXP 	polygon_2: fillColor = 'blue (named)'
+702.3741 	EXP 	polygon_2: lineColor = 'blue (named)'
+703.8727 	EXP 	polygon_2: autoDraw = True
+704.1792 	EXP 	New trial (rep=218, index=0): None
+704.1886 	EXP 	polygon_2: autoDraw = False
+704.1886 	EXP 	polygon_2: autoDraw = False
+704.1886 	EXP 	polygon_2: opacity = 1.0
+704.1886 	EXP 	polygon_2: fillColor = 'blue (named)'
+704.1886 	EXP 	polygon_2: lineColor = 'blue (named)'
+705.8046 	EXP 	polygon_2: autoDraw = True
+706.0952 	EXP 	New trial (rep=219, index=0): None
+706.1053 	EXP 	polygon_2: autoDraw = False
+706.1053 	EXP 	polygon_2: autoDraw = False
+706.1053 	EXP 	polygon_2: opacity = 1.0
+706.1053 	EXP 	polygon_2: fillColor = 'red (named)'
+706.1053 	EXP 	polygon_2: lineColor = 'red (named)'
+707.5053 	EXP 	polygon_2: autoDraw = True
+707.7978 	EXP 	New trial (rep=220, index=0): None
+707.8053 	EXP 	polygon_2: autoDraw = False
+707.8053 	EXP 	polygon_2: autoDraw = False
+707.8053 	EXP 	polygon_2: opacity = 1.0
+707.8053 	EXP 	polygon_2: fillColor = 'blue (named)'
+707.8053 	EXP 	polygon_2: lineColor = 'blue (named)'
+709.1399 	EXP 	polygon_2: autoDraw = True
+709.4292 	EXP 	New trial (rep=221, index=0): None
+709.4418 	EXP 	polygon_2: autoDraw = False
+709.4418 	EXP 	polygon_2: autoDraw = False
+709.4418 	EXP 	polygon_2: opacity = 1.0
+709.4418 	EXP 	polygon_2: fillColor = 'blue (named)'
+709.4418 	EXP 	polygon_2: lineColor = 'blue (named)'
+710.8420 	EXP 	polygon_2: autoDraw = True
+711.1505 	EXP 	New trial (rep=222, index=0): None
+711.1571 	EXP 	polygon_2: autoDraw = False
+711.1571 	EXP 	polygon_2: autoDraw = False
+711.1571 	EXP 	polygon_2: opacity = 1.0
+711.1571 	EXP 	polygon_2: fillColor = 'blue (named)'
+711.1571 	EXP 	polygon_2: lineColor = 'blue (named)'
+712.5071 	EXP 	polygon_2: autoDraw = True
+712.7980 	EXP 	New trial (rep=223, index=0): None
+712.8092 	EXP 	polygon_2: autoDraw = False
+712.8092 	EXP 	polygon_2: autoDraw = False
+712.8092 	EXP 	polygon_2: opacity = 1.0
+712.8092 	EXP 	polygon_2: fillColor = 'blue (named)'
+712.8092 	EXP 	polygon_2: lineColor = 'blue (named)'
+714.3904 	EXP 	polygon_2: autoDraw = True
+714.6796 	EXP 	New trial (rep=224, index=0): None
+714.6905 	EXP 	polygon_2: autoDraw = False
+714.6905 	EXP 	polygon_2: autoDraw = False
+714.6905 	EXP 	polygon_2: opacity = 1.0
+714.6905 	EXP 	polygon_2: fillColor = 'blue (named)'
+714.6905 	EXP 	polygon_2: lineColor = 'blue (named)'
+716.0789 	EXP 	polygon_2: autoDraw = True
+716.3783 	EXP 	New trial (rep=225, index=0): None
+716.3910 	EXP 	polygon_2: autoDraw = False
+716.3910 	EXP 	polygon_2: autoDraw = False
+716.3910 	EXP 	polygon_2: opacity = 1.0
+716.3910 	EXP 	polygon_2: fillColor = 'blue (named)'
+716.3910 	EXP 	polygon_2: lineColor = 'blue (named)'
+717.7086 	EXP 	polygon_2: autoDraw = True
+717.9957 	EXP 	New trial (rep=226, index=0): None
+718.0114 	EXP 	polygon_2: autoDraw = False
+718.0114 	EXP 	polygon_2: autoDraw = False
+718.0114 	EXP 	polygon_2: opacity = 1.0
+718.0114 	EXP 	polygon_2: fillColor = 'red (named)'
+718.0114 	EXP 	polygon_2: lineColor = 'red (named)'
+719.7262 	EXP 	polygon_2: autoDraw = True
+720.0166 	EXP 	New trial (rep=227, index=0): None
+720.0265 	EXP 	polygon_2: autoDraw = False
+720.0265 	EXP 	polygon_2: autoDraw = False
+720.0265 	EXP 	polygon_2: opacity = 1.0
+720.0265 	EXP 	polygon_2: fillColor = 'blue (named)'
+720.0265 	EXP 	polygon_2: lineColor = 'blue (named)'
+721.3432 	EXP 	polygon_2: autoDraw = True
+721.6304 	EXP 	New trial (rep=228, index=0): None
+721.6427 	EXP 	polygon_2: autoDraw = False
+721.6427 	EXP 	polygon_2: autoDraw = False
+721.6427 	EXP 	polygon_2: opacity = 1.0
+721.6427 	EXP 	polygon_2: fillColor = 'blue (named)'
+721.6427 	EXP 	polygon_2: lineColor = 'blue (named)'
+722.9931 	EXP 	polygon_2: autoDraw = True
+723.2842 	EXP 	New trial (rep=229, index=0): None
+723.2984 	EXP 	polygon_2: autoDraw = False
+723.2984 	EXP 	polygon_2: autoDraw = False
+723.2984 	EXP 	polygon_2: opacity = 1.0
+723.2984 	EXP 	polygon_2: fillColor = 'blue (named)'
+723.2984 	EXP 	polygon_2: lineColor = 'blue (named)'
+725.0470 	EXP 	polygon_2: autoDraw = True
+725.3351 	EXP 	New trial (rep=230, index=0): None
+725.3492 	EXP 	polygon_2: autoDraw = False
+725.3492 	EXP 	polygon_2: autoDraw = False
+725.3492 	EXP 	polygon_2: opacity = 1.0
+725.3492 	EXP 	polygon_2: fillColor = 'blue (named)'
+725.3492 	EXP 	polygon_2: lineColor = 'blue (named)'
+727.0450 	EXP 	polygon_2: autoDraw = True
+727.3339 	EXP 	New trial (rep=231, index=0): None
+727.3494 	EXP 	polygon_2: autoDraw = False
+727.3494 	EXP 	polygon_2: autoDraw = False
+727.3494 	EXP 	polygon_2: opacity = 1.0
+727.3494 	EXP 	polygon_2: fillColor = 'blue (named)'
+727.3494 	EXP 	polygon_2: lineColor = 'blue (named)'
+728.9460 	EXP 	polygon_2: autoDraw = True
+729.2376 	EXP 	New trial (rep=232, index=0): None
+729.2457 	EXP 	polygon_2: autoDraw = False
+729.2457 	EXP 	polygon_2: autoDraw = False
+729.2457 	EXP 	polygon_2: opacity = 1.0
+729.2457 	EXP 	polygon_2: fillColor = 'blue (named)'
+729.2457 	EXP 	polygon_2: lineColor = 'blue (named)'
+730.4959 	EXP 	polygon_2: autoDraw = True
+730.7863 	EXP 	New trial (rep=233, index=0): None
+730.7963 	EXP 	polygon_2: autoDraw = False
+730.7963 	EXP 	polygon_2: autoDraw = False
+730.7963 	EXP 	polygon_2: opacity = 1.0
+730.7963 	EXP 	polygon_2: fillColor = 'blue (named)'
+730.7963 	EXP 	polygon_2: lineColor = 'blue (named)'
+732.5130 	EXP 	polygon_2: autoDraw = True
+732.8008 	EXP 	New trial (rep=234, index=0): None
+732.8129 	EXP 	polygon_2: autoDraw = False
+732.8129 	EXP 	polygon_2: autoDraw = False
+732.8129 	EXP 	polygon_2: opacity = 1.0
+732.8129 	EXP 	polygon_2: fillColor = 'blue (named)'
+732.8129 	EXP 	polygon_2: lineColor = 'blue (named)'
+734.3140 	EXP 	polygon_2: autoDraw = True
+734.6024 	EXP 	New trial (rep=235, index=0): None
+734.6137 	EXP 	polygon_2: autoDraw = False
+734.6137 	EXP 	polygon_2: autoDraw = False
+734.6137 	EXP 	polygon_2: opacity = 1.0
+734.6137 	EXP 	polygon_2: fillColor = 'blue (named)'
+734.6137 	EXP 	polygon_2: lineColor = 'blue (named)'
+735.9346 	EXP 	polygon_2: autoDraw = True
+736.2371 	EXP 	New trial (rep=236, index=0): None
+736.2489 	EXP 	polygon_2: autoDraw = False
+736.2489 	EXP 	polygon_2: autoDraw = False
+736.2489 	EXP 	polygon_2: opacity = 1.0
+736.2489 	EXP 	polygon_2: fillColor = 'red (named)'
+736.2489 	EXP 	polygon_2: lineColor = 'red (named)'
+737.4489 	EXP 	polygon_2: autoDraw = True
+737.7398 	EXP 	New trial (rep=237, index=0): None
+737.7494 	EXP 	polygon_2: autoDraw = False
+737.7494 	EXP 	polygon_2: autoDraw = False
+737.7494 	EXP 	polygon_2: opacity = 1.0
+737.7494 	EXP 	polygon_2: fillColor = 'blue (named)'
+737.7494 	EXP 	polygon_2: lineColor = 'blue (named)'
+739.0165 	EXP 	polygon_2: autoDraw = True
+739.3050 	EXP 	New trial (rep=238, index=0): None
+739.3206 	EXP 	polygon_2: autoDraw = False
+739.3206 	EXP 	polygon_2: autoDraw = False
+739.3206 	EXP 	polygon_2: opacity = 1.0
+739.3206 	EXP 	polygon_2: fillColor = 'blue (named)'
+739.3206 	EXP 	polygon_2: lineColor = 'blue (named)'
+740.9025 	EXP 	polygon_2: autoDraw = True
+741.2036 	EXP 	New trial (rep=239, index=0): None
+741.2176 	EXP 	polygon_2: autoDraw = False
+741.2176 	EXP 	polygon_2: autoDraw = False
+741.2176 	EXP 	polygon_2: opacity = 1.0
+741.2176 	EXP 	polygon_2: fillColor = 'red (named)'
+741.2176 	EXP 	polygon_2: lineColor = 'red (named)'
+742.9331 	EXP 	polygon_2: autoDraw = True
+743.2207 	EXP 	New trial (rep=240, index=0): None
+743.2330 	EXP 	polygon_2: autoDraw = False
+743.2330 	EXP 	polygon_2: autoDraw = False
+743.2330 	EXP 	polygon_2: opacity = 1.0
+743.2330 	EXP 	polygon_2: fillColor = 'blue (named)'
+743.2330 	EXP 	polygon_2: lineColor = 'blue (named)'
+744.4700 	EXP 	polygon_2: autoDraw = True
+744.7596 	EXP 	New trial (rep=241, index=0): None
+744.7709 	EXP 	polygon_2: autoDraw = False
+744.7709 	EXP 	polygon_2: autoDraw = False
+744.7709 	EXP 	polygon_2: opacity = 1.0
+744.7709 	EXP 	polygon_2: fillColor = 'red (named)'
+744.7709 	EXP 	polygon_2: lineColor = 'red (named)'
+746.1187 	EXP 	polygon_2: autoDraw = True
+746.4076 	EXP 	New trial (rep=242, index=0): None
+746.4186 	EXP 	polygon_2: autoDraw = False
+746.4186 	EXP 	polygon_2: autoDraw = False
+746.4186 	EXP 	polygon_2: opacity = 1.0
+746.4186 	EXP 	polygon_2: fillColor = 'blue (named)'
+746.4186 	EXP 	polygon_2: lineColor = 'blue (named)'
+748.0347 	EXP 	polygon_2: autoDraw = True
+748.3249 	EXP 	New trial (rep=243, index=0): None
+748.3355 	EXP 	polygon_2: autoDraw = False
+748.3355 	EXP 	polygon_2: autoDraw = False
+748.3355 	EXP 	polygon_2: opacity = 1.0
+748.3355 	EXP 	polygon_2: fillColor = 'blue (named)'
+748.3355 	EXP 	polygon_2: lineColor = 'blue (named)'
+750.0697 	EXP 	polygon_2: autoDraw = True
+750.3612 	EXP 	New trial (rep=244, index=0): None
+750.3705 	EXP 	polygon_2: autoDraw = False
+750.3705 	EXP 	polygon_2: autoDraw = False
+750.3705 	EXP 	polygon_2: opacity = 1.0
+750.3705 	EXP 	polygon_2: fillColor = 'blue (named)'
+750.3705 	EXP 	polygon_2: lineColor = 'blue (named)'
+752.0035 	EXP 	polygon_2: autoDraw = True
+752.2949 	EXP 	New trial (rep=245, index=0): None
+752.3026 	EXP 	polygon_2: autoDraw = False
+752.3026 	EXP 	polygon_2: autoDraw = False
+752.3026 	EXP 	polygon_2: opacity = 1.0
+752.3026 	EXP 	polygon_2: fillColor = 'blue (named)'
+752.3026 	EXP 	polygon_2: lineColor = 'blue (named)'
+753.6030 	EXP 	polygon_2: autoDraw = True
+753.8941 	EXP 	New trial (rep=246, index=0): None
+753.9045 	EXP 	polygon_2: autoDraw = False
+753.9045 	EXP 	polygon_2: autoDraw = False
+753.9045 	EXP 	polygon_2: opacity = 1.0
+753.9045 	EXP 	polygon_2: fillColor = 'blue (named)'
+753.9045 	EXP 	polygon_2: lineColor = 'blue (named)'
+755.2578 	EXP 	polygon_2: autoDraw = True
+755.5614 	EXP 	New trial (rep=247, index=0): None
+755.5723 	EXP 	polygon_2: autoDraw = False
+755.5723 	EXP 	polygon_2: autoDraw = False
+755.5723 	EXP 	polygon_2: opacity = 1.0
+755.5723 	EXP 	polygon_2: fillColor = 'blue (named)'
+755.5723 	EXP 	polygon_2: lineColor = 'blue (named)'
+757.1410 	EXP 	polygon_2: autoDraw = True
+757.4460 	EXP 	New trial (rep=248, index=0): None
+757.4543 	EXP 	polygon_2: autoDraw = False
+757.4543 	EXP 	polygon_2: autoDraw = False
+757.4543 	EXP 	polygon_2: opacity = 1.0
+757.4543 	EXP 	polygon_2: fillColor = 'red (named)'
+757.4543 	EXP 	polygon_2: lineColor = 'red (named)'
+759.0432 	EXP 	polygon_2: autoDraw = True
+759.3473 	EXP 	New trial (rep=249, index=0): None
+759.3598 	EXP 	polygon_2: autoDraw = False
+759.3598 	EXP 	polygon_2: autoDraw = False
+759.3598 	EXP 	polygon_2: opacity = 1.0
+759.3598 	EXP 	polygon_2: fillColor = 'blue (named)'
+759.3598 	EXP 	polygon_2: lineColor = 'blue (named)'
+760.8723 	EXP 	polygon_2: autoDraw = True
+761.1607 	EXP 	New trial (rep=250, index=0): None
+761.1721 	EXP 	polygon_2: autoDraw = False
+761.1721 	EXP 	polygon_2: autoDraw = False
+761.1721 	EXP 	polygon_2: opacity = 1.0
+761.1721 	EXP 	polygon_2: fillColor = 'red (named)'
+761.1721 	EXP 	polygon_2: lineColor = 'red (named)'
+762.8229 	EXP 	polygon_2: autoDraw = True
+763.1112 	EXP 	New trial (rep=251, index=0): None
+763.1228 	EXP 	polygon_2: autoDraw = False
+763.1228 	EXP 	polygon_2: autoDraw = False
+763.1228 	EXP 	polygon_2: opacity = 1.0
+763.1228 	EXP 	polygon_2: fillColor = 'blue (named)'
+763.1228 	EXP 	polygon_2: lineColor = 'blue (named)'
+764.7569 	EXP 	polygon_2: autoDraw = True
+765.0455 	EXP 	New trial (rep=252, index=0): None
+765.0578 	EXP 	polygon_2: autoDraw = False
+765.0578 	EXP 	polygon_2: autoDraw = False
+765.0578 	EXP 	polygon_2: opacity = 1.0
+765.0578 	EXP 	polygon_2: fillColor = 'blue (named)'
+765.0578 	EXP 	polygon_2: lineColor = 'blue (named)'
+766.4743 	EXP 	polygon_2: autoDraw = True
+766.7616 	EXP 	New trial (rep=253, index=0): None
+766.7739 	EXP 	polygon_2: autoDraw = False
+766.7739 	EXP 	polygon_2: autoDraw = False
+766.7739 	EXP 	polygon_2: opacity = 1.0
+766.7739 	EXP 	polygon_2: fillColor = 'blue (named)'
+766.7739 	EXP 	polygon_2: lineColor = 'blue (named)'
+768.4083 	EXP 	polygon_2: autoDraw = True
+768.6965 	EXP 	New trial (rep=254, index=0): None
+768.7090 	EXP 	polygon_2: autoDraw = False
+768.7090 	EXP 	polygon_2: autoDraw = False
+768.7090 	EXP 	polygon_2: opacity = 1.0
+768.7090 	EXP 	polygon_2: fillColor = 'blue (named)'
+768.7090 	EXP 	polygon_2: lineColor = 'blue (named)'
+769.9595 	EXP 	polygon_2: autoDraw = True
+770.2481 	EXP 	New trial (rep=255, index=0): None
+770.2615 	EXP 	polygon_2: autoDraw = False
+770.2615 	EXP 	polygon_2: autoDraw = False
+770.2615 	EXP 	polygon_2: opacity = 1.0
+770.2615 	EXP 	polygon_2: fillColor = 'red (named)'
+770.2615 	EXP 	polygon_2: lineColor = 'red (named)'
+771.4631 	EXP 	polygon_2: autoDraw = True
+771.7696 	EXP 	New trial (rep=256, index=0): None
+771.7759 	EXP 	polygon_2: autoDraw = False
+771.7759 	EXP 	polygon_2: autoDraw = False
+771.7759 	EXP 	polygon_2: opacity = 1.0
+771.7759 	EXP 	polygon_2: fillColor = 'red (named)'
+771.7759 	EXP 	polygon_2: lineColor = 'red (named)'
+773.4958 	EXP 	polygon_2: autoDraw = True
+773.7971 	EXP 	New trial (rep=257, index=0): None
+773.8152 	EXP 	polygon_2: autoDraw = False
+773.8152 	EXP 	polygon_2: autoDraw = False
+773.8152 	EXP 	polygon_2: opacity = 1.0
+773.8152 	EXP 	polygon_2: fillColor = 'blue (named)'
+773.8152 	EXP 	polygon_2: lineColor = 'blue (named)'
+775.0295 	EXP 	polygon_2: autoDraw = True
+775.3192 	EXP 	New trial (rep=258, index=0): None
+775.3276 	EXP 	polygon_2: autoDraw = False
+775.3276 	EXP 	polygon_2: autoDraw = False
+775.3276 	EXP 	polygon_2: opacity = 1.0
+775.3276 	EXP 	polygon_2: fillColor = 'blue (named)'
+775.3276 	EXP 	polygon_2: lineColor = 'blue (named)'
+776.8938 	EXP 	polygon_2: autoDraw = True
+777.1819 	EXP 	New trial (rep=259, index=0): None
+777.1939 	EXP 	polygon_2: autoDraw = False
+777.1939 	EXP 	polygon_2: autoDraw = False
+777.1939 	EXP 	polygon_2: opacity = 1.0
+777.1939 	EXP 	polygon_2: fillColor = 'blue (named)'
+777.1939 	EXP 	polygon_2: lineColor = 'blue (named)'
+778.5454 	EXP 	polygon_2: autoDraw = True
+778.8325 	EXP 	New trial (rep=260, index=0): None
+778.8445 	EXP 	polygon_2: autoDraw = False
+778.8445 	EXP 	polygon_2: autoDraw = False
+778.8445 	EXP 	polygon_2: opacity = 1.0
+778.8445 	EXP 	polygon_2: fillColor = 'blue (named)'
+778.8445 	EXP 	polygon_2: lineColor = 'blue (named)'
+780.4144 	EXP 	polygon_2: autoDraw = True
+780.7210 	EXP 	New trial (rep=261, index=0): None
+780.7305 	EXP 	polygon_2: autoDraw = False
+780.7305 	EXP 	polygon_2: autoDraw = False
+780.7305 	EXP 	polygon_2: opacity = 1.0
+780.7305 	EXP 	polygon_2: fillColor = 'blue (named)'
+780.7305 	EXP 	polygon_2: lineColor = 'blue (named)'
+782.3459 	EXP 	polygon_2: autoDraw = True
+782.6361 	EXP 	New trial (rep=262, index=0): None
+782.6475 	EXP 	polygon_2: autoDraw = False
+782.6475 	EXP 	polygon_2: autoDraw = False
+782.6475 	EXP 	polygon_2: opacity = 1.0
+782.6475 	EXP 	polygon_2: fillColor = 'blue (named)'
+782.6475 	EXP 	polygon_2: lineColor = 'blue (named)'
+784.0341 	EXP 	polygon_2: autoDraw = True
+784.3378 	EXP 	New trial (rep=263, index=0): None
+784.3504 	EXP 	polygon_2: autoDraw = False
+784.3504 	EXP 	polygon_2: autoDraw = False
+784.3504 	EXP 	polygon_2: opacity = 1.0
+784.3504 	EXP 	polygon_2: fillColor = 'red (named)'
+784.3504 	EXP 	polygon_2: lineColor = 'red (named)'
+785.8977 	EXP 	polygon_2: autoDraw = True
+786.1863 	EXP 	New trial (rep=264, index=0): None
+786.1972 	EXP 	polygon_2: autoDraw = False
+786.1972 	EXP 	polygon_2: autoDraw = False
+786.1972 	EXP 	polygon_2: opacity = 1.0
+786.1972 	EXP 	polygon_2: fillColor = 'blue (named)'
+786.1972 	EXP 	polygon_2: lineColor = 'blue (named)'
+787.9140 	EXP 	polygon_2: autoDraw = True
+788.2030 	EXP 	New trial (rep=265, index=0): None
+788.2147 	EXP 	polygon_2: autoDraw = False
+788.2147 	EXP 	polygon_2: autoDraw = False
+788.2147 	EXP 	polygon_2: opacity = 1.0
+788.2147 	EXP 	polygon_2: fillColor = 'blue (named)'
+788.2147 	EXP 	polygon_2: lineColor = 'blue (named)'
+789.7483 	EXP 	polygon_2: autoDraw = True
+790.0374 	EXP 	New trial (rep=266, index=0): None
+790.0488 	EXP 	polygon_2: autoDraw = False
+790.0488 	EXP 	polygon_2: autoDraw = False
+790.0488 	EXP 	polygon_2: opacity = 1.0
+790.0488 	EXP 	polygon_2: fillColor = 'blue (named)'
+790.0488 	EXP 	polygon_2: lineColor = 'blue (named)'
+791.4528 	EXP 	polygon_2: autoDraw = True
+791.7403 	EXP 	New trial (rep=267, index=0): None
+791.7499 	EXP 	polygon_2: autoDraw = False
+791.7499 	EXP 	polygon_2: autoDraw = False
+791.7499 	EXP 	polygon_2: opacity = 1.0
+791.7499 	EXP 	polygon_2: fillColor = 'blue (named)'
+791.7499 	EXP 	polygon_2: lineColor = 'blue (named)'
+793.5163 	EXP 	polygon_2: autoDraw = True
+793.8053 	EXP 	New trial (rep=268, index=0): None
+793.8160 	EXP 	polygon_2: autoDraw = False
+793.8160 	EXP 	polygon_2: autoDraw = False
+793.8160 	EXP 	polygon_2: opacity = 1.0
+793.8160 	EXP 	polygon_2: fillColor = 'blue (named)'
+793.8160 	EXP 	polygon_2: lineColor = 'blue (named)'
+795.1180 	EXP 	polygon_2: autoDraw = True
+795.4098 	EXP 	New trial (rep=269, index=0): None
+795.4219 	EXP 	polygon_2: autoDraw = False
+795.4219 	EXP 	polygon_2: autoDraw = False
+795.4219 	EXP 	polygon_2: opacity = 1.0
+795.4219 	EXP 	polygon_2: fillColor = 'blue (named)'
+795.4219 	EXP 	polygon_2: lineColor = 'blue (named)'
+796.9193 	EXP 	polygon_2: autoDraw = True
+797.2098 	EXP 	New trial (rep=270, index=0): None
+797.2219 	EXP 	polygon_2: autoDraw = False
+797.2219 	EXP 	polygon_2: autoDraw = False
+797.2219 	EXP 	polygon_2: opacity = 1.0
+797.2219 	EXP 	polygon_2: fillColor = 'red (named)'
+797.2219 	EXP 	polygon_2: lineColor = 'red (named)'
+798.9189 	EXP 	polygon_2: autoDraw = True
+799.2089 	EXP 	New trial (rep=271, index=0): None
+799.2231 	EXP 	polygon_2: autoDraw = False
+799.2231 	EXP 	polygon_2: autoDraw = False
+799.2231 	EXP 	polygon_2: opacity = 1.0
+799.2231 	EXP 	polygon_2: fillColor = 'blue (named)'
+799.2231 	EXP 	polygon_2: lineColor = 'blue (named)'
+800.8186 	EXP 	polygon_2: autoDraw = True
+801.1099 	EXP 	New trial (rep=272, index=0): None
+801.1187 	EXP 	polygon_2: autoDraw = False
+801.1187 	EXP 	polygon_2: autoDraw = False
+801.1187 	EXP 	polygon_2: opacity = 1.0
+801.1187 	EXP 	polygon_2: fillColor = 'blue (named)'
+801.1187 	EXP 	polygon_2: lineColor = 'blue (named)'
+802.5192 	EXP 	polygon_2: autoDraw = True
+802.8101 	EXP 	New trial (rep=273, index=0): None
+802.8192 	EXP 	polygon_2: autoDraw = False
+802.8192 	EXP 	polygon_2: autoDraw = False
+802.8192 	EXP 	polygon_2: opacity = 1.0
+802.8192 	EXP 	polygon_2: fillColor = 'blue (named)'
+802.8192 	EXP 	polygon_2: lineColor = 'blue (named)'
+804.0538 	EXP 	polygon_2: autoDraw = True
+804.3431 	EXP 	New trial (rep=274, index=0): None
+804.3554 	EXP 	polygon_2: autoDraw = False
+804.3554 	EXP 	polygon_2: autoDraw = False
+804.3554 	EXP 	polygon_2: opacity = 1.0
+804.3554 	EXP 	polygon_2: fillColor = 'blue (named)'
+804.3554 	EXP 	polygon_2: lineColor = 'blue (named)'
+805.6586 	EXP 	polygon_2: autoDraw = True
+805.9618 	EXP 	New trial (rep=275, index=0): None
+805.9713 	EXP 	polygon_2: autoDraw = False
+805.9713 	EXP 	polygon_2: autoDraw = False
+805.9713 	EXP 	polygon_2: opacity = 1.0
+805.9713 	EXP 	polygon_2: fillColor = 'blue (named)'
+805.9713 	EXP 	polygon_2: lineColor = 'blue (named)'
+807.6877 	EXP 	polygon_2: autoDraw = True
+807.9756 	EXP 	New trial (rep=276, index=0): None
+807.9896 	EXP 	polygon_2: autoDraw = False
+807.9896 	EXP 	polygon_2: autoDraw = False
+807.9896 	EXP 	polygon_2: opacity = 1.0
+807.9896 	EXP 	polygon_2: fillColor = 'blue (named)'
+807.9896 	EXP 	polygon_2: lineColor = 'blue (named)'
+809.6232 	EXP 	polygon_2: autoDraw = True
+809.9287 	EXP 	New trial (rep=277, index=0): None
+809.9402 	EXP 	polygon_2: autoDraw = False
+809.9402 	EXP 	polygon_2: autoDraw = False
+809.9402 	EXP 	polygon_2: opacity = 1.0
+809.9402 	EXP 	polygon_2: fillColor = 'blue (named)'
+809.9402 	EXP 	polygon_2: lineColor = 'blue (named)'
+811.7052 	EXP 	polygon_2: autoDraw = True
+811.9924 	EXP 	New trial (rep=278, index=0): None
+812.0052 	EXP 	polygon_2: autoDraw = False
+812.0052 	EXP 	polygon_2: autoDraw = False
+812.0052 	EXP 	polygon_2: opacity = 1.0
+812.0052 	EXP 	polygon_2: fillColor = 'blue (named)'
+812.0052 	EXP 	polygon_2: lineColor = 'blue (named)'
+813.4074 	EXP 	polygon_2: autoDraw = True
+813.7132 	EXP 	New trial (rep=279, index=0): None
+813.7231 	EXP 	polygon_2: autoDraw = False
+813.7231 	EXP 	polygon_2: autoDraw = False
+813.7231 	EXP 	polygon_2: opacity = 1.0
+813.7231 	EXP 	polygon_2: fillColor = 'blue (named)'
+813.7231 	EXP 	polygon_2: lineColor = 'blue (named)'
+815.1757 	EXP 	polygon_2: autoDraw = True
+815.4624 	EXP 	New trial (rep=280, index=0): None
+815.4756 	EXP 	polygon_2: autoDraw = False
+815.4756 	EXP 	polygon_2: autoDraw = False
+815.4756 	EXP 	polygon_2: opacity = 1.0
+815.4756 	EXP 	polygon_2: fillColor = 'blue (named)'
+815.4756 	EXP 	polygon_2: lineColor = 'blue (named)'
+817.1570 	EXP 	polygon_2: autoDraw = True
+817.4485 	EXP 	New trial (rep=281, index=0): None
+817.4570 	EXP 	polygon_2: autoDraw = False
+817.4570 	EXP 	polygon_2: autoDraw = False
+817.4570 	EXP 	polygon_2: opacity = 1.0
+817.4570 	EXP 	polygon_2: fillColor = 'blue (named)'
+817.4570 	EXP 	polygon_2: lineColor = 'blue (named)'
+818.9081 	EXP 	polygon_2: autoDraw = True
+819.1957 	EXP 	New trial (rep=282, index=0): None
+819.2080 	EXP 	polygon_2: autoDraw = False
+819.2080 	EXP 	polygon_2: autoDraw = False
+819.2080 	EXP 	polygon_2: opacity = 1.0
+819.2080 	EXP 	polygon_2: fillColor = 'blue (named)'
+819.2080 	EXP 	polygon_2: lineColor = 'blue (named)'
+820.9584 	EXP 	polygon_2: autoDraw = True
+821.2464 	EXP 	New trial (rep=283, index=0): None
+821.2593 	EXP 	polygon_2: autoDraw = False
+821.2593 	EXP 	polygon_2: autoDraw = False
+821.2593 	EXP 	polygon_2: opacity = 1.0
+821.2593 	EXP 	polygon_2: fillColor = 'blue (named)'
+821.2593 	EXP 	polygon_2: lineColor = 'blue (named)'
+822.8095 	EXP 	polygon_2: autoDraw = True
+823.0973 	EXP 	New trial (rep=284, index=0): None
+823.1113 	EXP 	polygon_2: autoDraw = False
+823.1113 	EXP 	polygon_2: autoDraw = False
+823.1113 	EXP 	polygon_2: opacity = 1.0
+823.1113 	EXP 	polygon_2: fillColor = 'red (named)'
+823.1113 	EXP 	polygon_2: lineColor = 'red (named)'
+824.3459 	EXP 	polygon_2: autoDraw = True
+824.6494 	EXP 	New trial (rep=285, index=0): None
+824.6613 	EXP 	polygon_2: autoDraw = False
+824.6613 	EXP 	polygon_2: autoDraw = False
+824.6613 	EXP 	polygon_2: opacity = 1.0
+824.6613 	EXP 	polygon_2: fillColor = 'blue (named)'
+824.6613 	EXP 	polygon_2: lineColor = 'blue (named)'
+826.2265 	EXP 	polygon_2: autoDraw = True
+826.5154 	EXP 	New trial (rep=286, index=0): None
+826.5288 	EXP 	polygon_2: autoDraw = False
+826.5288 	EXP 	polygon_2: autoDraw = False
+826.5288 	EXP 	polygon_2: opacity = 1.0
+826.5288 	EXP 	polygon_2: fillColor = 'red (named)'
+826.5288 	EXP 	polygon_2: lineColor = 'red (named)'
+827.8279 	EXP 	polygon_2: autoDraw = True
+828.1201 	EXP 	New trial (rep=287, index=0): None
+828.1276 	EXP 	polygon_2: autoDraw = False
+828.1276 	EXP 	polygon_2: autoDraw = False
+828.1276 	EXP 	polygon_2: opacity = 1.0
+828.1276 	EXP 	polygon_2: fillColor = 'blue (named)'
+828.1276 	EXP 	polygon_2: lineColor = 'blue (named)'
+829.8658 	EXP 	polygon_2: autoDraw = True
+830.1699 	EXP 	New trial (rep=288, index=0): None
+830.1788 	EXP 	polygon_2: autoDraw = False
+830.1788 	EXP 	polygon_2: autoDraw = False
+830.1788 	EXP 	polygon_2: opacity = 1.0
+830.1788 	EXP 	polygon_2: fillColor = 'red (named)'
+830.1788 	EXP 	polygon_2: lineColor = 'red (named)'
+831.5285 	EXP 	polygon_2: autoDraw = True
+831.8174 	EXP 	New trial (rep=289, index=0): None
+831.8286 	EXP 	polygon_2: autoDraw = False
+831.8286 	EXP 	polygon_2: autoDraw = False
+831.8286 	EXP 	polygon_2: opacity = 1.0
+831.8286 	EXP 	polygon_2: fillColor = 'blue (named)'
+831.8286 	EXP 	polygon_2: lineColor = 'blue (named)'
+833.2828 	EXP 	polygon_2: autoDraw = True
+833.5835 	EXP 	New trial (rep=290, index=0): None
+833.5994 	EXP 	polygon_2: autoDraw = False
+833.5994 	EXP 	polygon_2: autoDraw = False
+833.5994 	EXP 	polygon_2: opacity = 1.0
+833.5994 	EXP 	polygon_2: fillColor = 'blue (named)'
+833.5994 	EXP 	polygon_2: lineColor = 'blue (named)'
+835.1808 	EXP 	polygon_2: autoDraw = True
+835.4680 	EXP 	New trial (rep=291, index=0): None
+835.4809 	EXP 	polygon_2: autoDraw = False
+835.4809 	EXP 	polygon_2: autoDraw = False
+835.4809 	EXP 	polygon_2: opacity = 1.0
+835.4809 	EXP 	polygon_2: fillColor = 'blue (named)'
+835.4809 	EXP 	polygon_2: lineColor = 'blue (named)'
+836.9980 	EXP 	polygon_2: autoDraw = True
+837.2858 	EXP 	New trial (rep=292, index=0): None
+837.2968 	EXP 	polygon_2: autoDraw = False
+837.2968 	EXP 	polygon_2: autoDraw = False
+837.2968 	EXP 	polygon_2: opacity = 1.0
+837.2968 	EXP 	polygon_2: fillColor = 'red (named)'
+837.2968 	EXP 	polygon_2: lineColor = 'red (named)'
+838.9143 	EXP 	polygon_2: autoDraw = True
+839.2058 	EXP 	New trial (rep=293, index=0): None
+839.2195 	EXP 	polygon_2: autoDraw = False
+839.2195 	EXP 	polygon_2: autoDraw = False
+839.2195 	EXP 	polygon_2: opacity = 1.0
+839.2195 	EXP 	polygon_2: fillColor = 'blue (named)'
+839.2195 	EXP 	polygon_2: lineColor = 'blue (named)'
+840.9667 	EXP 	polygon_2: autoDraw = True
+841.2532 	EXP 	New trial (rep=294, index=0): None
+841.2648 	EXP 	polygon_2: autoDraw = False
+841.2648 	EXP 	polygon_2: autoDraw = False
+841.2648 	EXP 	polygon_2: opacity = 1.0
+841.2648 	EXP 	polygon_2: fillColor = 'blue (named)'
+841.2648 	EXP 	polygon_2: lineColor = 'blue (named)'
+842.6154 	EXP 	polygon_2: autoDraw = True
+842.9050 	EXP 	New trial (rep=295, index=0): None
+842.9153 	EXP 	polygon_2: autoDraw = False
+842.9153 	EXP 	polygon_2: autoDraw = False
+842.9153 	EXP 	polygon_2: opacity = 1.0
+842.9153 	EXP 	polygon_2: fillColor = 'blue (named)'
+842.9153 	EXP 	polygon_2: lineColor = 'blue (named)'
+844.1660 	EXP 	polygon_2: autoDraw = True
+844.4559 	EXP 	New trial (rep=296, index=0): None
+844.4659 	EXP 	polygon_2: autoDraw = False
+844.4659 	EXP 	polygon_2: autoDraw = False
+844.4659 	EXP 	polygon_2: opacity = 1.0
+844.4659 	EXP 	polygon_2: fillColor = 'red (named)'
+844.4659 	EXP 	polygon_2: lineColor = 'red (named)'
+846.1008 	EXP 	polygon_2: autoDraw = True
+846.3905 	EXP 	New trial (rep=297, index=0): None
+846.4001 	EXP 	polygon_2: autoDraw = False
+846.4001 	EXP 	polygon_2: autoDraw = False
+846.4001 	EXP 	polygon_2: opacity = 1.0
+846.4001 	EXP 	polygon_2: fillColor = 'blue (named)'
+846.4001 	EXP 	polygon_2: lineColor = 'blue (named)'
+847.7530 	EXP 	polygon_2: autoDraw = True
+848.0408 	EXP 	New trial (rep=298, index=0): None
+848.0510 	EXP 	polygon_2: autoDraw = False
+848.0510 	EXP 	polygon_2: autoDraw = False
+848.0510 	EXP 	polygon_2: opacity = 1.0
+848.0510 	EXP 	polygon_2: fillColor = 'blue (named)'
+848.0510 	EXP 	polygon_2: lineColor = 'blue (named)'
+849.8372 	EXP 	polygon_2: autoDraw = True
+850.1462 	EXP 	New trial (rep=299, index=0): None
+850.1539 	EXP 	polygon_2: autoDraw = False
+850.1539 	EXP 	polygon_2: autoDraw = False
+850.1539 	EXP 	polygon_2: opacity = 1.0
+850.1539 	EXP 	polygon_2: fillColor = 'blue (named)'
+850.1539 	EXP 	polygon_2: lineColor = 'blue (named)'
+851.8192 	EXP 	polygon_2: autoDraw = True
+852.1182 	EXP 	polygon_2: autoDraw = False
+852.1182 	EXP 	polygon_2: autoDraw = False
+854.1036 	EXP 	text_2: autoDraw = True
+858.1044 	EXP 	text_2: autoDraw = False
+858.1044 	EXP 	text_2: autoDraw = False
+858.1712 	EXP 	window1: mouseVisible = True
