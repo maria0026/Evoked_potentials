@@ -1,0 +1,1529 @@
+1.5558 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['pygame', 'sounddevice', 'PTB', 'pyo'] (in that order).
+2.0792 	WARNING 	Import Error: No module named 'psychtoolbox'. Using event module for keyboard component.
+13.5355 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+13.5360 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f5f4d287eb8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f5f4cbd5be0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.5360 	EXP 	window1: recordFrameIntervals = False
+13.7052 	EXP 	window1: recordFrameIntervals = True
+13.8073 	WARNING 	t of last frame was 21.73ms (=1/46)
+14.0056 	WARNING 	t of last frame was 20.04ms (=1/49)
+14.1064 	WARNING 	t of last frame was 20.83ms (=1/48)
+14.4572 	WARNING 	t of last frame was 21.44ms (=1/46)
+14.5076 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+15.3697 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+15.4417 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.4443 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+15.4488 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Dziękuję za udział w badaniu!', units='height', win=Window(...), wrapWidth=1)
+15.4562 	EXP 	text: autoDraw = True
+23.5252 	DATA 	Keypress: space
+23.5279 	EXP 	Created sequence: random, trialTypes=1, nReps=300, seed=None
+23.5295 	EXP 	New trial (rep=0, index=0): None
+23.5387 	EXP 	text: autoDraw = False
+23.5387 	EXP 	polygon: opacity = 0.33
+24.9893 	EXP 	polygon: autoDraw = True
+25.1788 	EXP 	New trial (rep=1, index=0): None
+25.1894 	EXP 	polygon: autoDraw = False
+25.1894 	EXP 	polygon: autoDraw = False
+25.1894 	EXP 	polygon: opacity = 0.1
+26.3912 	EXP 	polygon: autoDraw = True
+26.5787 	EXP 	New trial (rep=2, index=0): None
+26.5965 	EXP 	polygon: autoDraw = False
+26.5965 	EXP 	polygon: autoDraw = False
+26.5965 	EXP 	polygon: opacity = 0.66
+28.1755 	EXP 	polygon: autoDraw = True
+28.3766 	EXP 	New trial (rep=3, index=0): None
+28.3930 	EXP 	polygon: autoDraw = False
+28.3930 	EXP 	polygon: autoDraw = False
+28.3930 	EXP 	polygon: opacity = 0.66
+29.8737 	EXP 	polygon: autoDraw = True
+30.0611 	EXP 	New trial (rep=4, index=0): None
+30.0755 	EXP 	polygon: autoDraw = False
+30.0755 	EXP 	polygon: autoDraw = False
+30.0755 	EXP 	polygon: opacity = 0.33
+31.8299 	EXP 	polygon: autoDraw = True
+32.0305 	EXP 	New trial (rep=5, index=0): None
+32.0443 	EXP 	polygon: autoDraw = False
+32.0443 	EXP 	polygon: autoDraw = False
+32.0443 	EXP 	polygon: opacity = 0.33
+33.7750 	EXP 	polygon: autoDraw = True
+33.9660 	EXP 	New trial (rep=6, index=0): None
+33.9750 	EXP 	polygon: autoDraw = False
+33.9750 	EXP 	polygon: autoDraw = False
+33.9750 	EXP 	polygon: opacity = 0.1
+35.5258 	EXP 	polygon: autoDraw = True
+35.7129 	EXP 	New trial (rep=7, index=0): None
+35.7264 	EXP 	polygon: autoDraw = False
+35.7264 	EXP 	polygon: autoDraw = False
+35.7264 	EXP 	polygon: opacity = 1.0
+37.0432 	EXP 	polygon: autoDraw = True
+37.2300 	EXP 	New trial (rep=8, index=0): None
+37.2426 	EXP 	polygon: autoDraw = False
+37.2426 	EXP 	polygon: autoDraw = False
+37.2426 	EXP 	polygon: opacity = 0.33
+38.6268 	EXP 	polygon: autoDraw = True
+38.8169 	EXP 	New trial (rep=9, index=0): None
+38.8300 	EXP 	polygon: autoDraw = False
+38.8300 	EXP 	polygon: autoDraw = False
+38.8300 	EXP 	polygon: opacity = 0.1
+40.4441 	EXP 	polygon: autoDraw = True
+40.6314 	EXP 	New trial (rep=10, index=0): None
+40.6476 	EXP 	polygon: autoDraw = False
+40.6476 	EXP 	polygon: autoDraw = False
+40.6476 	EXP 	polygon: opacity = 1.0
+41.9451 	EXP 	polygon: autoDraw = True
+42.1379 	EXP 	New trial (rep=11, index=0): None
+42.1442 	EXP 	polygon: autoDraw = False
+42.1442 	EXP 	polygon: autoDraw = False
+42.1442 	EXP 	polygon: opacity = 0.1
+43.3633 	EXP 	polygon: autoDraw = True
+43.5695 	EXP 	New trial (rep=12, index=0): None
+43.5805 	EXP 	polygon: autoDraw = False
+43.5805 	EXP 	polygon: autoDraw = False
+43.5805 	EXP 	polygon: opacity = 1.0
+45.2621 	EXP 	polygon: autoDraw = True
+45.4490 	EXP 	New trial (rep=13, index=0): None
+45.4618 	EXP 	polygon: autoDraw = False
+45.4618 	EXP 	polygon: autoDraw = False
+45.4618 	EXP 	polygon: opacity = 1.0
+46.9125 	EXP 	polygon: autoDraw = True
+47.1006 	EXP 	New trial (rep=14, index=0): None
+47.1168 	EXP 	polygon: autoDraw = False
+47.1168 	EXP 	polygon: autoDraw = False
+47.1168 	EXP 	polygon: opacity = 0.66
+48.3965 	EXP 	polygon: autoDraw = True
+48.5863 	EXP 	New trial (rep=15, index=0): None
+48.5970 	EXP 	polygon: autoDraw = False
+48.5970 	EXP 	polygon: autoDraw = False
+48.5970 	EXP 	polygon: opacity = 1.0
+49.9969 	EXP 	polygon: autoDraw = True
+50.1838 	EXP 	New trial (rep=16, index=0): None
+50.1971 	EXP 	polygon: autoDraw = False
+50.1971 	EXP 	polygon: autoDraw = False
+50.1971 	EXP 	polygon: opacity = 0.1
+51.8140 	EXP 	polygon: autoDraw = True
+52.0024 	EXP 	New trial (rep=17, index=0): None
+52.0167 	EXP 	polygon: autoDraw = False
+52.0167 	EXP 	polygon: autoDraw = False
+52.0167 	EXP 	polygon: opacity = 1.0
+53.6321 	EXP 	polygon: autoDraw = True
+53.8223 	EXP 	New trial (rep=18, index=0): None
+53.8360 	EXP 	polygon: autoDraw = False
+53.8360 	EXP 	polygon: autoDraw = False
+53.8360 	EXP 	polygon: opacity = 0.66
+55.0362 	EXP 	polygon: autoDraw = True
+55.2402 	EXP 	New trial (rep=19, index=0): None
+55.2487 	EXP 	polygon: autoDraw = False
+55.2487 	EXP 	polygon: autoDraw = False
+55.2487 	EXP 	polygon: opacity = 0.33
+56.7654 	EXP 	polygon: autoDraw = True
+56.9540 	EXP 	New trial (rep=20, index=0): None
+56.9655 	EXP 	polygon: autoDraw = False
+56.9655 	EXP 	polygon: autoDraw = False
+56.9655 	EXP 	polygon: opacity = 0.66
+58.6664 	EXP 	polygon: autoDraw = True
+58.8538 	EXP 	New trial (rep=21, index=0): None
+58.8670 	EXP 	polygon: autoDraw = False
+58.8670 	EXP 	polygon: autoDraw = False
+58.8670 	EXP 	polygon: opacity = 0.1
+60.5191 	EXP 	polygon: autoDraw = True
+60.7087 	EXP 	New trial (rep=22, index=0): None
+60.7176 	EXP 	polygon: autoDraw = False
+60.7176 	EXP 	polygon: autoDraw = False
+60.7176 	EXP 	polygon: opacity = 0.33
+62.2344 	EXP 	polygon: autoDraw = True
+62.4229 	EXP 	New trial (rep=23, index=0): None
+62.4339 	EXP 	polygon: autoDraw = False
+62.4339 	EXP 	polygon: autoDraw = False
+62.4339 	EXP 	polygon: opacity = 1.0
+63.8029 	EXP 	polygon: autoDraw = True
+64.0073 	EXP 	New trial (rep=24, index=0): None
+64.0225 	EXP 	polygon: autoDraw = False
+64.0225 	EXP 	polygon: autoDraw = False
+64.0225 	EXP 	polygon: opacity = 0.1
+65.5515 	EXP 	polygon: autoDraw = True
+65.7422 	EXP 	New trial (rep=25, index=0): None
+65.7574 	EXP 	polygon: autoDraw = False
+65.7574 	EXP 	polygon: autoDraw = False
+65.7574 	EXP 	polygon: opacity = 0.66
+67.2358 	EXP 	polygon: autoDraw = True
+67.4258 	EXP 	New trial (rep=26, index=0): None
+67.4363 	EXP 	polygon: autoDraw = False
+67.4363 	EXP 	polygon: autoDraw = False
+67.4363 	EXP 	polygon: opacity = 1.0
+68.7530 	EXP 	polygon: autoDraw = True
+68.9418 	EXP 	New trial (rep=27, index=0): None
+68.9541 	EXP 	polygon: autoDraw = False
+68.9541 	EXP 	polygon: autoDraw = False
+68.9541 	EXP 	polygon: opacity = 0.66
+70.6203 	EXP 	polygon: autoDraw = True
+70.8127 	EXP 	New trial (rep=28, index=0): None
+70.8248 	EXP 	polygon: autoDraw = False
+70.8248 	EXP 	polygon: autoDraw = False
+70.8248 	EXP 	polygon: opacity = 0.66
+72.3883 	EXP 	polygon: autoDraw = True
+72.5757 	EXP 	New trial (rep=29, index=0): None
+72.5888 	EXP 	polygon: autoDraw = False
+72.5888 	EXP 	polygon: autoDraw = False
+72.5888 	EXP 	polygon: opacity = 0.33
+74.1750 	EXP 	polygon: autoDraw = True
+74.3785 	EXP 	New trial (rep=30, index=0): None
+74.3908 	EXP 	polygon: autoDraw = False
+74.3908 	EXP 	polygon: autoDraw = False
+74.3908 	EXP 	polygon: opacity = 0.1
+75.8052 	EXP 	polygon: autoDraw = True
+75.9971 	EXP 	New trial (rep=31, index=0): None
+76.0048 	EXP 	polygon: autoDraw = False
+76.0048 	EXP 	polygon: autoDraw = False
+76.0048 	EXP 	polygon: opacity = 1.0
+77.5056 	EXP 	polygon: autoDraw = True
+77.6977 	EXP 	New trial (rep=32, index=0): None
+77.7054 	EXP 	polygon: autoDraw = False
+77.7054 	EXP 	polygon: autoDraw = False
+77.7054 	EXP 	polygon: opacity = 0.33
+79.2236 	EXP 	polygon: autoDraw = True
+79.4101 	EXP 	New trial (rep=33, index=0): None
+79.4247 	EXP 	polygon: autoDraw = False
+79.4247 	EXP 	polygon: autoDraw = False
+79.4247 	EXP 	polygon: opacity = 0.33
+80.6566 	EXP 	polygon: autoDraw = True
+80.8441 	EXP 	New trial (rep=34, index=0): None
+80.8569 	EXP 	polygon: autoDraw = False
+80.8569 	EXP 	polygon: autoDraw = False
+80.8569 	EXP 	polygon: opacity = 0.1
+82.0910 	EXP 	polygon: autoDraw = True
+82.2766 	EXP 	New trial (rep=35, index=0): None
+82.2913 	EXP 	polygon: autoDraw = False
+82.2913 	EXP 	polygon: autoDraw = False
+82.2913 	EXP 	polygon: opacity = 0.1
+83.9583 	EXP 	polygon: autoDraw = True
+84.1481 	EXP 	New trial (rep=36, index=0): None
+84.1578 	EXP 	polygon: autoDraw = False
+84.1578 	EXP 	polygon: autoDraw = False
+84.1578 	EXP 	polygon: opacity = 0.1
+85.5933 	EXP 	polygon: autoDraw = True
+85.7993 	EXP 	New trial (rep=37, index=0): None
+85.8116 	EXP 	polygon: autoDraw = False
+85.8116 	EXP 	polygon: autoDraw = False
+85.8116 	EXP 	polygon: opacity = 0.1
+87.1797 	EXP 	polygon: autoDraw = True
+87.3815 	EXP 	New trial (rep=38, index=0): None
+87.3918 	EXP 	polygon: autoDraw = False
+87.3918 	EXP 	polygon: autoDraw = False
+87.3918 	EXP 	polygon: opacity = 1.0
+88.9261 	EXP 	polygon: autoDraw = True
+89.1158 	EXP 	New trial (rep=39, index=0): None
+89.1266 	EXP 	polygon: autoDraw = False
+89.1266 	EXP 	polygon: autoDraw = False
+89.1266 	EXP 	polygon: opacity = 0.66
+90.4429 	EXP 	polygon: autoDraw = True
+90.6327 	EXP 	New trial (rep=40, index=0): None
+90.6428 	EXP 	polygon: autoDraw = False
+90.6428 	EXP 	polygon: autoDraw = False
+90.6428 	EXP 	polygon: opacity = 1.0
+91.8766 	EXP 	polygon: autoDraw = True
+92.0698 	EXP 	New trial (rep=41, index=0): None
+92.0771 	EXP 	polygon: autoDraw = False
+92.0771 	EXP 	polygon: autoDraw = False
+92.0771 	EXP 	polygon: opacity = 0.1
+93.6622 	EXP 	polygon: autoDraw = True
+93.8689 	EXP 	New trial (rep=42, index=0): None
+93.8793 	EXP 	polygon: autoDraw = False
+93.8793 	EXP 	polygon: autoDraw = False
+93.8793 	EXP 	polygon: opacity = 0.33
+95.4793 	EXP 	polygon: autoDraw = True
+95.6844 	EXP 	New trial (rep=43, index=0): None
+95.6945 	EXP 	polygon: autoDraw = False
+95.6945 	EXP 	polygon: autoDraw = False
+95.6945 	EXP 	polygon: opacity = 0.1
+97.2618 	EXP 	polygon: autoDraw = True
+97.4493 	EXP 	New trial (rep=44, index=0): None
+97.4617 	EXP 	polygon: autoDraw = False
+97.4617 	EXP 	polygon: autoDraw = False
+97.4617 	EXP 	polygon: opacity = 0.1
+98.7296 	EXP 	polygon: autoDraw = True
+98.9203 	EXP 	New trial (rep=45, index=0): None
+98.9311 	EXP 	polygon: autoDraw = False
+98.9311 	EXP 	polygon: autoDraw = False
+98.9311 	EXP 	polygon: opacity = 0.1
+100.3463 	EXP 	polygon: autoDraw = True
+100.5369 	EXP 	New trial (rep=46, index=0): None
+100.5468 	EXP 	polygon: autoDraw = False
+100.5468 	EXP 	polygon: autoDraw = False
+100.5468 	EXP 	polygon: opacity = 0.33
+102.2984 	EXP 	polygon: autoDraw = True
+102.5017 	EXP 	New trial (rep=47, index=0): None
+102.5133 	EXP 	polygon: autoDraw = False
+102.5133 	EXP 	polygon: autoDraw = False
+102.5133 	EXP 	polygon: opacity = 0.66
+104.0147 	EXP 	polygon: autoDraw = True
+104.2072 	EXP 	New trial (rep=48, index=0): None
+104.2140 	EXP 	polygon: autoDraw = False
+104.2140 	EXP 	polygon: autoDraw = False
+104.2140 	EXP 	polygon: opacity = 0.66
+105.9987 	EXP 	polygon: autoDraw = True
+106.1908 	EXP 	New trial (rep=49, index=0): None
+106.2035 	EXP 	polygon: autoDraw = False
+106.2035 	EXP 	polygon: autoDraw = False
+106.2035 	EXP 	polygon: opacity = 0.66
+107.9016 	EXP 	polygon: autoDraw = True
+108.1047 	EXP 	New trial (rep=50, index=0): None
+108.1181 	EXP 	polygon: autoDraw = False
+108.1181 	EXP 	polygon: autoDraw = False
+108.1181 	EXP 	polygon: opacity = 0.66
+109.3999 	EXP 	polygon: autoDraw = True
+109.5894 	EXP 	New trial (rep=51, index=0): None
+109.5999 	EXP 	polygon: autoDraw = False
+109.5999 	EXP 	polygon: autoDraw = False
+109.5999 	EXP 	polygon: opacity = 0.1
+110.8828 	EXP 	polygon: autoDraw = True
+111.0719 	EXP 	New trial (rep=52, index=0): None
+111.0828 	EXP 	polygon: autoDraw = False
+111.0828 	EXP 	polygon: autoDraw = False
+111.0828 	EXP 	polygon: opacity = 0.66
+112.6354 	EXP 	polygon: autoDraw = True
+112.8244 	EXP 	New trial (rep=53, index=0): None
+112.8335 	EXP 	polygon: autoDraw = False
+112.8335 	EXP 	polygon: autoDraw = False
+112.8335 	EXP 	polygon: opacity = 0.33
+114.5841 	EXP 	polygon: autoDraw = True
+114.7729 	EXP 	New trial (rep=54, index=0): None
+114.7848 	EXP 	polygon: autoDraw = False
+114.7848 	EXP 	polygon: autoDraw = False
+114.7848 	EXP 	polygon: opacity = 0.33
+116.3227 	EXP 	polygon: autoDraw = True
+116.5264 	EXP 	New trial (rep=55, index=0): None
+116.5347 	EXP 	polygon: autoDraw = False
+116.5347 	EXP 	polygon: autoDraw = False
+116.5347 	EXP 	polygon: opacity = 0.33
+118.1719 	EXP 	polygon: autoDraw = True
+118.3728 	EXP 	New trial (rep=56, index=0): None
+118.3880 	EXP 	polygon: autoDraw = False
+118.3880 	EXP 	polygon: autoDraw = False
+118.3880 	EXP 	polygon: opacity = 1.0
+119.7360 	EXP 	polygon: autoDraw = True
+119.9286 	EXP 	New trial (rep=57, index=0): None
+119.9361 	EXP 	polygon: autoDraw = False
+119.9361 	EXP 	polygon: autoDraw = False
+119.9361 	EXP 	polygon: opacity = 1.0
+121.5873 	EXP 	polygon: autoDraw = True
+121.7783 	EXP 	New trial (rep=58, index=0): None
+121.7869 	EXP 	polygon: autoDraw = False
+121.7869 	EXP 	polygon: autoDraw = False
+121.7869 	EXP 	polygon: opacity = 0.1
+123.5376 	EXP 	polygon: autoDraw = True
+123.7244 	EXP 	New trial (rep=59, index=0): None
+123.7406 	EXP 	polygon: autoDraw = False
+123.7406 	EXP 	polygon: autoDraw = False
+123.7406 	EXP 	polygon: opacity = 0.33
+124.9545 	EXP 	polygon: autoDraw = True
+125.1417 	EXP 	New trial (rep=60, index=0): None
+125.1541 	EXP 	polygon: autoDraw = False
+125.1541 	EXP 	polygon: autoDraw = False
+125.1541 	EXP 	polygon: opacity = 0.1
+126.4213 	EXP 	polygon: autoDraw = True
+126.6082 	EXP 	New trial (rep=61, index=0): None
+126.6232 	EXP 	polygon: autoDraw = False
+126.6232 	EXP 	polygon: autoDraw = False
+126.6232 	EXP 	polygon: opacity = 0.33
+128.1389 	EXP 	polygon: autoDraw = True
+128.3270 	EXP 	New trial (rep=62, index=0): None
+128.3436 	EXP 	polygon: autoDraw = False
+128.3436 	EXP 	polygon: autoDraw = False
+128.3436 	EXP 	polygon: opacity = 1.0
+129.9561 	EXP 	polygon: autoDraw = True
+130.1466 	EXP 	New trial (rep=63, index=0): None
+130.1561 	EXP 	polygon: autoDraw = False
+130.1561 	EXP 	polygon: autoDraw = False
+130.1561 	EXP 	polygon: opacity = 0.33
+131.3580 	EXP 	polygon: autoDraw = True
+131.5470 	EXP 	New trial (rep=64, index=0): None
+131.5568 	EXP 	polygon: autoDraw = False
+131.5568 	EXP 	polygon: autoDraw = False
+131.5568 	EXP 	polygon: opacity = 0.1
+133.1571 	EXP 	polygon: autoDraw = True
+133.3479 	EXP 	New trial (rep=65, index=0): None
+133.3580 	EXP 	polygon: autoDraw = False
+133.3580 	EXP 	polygon: autoDraw = False
+133.3580 	EXP 	polygon: opacity = 1.0
+134.8095 	EXP 	polygon: autoDraw = True
+135.0159 	EXP 	New trial (rep=66, index=0): None
+135.0240 	EXP 	polygon: autoDraw = False
+135.0240 	EXP 	polygon: autoDraw = False
+135.0240 	EXP 	polygon: opacity = 0.66
+136.2412 	EXP 	polygon: autoDraw = True
+136.4311 	EXP 	New trial (rep=67, index=0): None
+136.4515 	EXP 	polygon: autoDraw = False
+136.4515 	EXP 	polygon: autoDraw = False
+136.4515 	EXP 	polygon: opacity = 0.66
+138.1753 	EXP 	polygon: autoDraw = True
+138.3676 	EXP 	New trial (rep=68, index=0): None
+138.3768 	EXP 	polygon: autoDraw = False
+138.3768 	EXP 	polygon: autoDraw = False
+138.3768 	EXP 	polygon: opacity = 1.0
+139.7968 	EXP 	polygon: autoDraw = True
+139.9858 	EXP 	New trial (rep=69, index=0): None
+139.9923 	EXP 	polygon: autoDraw = False
+139.9923 	EXP 	polygon: autoDraw = False
+139.9923 	EXP 	polygon: opacity = 0.33
+141.3429 	EXP 	polygon: autoDraw = True
+141.5299 	EXP 	New trial (rep=70, index=0): None
+141.5438 	EXP 	polygon: autoDraw = False
+141.5438 	EXP 	polygon: autoDraw = False
+141.5438 	EXP 	polygon: opacity = 0.1
+142.7432 	EXP 	polygon: autoDraw = True
+142.9331 	EXP 	New trial (rep=71, index=0): None
+142.9473 	EXP 	polygon: autoDraw = False
+142.9473 	EXP 	polygon: autoDraw = False
+142.9473 	EXP 	polygon: opacity = 0.33
+144.3780 	EXP 	polygon: autoDraw = True
+144.5690 	EXP 	New trial (rep=72, index=0): None
+144.5821 	EXP 	polygon: autoDraw = False
+144.5821 	EXP 	polygon: autoDraw = False
+144.5821 	EXP 	polygon: opacity = 0.66
+146.0947 	EXP 	polygon: autoDraw = True
+146.2815 	EXP 	New trial (rep=73, index=0): None
+146.2967 	EXP 	polygon: autoDraw = False
+146.2967 	EXP 	polygon: autoDraw = False
+146.2967 	EXP 	polygon: opacity = 0.1
+147.5161 	EXP 	polygon: autoDraw = True
+147.7204 	EXP 	New trial (rep=74, index=0): None
+147.7321 	EXP 	polygon: autoDraw = False
+147.7321 	EXP 	polygon: autoDraw = False
+147.7321 	EXP 	polygon: opacity = 1.0
+149.2977 	EXP 	polygon: autoDraw = True
+149.5005 	EXP 	New trial (rep=75, index=0): None
+149.5161 	EXP 	polygon: autoDraw = False
+149.5161 	EXP 	polygon: autoDraw = False
+149.5161 	EXP 	polygon: opacity = 0.66
+150.7127 	EXP 	polygon: autoDraw = True
+150.9004 	EXP 	New trial (rep=76, index=0): None
+150.9158 	EXP 	polygon: autoDraw = False
+150.9158 	EXP 	polygon: autoDraw = False
+150.9158 	EXP 	polygon: opacity = 1.0
+152.3968 	EXP 	polygon: autoDraw = True
+152.5861 	EXP 	New trial (rep=77, index=0): None
+152.6021 	EXP 	polygon: autoDraw = False
+152.6021 	EXP 	polygon: autoDraw = False
+152.6021 	EXP 	polygon: opacity = 1.0
+153.9804 	EXP 	polygon: autoDraw = True
+154.1679 	EXP 	New trial (rep=78, index=0): None
+154.1846 	EXP 	polygon: autoDraw = False
+154.1846 	EXP 	polygon: autoDraw = False
+154.1846 	EXP 	polygon: opacity = 0.33
+155.9143 	EXP 	polygon: autoDraw = True
+156.1041 	EXP 	New trial (rep=79, index=0): None
+156.1152 	EXP 	polygon: autoDraw = False
+156.1152 	EXP 	polygon: autoDraw = False
+156.1152 	EXP 	polygon: opacity = 0.33
+157.5004 	EXP 	polygon: autoDraw = True
+157.7062 	EXP 	New trial (rep=80, index=0): None
+157.7192 	EXP 	polygon: autoDraw = False
+157.7192 	EXP 	polygon: autoDraw = False
+157.7192 	EXP 	polygon: opacity = 0.66
+159.3998 	EXP 	polygon: autoDraw = True
+159.5894 	EXP 	New trial (rep=81, index=0): None
+159.5999 	EXP 	polygon: autoDraw = False
+159.5999 	EXP 	polygon: autoDraw = False
+159.5999 	EXP 	polygon: opacity = 1.0
+161.2551 	EXP 	polygon: autoDraw = True
+161.4556 	EXP 	New trial (rep=82, index=0): None
+161.4665 	EXP 	polygon: autoDraw = False
+161.4665 	EXP 	polygon: autoDraw = False
+161.4665 	EXP 	polygon: opacity = 1.0
+162.9524 	EXP 	polygon: autoDraw = True
+163.1575 	EXP 	New trial (rep=83, index=0): None
+163.1679 	EXP 	polygon: autoDraw = False
+163.1679 	EXP 	polygon: autoDraw = False
+163.1679 	EXP 	polygon: opacity = 0.66
+164.9566 	EXP 	polygon: autoDraw = True
+165.1578 	EXP 	New trial (rep=84, index=0): None
+165.1716 	EXP 	polygon: autoDraw = False
+165.1716 	EXP 	polygon: autoDraw = False
+165.1716 	EXP 	polygon: opacity = 0.66
+166.4011 	EXP 	polygon: autoDraw = True
+166.5909 	EXP 	New trial (rep=85, index=0): None
+166.6047 	EXP 	polygon: autoDraw = False
+166.6047 	EXP 	polygon: autoDraw = False
+166.6047 	EXP 	polygon: opacity = 0.33
+168.2727 	EXP 	polygon: autoDraw = True
+168.4759 	EXP 	New trial (rep=86, index=0): None
+168.4851 	EXP 	polygon: autoDraw = False
+168.4851 	EXP 	polygon: autoDraw = False
+168.4851 	EXP 	polygon: opacity = 0.1
+169.9710 	EXP 	polygon: autoDraw = True
+170.1744 	EXP 	New trial (rep=87, index=0): None
+170.1861 	EXP 	polygon: autoDraw = False
+170.1861 	EXP 	polygon: autoDraw = False
+170.1861 	EXP 	polygon: opacity = 1.0
+171.7547 	EXP 	polygon: autoDraw = True
+171.9563 	EXP 	New trial (rep=88, index=0): None
+171.9721 	EXP 	polygon: autoDraw = False
+171.9721 	EXP 	polygon: autoDraw = False
+171.9721 	EXP 	polygon: opacity = 0.66
+173.4534 	EXP 	polygon: autoDraw = True
+173.6431 	EXP 	New trial (rep=89, index=0): None
+173.6544 	EXP 	polygon: autoDraw = False
+173.6544 	EXP 	polygon: autoDraw = False
+173.6544 	EXP 	polygon: opacity = 1.0
+175.0912 	EXP 	polygon: autoDraw = True
+175.2943 	EXP 	New trial (rep=90, index=0): None
+175.3048 	EXP 	polygon: autoDraw = False
+175.3048 	EXP 	polygon: autoDraw = False
+175.3048 	EXP 	polygon: opacity = 0.33
+177.0066 	EXP 	polygon: autoDraw = True
+177.1943 	EXP 	New trial (rep=91, index=0): None
+177.2050 	EXP 	polygon: autoDraw = False
+177.2050 	EXP 	polygon: autoDraw = False
+177.2050 	EXP 	polygon: opacity = 0.66
+178.9427 	EXP 	polygon: autoDraw = True
+179.1489 	EXP 	New trial (rep=92, index=0): None
+179.1557 	EXP 	polygon: autoDraw = False
+179.1557 	EXP 	polygon: autoDraw = False
+179.1557 	EXP 	polygon: opacity = 0.66
+180.4726 	EXP 	polygon: autoDraw = True
+180.6595 	EXP 	New trial (rep=93, index=0): None
+180.6724 	EXP 	polygon: autoDraw = False
+180.6724 	EXP 	polygon: autoDraw = False
+180.6724 	EXP 	polygon: opacity = 0.66
+182.0081 	EXP 	polygon: autoDraw = True
+182.1971 	EXP 	New trial (rep=94, index=0): None
+182.2104 	EXP 	polygon: autoDraw = False
+182.2104 	EXP 	polygon: autoDraw = False
+182.2104 	EXP 	polygon: opacity = 0.66
+183.7737 	EXP 	polygon: autoDraw = True
+183.9638 	EXP 	New trial (rep=95, index=0): None
+183.9768 	EXP 	polygon: autoDraw = False
+183.9768 	EXP 	polygon: autoDraw = False
+183.9768 	EXP 	polygon: opacity = 0.33
+185.5745 	EXP 	polygon: autoDraw = True
+185.7652 	EXP 	New trial (rep=96, index=0): None
+185.7742 	EXP 	polygon: autoDraw = False
+185.7742 	EXP 	polygon: autoDraw = False
+185.7742 	EXP 	polygon: opacity = 0.66
+187.5252 	EXP 	polygon: autoDraw = True
+187.7126 	EXP 	New trial (rep=97, index=0): None
+187.7254 	EXP 	polygon: autoDraw = False
+187.7254 	EXP 	polygon: autoDraw = False
+187.7254 	EXP 	polygon: opacity = 0.1
+189.2760 	EXP 	polygon: autoDraw = True
+189.4654 	EXP 	New trial (rep=98, index=0): None
+189.4760 	EXP 	polygon: autoDraw = False
+189.4760 	EXP 	polygon: autoDraw = False
+189.4760 	EXP 	polygon: opacity = 0.66
+190.7788 	EXP 	polygon: autoDraw = True
+190.9649 	EXP 	New trial (rep=99, index=0): None
+190.9763 	EXP 	polygon: autoDraw = False
+190.9763 	EXP 	polygon: autoDraw = False
+190.9763 	EXP 	polygon: opacity = 1.0
+192.2280 	EXP 	polygon: autoDraw = True
+192.4162 	EXP 	New trial (rep=100, index=0): None
+192.4278 	EXP 	polygon: autoDraw = False
+192.4278 	EXP 	polygon: autoDraw = False
+192.4278 	EXP 	polygon: opacity = 0.33
+193.7807 	EXP 	polygon: autoDraw = True
+193.9681 	EXP 	New trial (rep=101, index=0): None
+193.9788 	EXP 	polygon: autoDraw = False
+193.9788 	EXP 	polygon: autoDraw = False
+193.9788 	EXP 	polygon: opacity = 0.1
+195.4811 	EXP 	polygon: autoDraw = True
+195.6822 	EXP 	New trial (rep=102, index=0): None
+195.6942 	EXP 	polygon: autoDraw = False
+195.6942 	EXP 	polygon: autoDraw = False
+195.6942 	EXP 	polygon: opacity = 0.33
+197.3951 	EXP 	polygon: autoDraw = True
+197.5852 	EXP 	New trial (rep=103, index=0): None
+197.6005 	EXP 	polygon: autoDraw = False
+197.6005 	EXP 	polygon: autoDraw = False
+197.6005 	EXP 	polygon: opacity = 0.33
+199.1291 	EXP 	polygon: autoDraw = True
+199.3189 	EXP 	New trial (rep=104, index=0): None
+199.3334 	EXP 	polygon: autoDraw = False
+199.3334 	EXP 	polygon: autoDraw = False
+199.3334 	EXP 	polygon: opacity = 0.33
+201.1127 	EXP 	polygon: autoDraw = True
+201.3030 	EXP 	New trial (rep=105, index=0): None
+201.3136 	EXP 	polygon: autoDraw = False
+201.3136 	EXP 	polygon: autoDraw = False
+201.3136 	EXP 	polygon: opacity = 0.33
+202.8134 	EXP 	polygon: autoDraw = True
+203.0004 	EXP 	New trial (rep=106, index=0): None
+203.0133 	EXP 	polygon: autoDraw = False
+203.0133 	EXP 	polygon: autoDraw = False
+203.0133 	EXP 	polygon: opacity = 1.0
+204.2343 	EXP 	polygon: autoDraw = True
+204.4369 	EXP 	New trial (rep=107, index=0): None
+204.4501 	EXP 	polygon: autoDraw = False
+204.4501 	EXP 	polygon: autoDraw = False
+204.4501 	EXP 	polygon: opacity = 0.1
+206.0144 	EXP 	polygon: autoDraw = True
+206.2046 	EXP 	New trial (rep=108, index=0): None
+206.2145 	EXP 	polygon: autoDraw = False
+206.2145 	EXP 	polygon: autoDraw = False
+206.2145 	EXP 	polygon: opacity = 0.1
+207.5018 	EXP 	polygon: autoDraw = True
+207.6901 	EXP 	New trial (rep=109, index=0): None
+207.7024 	EXP 	polygon: autoDraw = False
+207.7024 	EXP 	polygon: autoDraw = False
+207.7024 	EXP 	polygon: opacity = 1.0
+209.4328 	EXP 	polygon: autoDraw = True
+209.6212 	EXP 	New trial (rep=110, index=0): None
+209.6332 	EXP 	polygon: autoDraw = False
+209.6332 	EXP 	polygon: autoDraw = False
+209.6332 	EXP 	polygon: opacity = 0.1
+211.4165 	EXP 	polygon: autoDraw = True
+211.6072 	EXP 	New trial (rep=111, index=0): None
+211.6165 	EXP 	polygon: autoDraw = False
+211.6165 	EXP 	polygon: autoDraw = False
+211.6165 	EXP 	polygon: opacity = 0.1
+213.2685 	EXP 	polygon: autoDraw = True
+213.4545 	EXP 	New trial (rep=112, index=0): None
+213.4673 	EXP 	polygon: autoDraw = False
+213.4673 	EXP 	polygon: autoDraw = False
+213.4673 	EXP 	polygon: opacity = 0.66
+214.7881 	EXP 	polygon: autoDraw = True
+214.9914 	EXP 	New trial (rep=113, index=0): None
+215.0020 	EXP 	polygon: autoDraw = False
+215.0020 	EXP 	polygon: autoDraw = False
+215.0020 	EXP 	polygon: opacity = 0.33
+216.4060 	EXP 	polygon: autoDraw = True
+216.6116 	EXP 	New trial (rep=114, index=0): None
+216.6216 	EXP 	polygon: autoDraw = False
+216.6216 	EXP 	polygon: autoDraw = False
+216.6216 	EXP 	polygon: opacity = 0.1
+218.0230 	EXP 	polygon: autoDraw = True
+218.2137 	EXP 	New trial (rep=115, index=0): None
+218.2193 	EXP 	polygon: autoDraw = False
+218.2193 	EXP 	polygon: autoDraw = False
+218.2193 	EXP 	polygon: opacity = 1.0
+219.6198 	EXP 	polygon: autoDraw = True
+219.8118 	EXP 	New trial (rep=116, index=0): None
+219.8231 	EXP 	polygon: autoDraw = False
+219.8231 	EXP 	polygon: autoDraw = False
+219.8231 	EXP 	polygon: opacity = 0.66
+221.0705 	EXP 	polygon: autoDraw = True
+221.2565 	EXP 	New trial (rep=117, index=0): None
+221.2730 	EXP 	polygon: autoDraw = False
+221.2730 	EXP 	polygon: autoDraw = False
+221.2730 	EXP 	polygon: opacity = 1.0
+222.9229 	EXP 	polygon: autoDraw = True
+223.1252 	EXP 	New trial (rep=118, index=0): None
+223.1431 	EXP 	polygon: autoDraw = False
+223.1431 	EXP 	polygon: autoDraw = False
+223.1431 	EXP 	polygon: opacity = 0.33
+224.3877 	EXP 	polygon: autoDraw = True
+224.5770 	EXP 	New trial (rep=119, index=0): None
+224.5892 	EXP 	polygon: autoDraw = False
+224.5892 	EXP 	polygon: autoDraw = False
+224.5892 	EXP 	polygon: opacity = 0.66
+226.3269 	EXP 	polygon: autoDraw = True
+226.5277 	EXP 	New trial (rep=120, index=0): None
+226.5396 	EXP 	polygon: autoDraw = False
+226.5396 	EXP 	polygon: autoDraw = False
+226.5396 	EXP 	polygon: opacity = 0.1
+228.0720 	EXP 	polygon: autoDraw = True
+228.2594 	EXP 	New trial (rep=121, index=0): None
+228.2773 	EXP 	polygon: autoDraw = False
+228.2773 	EXP 	polygon: autoDraw = False
+228.2773 	EXP 	polygon: opacity = 1.0
+229.6225 	EXP 	polygon: autoDraw = True
+229.8101 	EXP 	New trial (rep=122, index=0): None
+229.8249 	EXP 	polygon: autoDraw = False
+229.8249 	EXP 	polygon: autoDraw = False
+229.8249 	EXP 	polygon: opacity = 0.66
+231.4901 	EXP 	polygon: autoDraw = True
+231.6799 	EXP 	New trial (rep=123, index=0): None
+231.6940 	EXP 	polygon: autoDraw = False
+231.6940 	EXP 	polygon: autoDraw = False
+231.6940 	EXP 	polygon: opacity = 0.33
+233.1736 	EXP 	polygon: autoDraw = True
+233.3613 	EXP 	New trial (rep=124, index=0): None
+233.3793 	EXP 	polygon: autoDraw = False
+233.3793 	EXP 	polygon: autoDraw = False
+233.3793 	EXP 	polygon: opacity = 0.66
+235.0248 	EXP 	polygon: autoDraw = True
+235.2114 	EXP 	New trial (rep=125, index=0): None
+235.2244 	EXP 	polygon: autoDraw = False
+235.2244 	EXP 	polygon: autoDraw = False
+235.2244 	EXP 	polygon: opacity = 1.0
+236.8601 	EXP 	polygon: autoDraw = True
+237.0483 	EXP 	New trial (rep=126, index=0): None
+237.0597 	EXP 	polygon: autoDraw = False
+237.0597 	EXP 	polygon: autoDraw = False
+237.0597 	EXP 	polygon: opacity = 0.66
+238.7636 	EXP 	polygon: autoDraw = True
+238.9651 	EXP 	New trial (rep=127, index=0): None
+238.9755 	EXP 	polygon: autoDraw = False
+238.9755 	EXP 	polygon: autoDraw = False
+238.9755 	EXP 	polygon: opacity = 0.33
+240.2264 	EXP 	polygon: autoDraw = True
+240.4155 	EXP 	New trial (rep=128, index=0): None
+240.4273 	EXP 	polygon: autoDraw = False
+240.4273 	EXP 	polygon: autoDraw = False
+240.4273 	EXP 	polygon: opacity = 0.1
+242.1435 	EXP 	polygon: autoDraw = True
+242.3322 	EXP 	New trial (rep=129, index=0): None
+242.3484 	EXP 	polygon: autoDraw = False
+242.3484 	EXP 	polygon: autoDraw = False
+242.3484 	EXP 	polygon: opacity = 0.1
+243.6443 	EXP 	polygon: autoDraw = True
+243.8323 	EXP 	New trial (rep=130, index=0): None
+243.8459 	EXP 	polygon: autoDraw = False
+243.8459 	EXP 	polygon: autoDraw = False
+243.8459 	EXP 	polygon: opacity = 0.1
+245.6156 	EXP 	polygon: autoDraw = True
+245.8182 	EXP 	New trial (rep=131, index=0): None
+245.8288 	EXP 	polygon: autoDraw = False
+245.8288 	EXP 	polygon: autoDraw = False
+245.8288 	EXP 	polygon: opacity = 1.0
+247.3661 	EXP 	polygon: autoDraw = True
+247.5683 	EXP 	New trial (rep=132, index=0): None
+247.5806 	EXP 	polygon: autoDraw = False
+247.5806 	EXP 	polygon: autoDraw = False
+247.5806 	EXP 	polygon: opacity = 0.1
+248.8807 	EXP 	polygon: autoDraw = True
+249.0866 	EXP 	New trial (rep=133, index=0): None
+249.0960 	EXP 	polygon: autoDraw = False
+249.0960 	EXP 	polygon: autoDraw = False
+249.0960 	EXP 	polygon: opacity = 0.1
+250.3844 	EXP 	polygon: autoDraw = True
+250.5838 	EXP 	New trial (rep=134, index=0): None
+250.5966 	EXP 	polygon: autoDraw = False
+250.5966 	EXP 	polygon: autoDraw = False
+250.5966 	EXP 	polygon: opacity = 0.66
+252.0306 	EXP 	polygon: autoDraw = True
+252.2199 	EXP 	New trial (rep=135, index=0): None
+252.2345 	EXP 	polygon: autoDraw = False
+252.2345 	EXP 	polygon: autoDraw = False
+252.2345 	EXP 	polygon: opacity = 0.1
+253.5325 	EXP 	polygon: autoDraw = True
+253.7219 	EXP 	New trial (rep=136, index=0): None
+253.7362 	EXP 	polygon: autoDraw = False
+253.7362 	EXP 	polygon: autoDraw = False
+253.7362 	EXP 	polygon: opacity = 0.66
+255.2646 	EXP 	polygon: autoDraw = True
+255.4542 	EXP 	New trial (rep=137, index=0): None
+255.4646 	EXP 	polygon: autoDraw = False
+255.4646 	EXP 	polygon: autoDraw = False
+255.4646 	EXP 	polygon: opacity = 0.1
+256.7839 	EXP 	polygon: autoDraw = True
+256.9870 	EXP 	New trial (rep=138, index=0): None
+257.0028 	EXP 	polygon: autoDraw = False
+257.0028 	EXP 	polygon: autoDraw = False
+257.0028 	EXP 	polygon: opacity = 0.33
+258.4034 	EXP 	polygon: autoDraw = True
+258.6027 	EXP 	New trial (rep=139, index=0): None
+258.6157 	EXP 	polygon: autoDraw = False
+258.6157 	EXP 	polygon: autoDraw = False
+258.6157 	EXP 	polygon: opacity = 1.0
+259.8829 	EXP 	polygon: autoDraw = True
+260.0731 	EXP 	New trial (rep=140, index=0): None
+260.0861 	EXP 	polygon: autoDraw = False
+260.0861 	EXP 	polygon: autoDraw = False
+260.0861 	EXP 	polygon: opacity = 0.33
+261.3528 	EXP 	polygon: autoDraw = True
+261.5595 	EXP 	New trial (rep=141, index=0): None
+261.5666 	EXP 	polygon: autoDraw = False
+261.5666 	EXP 	polygon: autoDraw = False
+261.5666 	EXP 	polygon: opacity = 0.66
+263.1528 	EXP 	polygon: autoDraw = True
+263.3405 	EXP 	New trial (rep=142, index=0): None
+263.3547 	EXP 	polygon: autoDraw = False
+263.3547 	EXP 	polygon: autoDraw = False
+263.3547 	EXP 	polygon: opacity = 1.0
+264.9187 	EXP 	polygon: autoDraw = True
+265.1088 	EXP 	New trial (rep=143, index=0): None
+265.1181 	EXP 	polygon: autoDraw = False
+265.1181 	EXP 	polygon: autoDraw = False
+265.1181 	EXP 	polygon: opacity = 1.0
+266.4192 	EXP 	polygon: autoDraw = True
+266.6079 	EXP 	New trial (rep=144, index=0): None
+266.6218 	EXP 	polygon: autoDraw = False
+266.6218 	EXP 	polygon: autoDraw = False
+266.6218 	EXP 	polygon: opacity = 0.1
+268.3209 	EXP 	polygon: autoDraw = True
+268.5102 	EXP 	New trial (rep=145, index=0): None
+268.5246 	EXP 	polygon: autoDraw = False
+268.5246 	EXP 	polygon: autoDraw = False
+268.5246 	EXP 	polygon: opacity = 1.0
+270.1880 	EXP 	polygon: autoDraw = True
+270.3895 	EXP 	New trial (rep=146, index=0): None
+270.4076 	EXP 	polygon: autoDraw = False
+270.4076 	EXP 	polygon: autoDraw = False
+270.4076 	EXP 	polygon: opacity = 1.0
+271.7735 	EXP 	polygon: autoDraw = True
+271.9784 	EXP 	New trial (rep=147, index=0): None
+271.9869 	EXP 	polygon: autoDraw = False
+271.9869 	EXP 	polygon: autoDraw = False
+271.9869 	EXP 	polygon: opacity = 0.33
+273.3238 	EXP 	polygon: autoDraw = True
+273.5272 	EXP 	New trial (rep=148, index=0): None
+273.5374 	EXP 	polygon: autoDraw = False
+273.5374 	EXP 	polygon: autoDraw = False
+273.5374 	EXP 	polygon: opacity = 0.66
+275.1908 	EXP 	polygon: autoDraw = True
+275.3917 	EXP 	New trial (rep=149, index=0): None
+275.4047 	EXP 	polygon: autoDraw = False
+275.4047 	EXP 	polygon: autoDraw = False
+275.4047 	EXP 	polygon: opacity = 1.0
+276.9111 	EXP 	polygon: autoDraw = True
+277.1131 	EXP 	New trial (rep=150, index=0): None
+277.1261 	EXP 	polygon: autoDraw = False
+277.1261 	EXP 	polygon: autoDraw = False
+277.1261 	EXP 	polygon: opacity = 0.33
+278.6412 	EXP 	polygon: autoDraw = True
+278.8321 	EXP 	New trial (rep=151, index=0): None
+278.8396 	EXP 	polygon: autoDraw = False
+278.8396 	EXP 	polygon: autoDraw = False
+278.8396 	EXP 	polygon: opacity = 0.33
+280.3917 	EXP 	polygon: autoDraw = True
+280.5965 	EXP 	New trial (rep=152, index=0): None
+280.6078 	EXP 	polygon: autoDraw = False
+280.6078 	EXP 	polygon: autoDraw = False
+280.6078 	EXP 	polygon: opacity = 0.33
+281.9742 	EXP 	polygon: autoDraw = True
+282.1621 	EXP 	New trial (rep=153, index=0): None
+282.1737 	EXP 	polygon: autoDraw = False
+282.1737 	EXP 	polygon: autoDraw = False
+282.1737 	EXP 	polygon: opacity = 0.66
+283.7423 	EXP 	polygon: autoDraw = True
+283.9481 	EXP 	New trial (rep=154, index=0): None
+283.9576 	EXP 	polygon: autoDraw = False
+283.9576 	EXP 	polygon: autoDraw = False
+283.9576 	EXP 	polygon: opacity = 0.33
+285.3782 	EXP 	polygon: autoDraw = True
+285.5814 	EXP 	New trial (rep=155, index=0): None
+285.5919 	EXP 	polygon: autoDraw = False
+285.5919 	EXP 	polygon: autoDraw = False
+285.5919 	EXP 	polygon: opacity = 1.0
+287.2767 	EXP 	polygon: autoDraw = True
+287.4628 	EXP 	New trial (rep=156, index=0): None
+287.4775 	EXP 	polygon: autoDraw = False
+287.4775 	EXP 	polygon: autoDraw = False
+287.4775 	EXP 	polygon: opacity = 1.0
+289.0606 	EXP 	polygon: autoDraw = True
+289.2514 	EXP 	New trial (rep=157, index=0): None
+289.2605 	EXP 	polygon: autoDraw = False
+289.2605 	EXP 	polygon: autoDraw = False
+289.2605 	EXP 	polygon: opacity = 0.66
+290.4608 	EXP 	polygon: autoDraw = True
+290.6486 	EXP 	New trial (rep=158, index=0): None
+290.6642 	EXP 	polygon: autoDraw = False
+290.6642 	EXP 	polygon: autoDraw = False
+290.6642 	EXP 	polygon: opacity = 0.33
+292.3275 	EXP 	polygon: autoDraw = True
+292.5170 	EXP 	New trial (rep=159, index=0): None
+292.5295 	EXP 	polygon: autoDraw = False
+292.5295 	EXP 	polygon: autoDraw = False
+292.5295 	EXP 	polygon: opacity = 1.0
+294.2316 	EXP 	polygon: autoDraw = True
+294.4315 	EXP 	New trial (rep=160, index=0): None
+294.4496 	EXP 	polygon: autoDraw = False
+294.4496 	EXP 	polygon: autoDraw = False
+294.4496 	EXP 	polygon: opacity = 0.33
+296.0788 	EXP 	polygon: autoDraw = True
+296.2670 	EXP 	New trial (rep=161, index=0): None
+296.2810 	EXP 	polygon: autoDraw = False
+296.2810 	EXP 	polygon: autoDraw = False
+296.2810 	EXP 	polygon: opacity = 0.66
+298.0155 	EXP 	polygon: autoDraw = True
+298.2217 	EXP 	New trial (rep=162, index=0): None
+298.2310 	EXP 	polygon: autoDraw = False
+298.2310 	EXP 	polygon: autoDraw = False
+298.2310 	EXP 	polygon: opacity = 0.33
+299.4800 	EXP 	polygon: autoDraw = True
+299.6687 	EXP 	New trial (rep=163, index=0): None
+299.6805 	EXP 	polygon: autoDraw = False
+299.6805 	EXP 	polygon: autoDraw = False
+299.6805 	EXP 	polygon: opacity = 0.33
+300.9333 	EXP 	polygon: autoDraw = True
+301.1208 	EXP 	New trial (rep=164, index=0): None
+301.1325 	EXP 	polygon: autoDraw = False
+301.1325 	EXP 	polygon: autoDraw = False
+301.1325 	EXP 	polygon: opacity = 0.1
+302.5474 	EXP 	polygon: autoDraw = True
+302.7353 	EXP 	New trial (rep=165, index=0): None
+302.7514 	EXP 	polygon: autoDraw = False
+302.7514 	EXP 	polygon: autoDraw = False
+302.7514 	EXP 	polygon: opacity = 0.66
+304.1989 	EXP 	polygon: autoDraw = True
+304.3903 	EXP 	New trial (rep=166, index=0): None
+304.3980 	EXP 	polygon: autoDraw = False
+304.3980 	EXP 	polygon: autoDraw = False
+304.3980 	EXP 	polygon: opacity = 1.0
+305.6824 	EXP 	polygon: autoDraw = True
+305.8723 	EXP 	New trial (rep=167, index=0): None
+305.8832 	EXP 	polygon: autoDraw = False
+305.8832 	EXP 	polygon: autoDraw = False
+305.8832 	EXP 	polygon: opacity = 1.0
+307.2995 	EXP 	polygon: autoDraw = True
+307.4895 	EXP 	New trial (rep=168, index=0): None
+307.5024 	EXP 	polygon: autoDraw = False
+307.5024 	EXP 	polygon: autoDraw = False
+307.5024 	EXP 	polygon: opacity = 0.1
+308.9164 	EXP 	polygon: autoDraw = True
+309.1033 	EXP 	New trial (rep=169, index=0): None
+309.1163 	EXP 	polygon: autoDraw = False
+309.1163 	EXP 	polygon: autoDraw = False
+309.1163 	EXP 	polygon: opacity = 0.1
+310.8005 	EXP 	polygon: autoDraw = True
+310.9921 	EXP 	New trial (rep=170, index=0): None
+311.0014 	EXP 	polygon: autoDraw = False
+311.0014 	EXP 	polygon: autoDraw = False
+311.0014 	EXP 	polygon: opacity = 0.66
+312.4857 	EXP 	polygon: autoDraw = True
+312.6929 	EXP 	New trial (rep=171, index=0): None
+312.7026 	EXP 	polygon: autoDraw = False
+312.7026 	EXP 	polygon: autoDraw = False
+312.7026 	EXP 	polygon: opacity = 0.33
+313.9364 	EXP 	polygon: autoDraw = True
+314.1433 	EXP 	New trial (rep=172, index=0): None
+314.1520 	EXP 	polygon: autoDraw = False
+314.1520 	EXP 	polygon: autoDraw = False
+314.1520 	EXP 	polygon: opacity = 0.33
+315.7026 	EXP 	polygon: autoDraw = True
+315.8919 	EXP 	New trial (rep=173, index=0): None
+315.9066 	EXP 	polygon: autoDraw = False
+315.9066 	EXP 	polygon: autoDraw = False
+315.9066 	EXP 	polygon: opacity = 0.33
+317.4200 	EXP 	polygon: autoDraw = True
+317.6102 	EXP 	New trial (rep=174, index=0): None
+317.6193 	EXP 	polygon: autoDraw = False
+317.6193 	EXP 	polygon: autoDraw = False
+317.6193 	EXP 	polygon: opacity = 1.0
+318.9366 	EXP 	polygon: autoDraw = True
+319.1234 	EXP 	New trial (rep=175, index=0): None
+319.1363 	EXP 	polygon: autoDraw = False
+319.1363 	EXP 	polygon: autoDraw = False
+319.1363 	EXP 	polygon: opacity = 0.66
+320.6042 	EXP 	polygon: autoDraw = True
+320.7941 	EXP 	New trial (rep=176, index=0): None
+320.8076 	EXP 	polygon: autoDraw = False
+320.8076 	EXP 	polygon: autoDraw = False
+320.8076 	EXP 	polygon: opacity = 1.0
+322.2075 	EXP 	polygon: autoDraw = True
+322.4086 	EXP 	New trial (rep=177, index=0): None
+322.4256 	EXP 	polygon: autoDraw = False
+322.4256 	EXP 	polygon: autoDraw = False
+322.4256 	EXP 	polygon: opacity = 0.66
+323.8896 	EXP 	polygon: autoDraw = True
+324.0782 	EXP 	New trial (rep=178, index=0): None
+324.0894 	EXP 	polygon: autoDraw = False
+324.0894 	EXP 	polygon: autoDraw = False
+324.0894 	EXP 	polygon: opacity = 1.0
+325.5401 	EXP 	polygon: autoDraw = True
+325.7318 	EXP 	New trial (rep=179, index=0): None
+325.7402 	EXP 	polygon: autoDraw = False
+325.7402 	EXP 	polygon: autoDraw = False
+325.7402 	EXP 	polygon: opacity = 0.66
+327.5242 	EXP 	polygon: autoDraw = True
+327.7117 	EXP 	New trial (rep=180, index=0): None
+327.7243 	EXP 	polygon: autoDraw = False
+327.7243 	EXP 	polygon: autoDraw = False
+327.7243 	EXP 	polygon: opacity = 0.33
+328.9750 	EXP 	polygon: autoDraw = True
+329.1617 	EXP 	New trial (rep=181, index=0): None
+329.1772 	EXP 	polygon: autoDraw = False
+329.1772 	EXP 	polygon: autoDraw = False
+329.1772 	EXP 	polygon: opacity = 1.0
+330.8586 	EXP 	polygon: autoDraw = True
+331.0464 	EXP 	New trial (rep=182, index=0): None
+331.0587 	EXP 	polygon: autoDraw = False
+331.0587 	EXP 	polygon: autoDraw = False
+331.0587 	EXP 	polygon: opacity = 1.0
+332.4789 	EXP 	polygon: autoDraw = True
+332.6813 	EXP 	New trial (rep=183, index=0): None
+332.6939 	EXP 	polygon: autoDraw = False
+332.6939 	EXP 	polygon: autoDraw = False
+332.6939 	EXP 	polygon: opacity = 1.0
+337.3688 	EXP 	polygon: autoDraw = True
+338.3736 	EXP 	New trial (rep=184, index=0): None
+339.3683 	EXP 	polygon: autoDraw = False
+339.3683 	EXP 	polygon: autoDraw = False
+339.3683 	EXP 	polygon: opacity = 0.66
+340.4119 	EXP 	polygon: autoDraw = True
+340.5978 	EXP 	New trial (rep=185, index=0): None
+340.6106 	EXP 	polygon: autoDraw = False
+340.6106 	EXP 	polygon: autoDraw = False
+340.6106 	EXP 	polygon: opacity = 1.0
+342.1780 	EXP 	polygon: autoDraw = True
+342.3647 	EXP 	New trial (rep=186, index=0): None
+342.3802 	EXP 	polygon: autoDraw = False
+342.3802 	EXP 	polygon: autoDraw = False
+342.3802 	EXP 	polygon: opacity = 1.0
+343.6967 	EXP 	polygon: autoDraw = True
+343.8987 	EXP 	New trial (rep=187, index=0): None
+343.9170 	EXP 	polygon: autoDraw = False
+343.9170 	EXP 	polygon: autoDraw = False
+343.9170 	EXP 	polygon: opacity = 0.33
+345.4508 	EXP 	polygon: autoDraw = True
+345.6497 	EXP 	New trial (rep=188, index=0): None
+345.6654 	EXP 	polygon: autoDraw = False
+345.6654 	EXP 	polygon: autoDraw = False
+345.6654 	EXP 	polygon: opacity = 0.1
+347.1128 	EXP 	polygon: autoDraw = True
+347.3045 	EXP 	New trial (rep=189, index=0): None
+347.3139 	EXP 	polygon: autoDraw = False
+347.3139 	EXP 	polygon: autoDraw = False
+347.3139 	EXP 	polygon: opacity = 0.1
+348.8472 	EXP 	polygon: autoDraw = True
+349.0366 	EXP 	New trial (rep=190, index=0): None
+349.0516 	EXP 	polygon: autoDraw = False
+349.0516 	EXP 	polygon: autoDraw = False
+349.0516 	EXP 	polygon: opacity = 0.66
+350.6651 	EXP 	polygon: autoDraw = True
+350.8538 	EXP 	New trial (rep=191, index=0): None
+350.8639 	EXP 	polygon: autoDraw = False
+350.8639 	EXP 	polygon: autoDraw = False
+350.8639 	EXP 	polygon: opacity = 1.0
+352.4806 	EXP 	polygon: autoDraw = True
+352.6673 	EXP 	New trial (rep=192, index=0): None
+352.6805 	EXP 	polygon: autoDraw = False
+352.6805 	EXP 	polygon: autoDraw = False
+352.6805 	EXP 	polygon: opacity = 0.66
+354.2501 	EXP 	polygon: autoDraw = True
+354.4507 	EXP 	New trial (rep=193, index=0): None
+354.4669 	EXP 	polygon: autoDraw = False
+354.4669 	EXP 	polygon: autoDraw = False
+354.4669 	EXP 	polygon: opacity = 0.66
+355.6832 	EXP 	polygon: autoDraw = True
+355.8745 	EXP 	New trial (rep=194, index=0): None
+355.8818 	EXP 	polygon: autoDraw = False
+355.8818 	EXP 	polygon: autoDraw = False
+355.8818 	EXP 	polygon: opacity = 0.33
+357.4487 	EXP 	polygon: autoDraw = True
+357.6363 	EXP 	New trial (rep=195, index=0): None
+357.6494 	EXP 	polygon: autoDraw = False
+357.6494 	EXP 	polygon: autoDraw = False
+357.6494 	EXP 	polygon: opacity = 0.33
+359.0853 	EXP 	polygon: autoDraw = True
+359.2905 	EXP 	New trial (rep=196, index=0): None
+359.3011 	EXP 	polygon: autoDraw = False
+359.3011 	EXP 	polygon: autoDraw = False
+359.3011 	EXP 	polygon: opacity = 0.1
+360.8334 	EXP 	polygon: autoDraw = True
+361.0248 	EXP 	New trial (rep=197, index=0): None
+361.0365 	EXP 	polygon: autoDraw = False
+361.0365 	EXP 	polygon: autoDraw = False
+361.0365 	EXP 	polygon: opacity = 0.66
+362.4007 	EXP 	polygon: autoDraw = True
+362.5889 	EXP 	New trial (rep=198, index=0): None
+362.6027 	EXP 	polygon: autoDraw = False
+362.6027 	EXP 	polygon: autoDraw = False
+362.6027 	EXP 	polygon: opacity = 0.1
+364.2675 	EXP 	polygon: autoDraw = True
+364.4587 	EXP 	New trial (rep=199, index=0): None
+364.4715 	EXP 	polygon: autoDraw = False
+364.4715 	EXP 	polygon: autoDraw = False
+364.4715 	EXP 	polygon: opacity = 0.33
+366.2349 	EXP 	polygon: autoDraw = True
+366.4247 	EXP 	New trial (rep=200, index=0): None
+366.4378 	EXP 	polygon: autoDraw = False
+366.4378 	EXP 	polygon: autoDraw = False
+366.4378 	EXP 	polygon: opacity = 0.1
+368.1051 	EXP 	polygon: autoDraw = True
+368.2958 	EXP 	New trial (rep=201, index=0): None
+368.3048 	EXP 	polygon: autoDraw = False
+368.3048 	EXP 	polygon: autoDraw = False
+368.3048 	EXP 	polygon: opacity = 1.0
+369.9863 	EXP 	polygon: autoDraw = True
+370.1781 	EXP 	New trial (rep=202, index=0): None
+370.1897 	EXP 	polygon: autoDraw = False
+370.1897 	EXP 	polygon: autoDraw = False
+370.1897 	EXP 	polygon: opacity = 0.33
+371.5588 	EXP 	polygon: autoDraw = True
+371.7600 	EXP 	New trial (rep=203, index=0): None
+371.7700 	EXP 	polygon: autoDraw = False
+371.7700 	EXP 	polygon: autoDraw = False
+371.7700 	EXP 	polygon: opacity = 1.0
+373.1716 	EXP 	polygon: autoDraw = True
+373.3590 	EXP 	New trial (rep=204, index=0): None
+373.3754 	EXP 	polygon: autoDraw = False
+373.3754 	EXP 	polygon: autoDraw = False
+373.3754 	EXP 	polygon: opacity = 1.0
+374.5877 	EXP 	polygon: autoDraw = True
+374.7753 	EXP 	New trial (rep=205, index=0): None
+374.7877 	EXP 	polygon: autoDraw = False
+374.7877 	EXP 	polygon: autoDraw = False
+374.7877 	EXP 	polygon: opacity = 1.0
+376.5238 	EXP 	polygon: autoDraw = True
+376.7111 	EXP 	New trial (rep=206, index=0): None
+376.7266 	EXP 	polygon: autoDraw = False
+376.7266 	EXP 	polygon: autoDraw = False
+376.7266 	EXP 	polygon: opacity = 0.1
+378.0399 	EXP 	polygon: autoDraw = True
+378.2270 	EXP 	New trial (rep=207, index=0): None
+378.2389 	EXP 	polygon: autoDraw = False
+378.2389 	EXP 	polygon: autoDraw = False
+378.2389 	EXP 	polygon: opacity = 0.1
+379.6231 	EXP 	polygon: autoDraw = True
+379.8129 	EXP 	New trial (rep=208, index=0): None
+379.8236 	EXP 	polygon: autoDraw = False
+379.8236 	EXP 	polygon: autoDraw = False
+379.8236 	EXP 	polygon: opacity = 0.1
+381.2086 	EXP 	polygon: autoDraw = True
+381.4143 	EXP 	New trial (rep=209, index=0): None
+381.4261 	EXP 	polygon: autoDraw = False
+381.4261 	EXP 	polygon: autoDraw = False
+381.4261 	EXP 	polygon: opacity = 0.1
+382.8117 	EXP 	polygon: autoDraw = True
+383.0155 	EXP 	New trial (rep=210, index=0): None
+383.0262 	EXP 	polygon: autoDraw = False
+383.0262 	EXP 	polygon: autoDraw = False
+383.0262 	EXP 	polygon: opacity = 1.0
+384.6586 	EXP 	polygon: autoDraw = True
+384.8459 	EXP 	New trial (rep=211, index=0): None
+384.8579 	EXP 	polygon: autoDraw = False
+384.8579 	EXP 	polygon: autoDraw = False
+384.8579 	EXP 	polygon: opacity = 1.0
+386.3426 	EXP 	polygon: autoDraw = True
+386.5338 	EXP 	New trial (rep=212, index=0): None
+386.5429 	EXP 	polygon: autoDraw = False
+386.5429 	EXP 	polygon: autoDraw = False
+386.5429 	EXP 	polygon: opacity = 1.0
+387.7589 	EXP 	polygon: autoDraw = True
+387.9479 	EXP 	New trial (rep=213, index=0): None
+387.9589 	EXP 	polygon: autoDraw = False
+387.9589 	EXP 	polygon: autoDraw = False
+387.9589 	EXP 	polygon: opacity = 0.33
+389.2433 	EXP 	polygon: autoDraw = True
+389.4338 	EXP 	New trial (rep=214, index=0): None
+389.4437 	EXP 	polygon: autoDraw = False
+389.4437 	EXP 	polygon: autoDraw = False
+389.4437 	EXP 	polygon: opacity = 1.0
+391.1104 	EXP 	polygon: autoDraw = True
+391.2986 	EXP 	New trial (rep=215, index=0): None
+391.3122 	EXP 	polygon: autoDraw = False
+391.3122 	EXP 	polygon: autoDraw = False
+391.3122 	EXP 	polygon: opacity = 0.33
+392.9110 	EXP 	polygon: autoDraw = True
+393.1006 	EXP 	New trial (rep=216, index=0): None
+393.1110 	EXP 	polygon: autoDraw = False
+393.1110 	EXP 	polygon: autoDraw = False
+393.1110 	EXP 	polygon: opacity = 1.0
+394.4116 	EXP 	polygon: autoDraw = True
+394.6029 	EXP 	New trial (rep=217, index=0): None
+394.6116 	EXP 	polygon: autoDraw = False
+394.6116 	EXP 	polygon: autoDraw = False
+394.6116 	EXP 	polygon: opacity = 0.66
+395.9497 	EXP 	polygon: autoDraw = True
+396.1502 	EXP 	New trial (rep=218, index=0): None
+396.1623 	EXP 	polygon: autoDraw = False
+396.1623 	EXP 	polygon: autoDraw = False
+396.1623 	EXP 	polygon: opacity = 0.33
+397.4665 	EXP 	polygon: autoDraw = True
+397.6675 	EXP 	New trial (rep=219, index=0): None
+397.6789 	EXP 	polygon: autoDraw = False
+397.6789 	EXP 	polygon: autoDraw = False
+397.6789 	EXP 	polygon: opacity = 0.66
+399.3674 	EXP 	polygon: autoDraw = True
+399.5536 	EXP 	New trial (rep=220, index=0): None
+399.5643 	EXP 	polygon: autoDraw = False
+399.5643 	EXP 	polygon: autoDraw = False
+399.5643 	EXP 	polygon: opacity = 1.0
+401.2306 	EXP 	polygon: autoDraw = True
+401.4183 	EXP 	New trial (rep=221, index=0): None
+401.4348 	EXP 	polygon: autoDraw = False
+401.4348 	EXP 	polygon: autoDraw = False
+401.4348 	EXP 	polygon: opacity = 0.33
+402.6855 	EXP 	polygon: autoDraw = True
+402.8714 	EXP 	New trial (rep=222, index=0): None
+402.8808 	EXP 	polygon: autoDraw = False
+402.8808 	EXP 	polygon: autoDraw = False
+402.8808 	EXP 	polygon: opacity = 0.33
+404.1481 	EXP 	polygon: autoDraw = True
+404.3354 	EXP 	New trial (rep=223, index=0): None
+404.3480 	EXP 	polygon: autoDraw = False
+404.3480 	EXP 	polygon: autoDraw = False
+404.3480 	EXP 	polygon: opacity = 1.0
+405.9487 	EXP 	polygon: autoDraw = True
+406.1367 	EXP 	New trial (rep=224, index=0): None
+406.1544 	EXP 	polygon: autoDraw = False
+406.1544 	EXP 	polygon: autoDraw = False
+406.1544 	EXP 	polygon: opacity = 0.66
+407.6864 	EXP 	polygon: autoDraw = True
+407.8866 	EXP 	New trial (rep=225, index=0): None
+407.8992 	EXP 	polygon: autoDraw = False
+407.8992 	EXP 	polygon: autoDraw = False
+407.8992 	EXP 	polygon: opacity = 1.0
+409.5501 	EXP 	polygon: autoDraw = True
+409.7416 	EXP 	New trial (rep=226, index=0): None
+409.7499 	EXP 	polygon: autoDraw = False
+409.7499 	EXP 	polygon: autoDraw = False
+409.7499 	EXP 	polygon: opacity = 0.33
+411.4676 	EXP 	polygon: autoDraw = True
+411.6577 	EXP 	New trial (rep=227, index=0): None
+411.6671 	EXP 	polygon: autoDraw = False
+411.6671 	EXP 	polygon: autoDraw = False
+411.6671 	EXP 	polygon: opacity = 0.66
+413.0520 	EXP 	polygon: autoDraw = True
+413.2421 	EXP 	New trial (rep=228, index=0): None
+413.2555 	EXP 	polygon: autoDraw = False
+413.2555 	EXP 	polygon: autoDraw = False
+413.2555 	EXP 	polygon: opacity = 0.1
+414.8720 	EXP 	polygon: autoDraw = True
+415.0764 	EXP 	New trial (rep=229, index=0): None
+415.0863 	EXP 	polygon: autoDraw = False
+415.0863 	EXP 	polygon: autoDraw = False
+415.0863 	EXP 	polygon: opacity = 0.1
+416.3689 	EXP 	polygon: autoDraw = True
+416.5561 	EXP 	New trial (rep=230, index=0): None
+416.5688 	EXP 	polygon: autoDraw = False
+416.5688 	EXP 	polygon: autoDraw = False
+416.5688 	EXP 	polygon: opacity = 1.0
+418.2409 	EXP 	polygon: autoDraw = True
+418.4427 	EXP 	New trial (rep=231, index=0): None
+418.4534 	EXP 	polygon: autoDraw = False
+418.4534 	EXP 	polygon: autoDraw = False
+418.4534 	EXP 	polygon: opacity = 0.66
+419.7868 	EXP 	polygon: autoDraw = True
+419.9735 	EXP 	New trial (rep=232, index=0): None
+419.9905 	EXP 	polygon: autoDraw = False
+419.9905 	EXP 	polygon: autoDraw = False
+419.9905 	EXP 	polygon: opacity = 0.66
+421.6077 	EXP 	polygon: autoDraw = True
+421.8116 	EXP 	New trial (rep=233, index=0): None
+421.8207 	EXP 	polygon: autoDraw = False
+421.8207 	EXP 	polygon: autoDraw = False
+421.8207 	EXP 	polygon: opacity = 0.33
+423.2215 	EXP 	polygon: autoDraw = True
+423.4098 	EXP 	New trial (rep=234, index=0): None
+423.4221 	EXP 	polygon: autoDraw = False
+423.4221 	EXP 	polygon: autoDraw = False
+423.4221 	EXP 	polygon: opacity = 0.1
+424.6570 	EXP 	polygon: autoDraw = True
+424.8620 	EXP 	New trial (rep=235, index=0): None
+424.8752 	EXP 	polygon: autoDraw = False
+424.8752 	EXP 	polygon: autoDraw = False
+424.8752 	EXP 	polygon: opacity = 0.1
+426.3892 	EXP 	polygon: autoDraw = True
+426.5773 	EXP 	New trial (rep=236, index=0): None
+426.5921 	EXP 	polygon: autoDraw = False
+426.5921 	EXP 	polygon: autoDraw = False
+426.5921 	EXP 	polygon: opacity = 0.66
+428.0397 	EXP 	polygon: autoDraw = True
+428.2275 	EXP 	New trial (rep=237, index=0): None
+428.2396 	EXP 	polygon: autoDraw = False
+428.2396 	EXP 	polygon: autoDraw = False
+428.2396 	EXP 	polygon: opacity = 1.0
+429.6739 	EXP 	polygon: autoDraw = True
+429.8662 	EXP 	New trial (rep=238, index=0): None
+429.8740 	EXP 	polygon: autoDraw = False
+429.8740 	EXP 	polygon: autoDraw = False
+429.8740 	EXP 	polygon: opacity = 0.66
+431.3270 	EXP 	polygon: autoDraw = True
+431.5140 	EXP 	New trial (rep=239, index=0): None
+431.5259 	EXP 	polygon: autoDraw = False
+431.5259 	EXP 	polygon: autoDraw = False
+431.5259 	EXP 	polygon: opacity = 0.33
+432.9294 	EXP 	polygon: autoDraw = True
+433.1285 	EXP 	New trial (rep=240, index=0): None
+433.1413 	EXP 	polygon: autoDraw = False
+433.1413 	EXP 	polygon: autoDraw = False
+433.1413 	EXP 	polygon: opacity = 1.0
+434.3790 	EXP 	polygon: autoDraw = True
+434.5798 	EXP 	New trial (rep=241, index=0): None
+434.5922 	EXP 	polygon: autoDraw = False
+434.5922 	EXP 	polygon: autoDraw = False
+434.5922 	EXP 	polygon: opacity = 1.0
+436.1089 	EXP 	polygon: autoDraw = True
+436.2963 	EXP 	New trial (rep=242, index=0): None
+436.3115 	EXP 	polygon: autoDraw = False
+436.3115 	EXP 	polygon: autoDraw = False
+436.3115 	EXP 	polygon: opacity = 0.1
+437.6268 	EXP 	polygon: autoDraw = True
+437.8183 	EXP 	New trial (rep=243, index=0): None
+437.8294 	EXP 	polygon: autoDraw = False
+437.8294 	EXP 	polygon: autoDraw = False
+437.8294 	EXP 	polygon: opacity = 0.1
+439.3309 	EXP 	polygon: autoDraw = True
+439.5329 	EXP 	New trial (rep=244, index=0): None
+439.5480 	EXP 	polygon: autoDraw = False
+439.5480 	EXP 	polygon: autoDraw = False
+439.5480 	EXP 	polygon: opacity = 0.1
+441.2947 	EXP 	polygon: autoDraw = True
+441.4829 	EXP 	New trial (rep=245, index=0): None
+441.4988 	EXP 	polygon: autoDraw = False
+441.4988 	EXP 	polygon: autoDraw = False
+441.4988 	EXP 	polygon: opacity = 0.66
+443.1616 	EXP 	polygon: autoDraw = True
+443.3491 	EXP 	New trial (rep=246, index=0): None
+443.3619 	EXP 	polygon: autoDraw = False
+443.3619 	EXP 	polygon: autoDraw = False
+443.3619 	EXP 	polygon: opacity = 0.66
+444.7623 	EXP 	polygon: autoDraw = True
+444.9515 	EXP 	New trial (rep=247, index=0): None
+444.9624 	EXP 	polygon: autoDraw = False
+444.9624 	EXP 	polygon: autoDraw = False
+444.9624 	EXP 	polygon: opacity = 0.33
+446.1972 	EXP 	polygon: autoDraw = True
+446.4031 	EXP 	New trial (rep=248, index=0): None
+446.4155 	EXP 	polygon: autoDraw = False
+446.4155 	EXP 	polygon: autoDraw = False
+446.4155 	EXP 	polygon: opacity = 1.0
+447.9996 	EXP 	polygon: autoDraw = True
+448.2055 	EXP 	New trial (rep=249, index=0): None
+448.2135 	EXP 	polygon: autoDraw = False
+448.2135 	EXP 	polygon: autoDraw = False
+448.2135 	EXP 	polygon: opacity = 0.33
+449.4171 	EXP 	polygon: autoDraw = True
+449.6064 	EXP 	New trial (rep=250, index=0): None
+449.6143 	EXP 	polygon: autoDraw = False
+449.6143 	EXP 	polygon: autoDraw = False
+449.6143 	EXP 	polygon: opacity = 0.1
+450.8309 	EXP 	polygon: autoDraw = True
+451.0180 	EXP 	New trial (rep=251, index=0): None
+451.0307 	EXP 	polygon: autoDraw = False
+451.0307 	EXP 	polygon: autoDraw = False
+451.0307 	EXP 	polygon: opacity = 0.33
+452.6482 	EXP 	polygon: autoDraw = True
+452.8378 	EXP 	New trial (rep=252, index=0): None
+452.8482 	EXP 	polygon: autoDraw = False
+452.8482 	EXP 	polygon: autoDraw = False
+452.8482 	EXP 	polygon: opacity = 1.0
+454.6186 	EXP 	polygon: autoDraw = True
+454.8239 	EXP 	New trial (rep=253, index=0): None
+454.8325 	EXP 	polygon: autoDraw = False
+454.8325 	EXP 	polygon: autoDraw = False
+454.8325 	EXP 	polygon: opacity = 0.33
+456.2172 	EXP 	polygon: autoDraw = True
+456.4258 	EXP 	New trial (rep=254, index=0): None
+456.4371 	EXP 	polygon: autoDraw = False
+456.4371 	EXP 	polygon: autoDraw = False
+456.4371 	EXP 	polygon: opacity = 0.33
+457.6351 	EXP 	polygon: autoDraw = True
+457.8239 	EXP 	New trial (rep=255, index=0): None
+457.8335 	EXP 	polygon: autoDraw = False
+457.8335 	EXP 	polygon: autoDraw = False
+457.8335 	EXP 	polygon: opacity = 0.66
+459.4841 	EXP 	polygon: autoDraw = True
+459.6740 	EXP 	New trial (rep=256, index=0): None
+459.6850 	EXP 	polygon: autoDraw = False
+459.6850 	EXP 	polygon: autoDraw = False
+459.6850 	EXP 	polygon: opacity = 0.1
+461.3194 	EXP 	polygon: autoDraw = True
+461.5230 	EXP 	New trial (rep=257, index=0): None
+461.5378 	EXP 	polygon: autoDraw = False
+461.5378 	EXP 	polygon: autoDraw = False
+461.5378 	EXP 	polygon: opacity = 0.33
+463.2517 	EXP 	polygon: autoDraw = True
+463.4392 	EXP 	New trial (rep=258, index=0): None
+463.4518 	EXP 	polygon: autoDraw = False
+463.4518 	EXP 	polygon: autoDraw = False
+463.4518 	EXP 	polygon: opacity = 0.66
+465.0524 	EXP 	polygon: autoDraw = True
+465.2394 	EXP 	New trial (rep=259, index=0): None
+465.2524 	EXP 	polygon: autoDraw = False
+465.2524 	EXP 	polygon: autoDraw = False
+465.2524 	EXP 	polygon: opacity = 0.33
+466.7551 	EXP 	polygon: autoDraw = True
+466.9600 	EXP 	New trial (rep=260, index=0): None
+466.9698 	EXP 	polygon: autoDraw = False
+466.9698 	EXP 	polygon: autoDraw = False
+466.9698 	EXP 	polygon: opacity = 0.1
+468.7394 	EXP 	polygon: autoDraw = True
+468.9469 	EXP 	New trial (rep=261, index=0): None
+468.9537 	EXP 	polygon: autoDraw = False
+468.9537 	EXP 	polygon: autoDraw = False
+468.9537 	EXP 	polygon: opacity = 1.0
+470.4545 	EXP 	polygon: autoDraw = True
+470.6468 	EXP 	New trial (rep=262, index=0): None
+470.6547 	EXP 	polygon: autoDraw = False
+470.6547 	EXP 	polygon: autoDraw = False
+470.6547 	EXP 	polygon: opacity = 0.33
+472.3419 	EXP 	polygon: autoDraw = True
+472.5440 	EXP 	New trial (rep=263, index=0): None
+472.5559 	EXP 	polygon: autoDraw = False
+472.5559 	EXP 	polygon: autoDraw = False
+472.5559 	EXP 	polygon: opacity = 0.33
+474.0721 	EXP 	polygon: autoDraw = True
+474.2591 	EXP 	New trial (rep=264, index=0): None
+474.2764 	EXP 	polygon: autoDraw = False
+474.2764 	EXP 	polygon: autoDraw = False
+474.2764 	EXP 	polygon: opacity = 0.1
+476.0446 	EXP 	polygon: autoDraw = True
+476.2464 	EXP 	New trial (rep=265, index=0): None
+476.2572 	EXP 	polygon: autoDraw = False
+476.2572 	EXP 	polygon: autoDraw = False
+476.2572 	EXP 	polygon: opacity = 1.0
+477.6078 	EXP 	polygon: autoDraw = True
+477.8007 	EXP 	New trial (rep=266, index=0): None
+477.8092 	EXP 	polygon: autoDraw = False
+477.8092 	EXP 	polygon: autoDraw = False
+477.8092 	EXP 	polygon: opacity = 0.33
+479.4076 	EXP 	polygon: autoDraw = True
+479.5990 	EXP 	New trial (rep=267, index=0): None
+479.6150 	EXP 	polygon: autoDraw = False
+479.6150 	EXP 	polygon: autoDraw = False
+479.6150 	EXP 	polygon: opacity = 0.66
+480.8097 	EXP 	polygon: autoDraw = True
+481.0140 	EXP 	New trial (rep=268, index=0): None
+481.0245 	EXP 	polygon: autoDraw = False
+481.0245 	EXP 	polygon: autoDraw = False
+481.0245 	EXP 	polygon: opacity = 0.33
+482.7089 	EXP 	polygon: autoDraw = True
+482.8947 	EXP 	New trial (rep=269, index=0): None
+482.9115 	EXP 	polygon: autoDraw = False
+482.9115 	EXP 	polygon: autoDraw = False
+482.9115 	EXP 	polygon: opacity = 0.66
+484.2098 	EXP 	polygon: autoDraw = True
+484.4166 	EXP 	New trial (rep=270, index=0): None
+484.4255 	EXP 	polygon: autoDraw = False
+484.4255 	EXP 	polygon: autoDraw = False
+484.4255 	EXP 	polygon: opacity = 0.1
+485.6424 	EXP 	polygon: autoDraw = True
+485.8322 	EXP 	New trial (rep=271, index=0): None
+485.8423 	EXP 	polygon: autoDraw = False
+485.8423 	EXP 	polygon: autoDraw = False
+485.8423 	EXP 	polygon: opacity = 0.33
+487.0430 	EXP 	polygon: autoDraw = True
+487.2296 	EXP 	New trial (rep=272, index=0): None
+487.2438 	EXP 	polygon: autoDraw = False
+487.2438 	EXP 	polygon: autoDraw = False
+487.2438 	EXP 	polygon: opacity = 0.66
+488.9770 	EXP 	polygon: autoDraw = True
+489.1639 	EXP 	New trial (rep=273, index=0): None
+489.1787 	EXP 	polygon: autoDraw = False
+489.1787 	EXP 	polygon: autoDraw = False
+489.1787 	EXP 	polygon: opacity = 1.0
+490.5644 	EXP 	polygon: autoDraw = True
+490.7681 	EXP 	New trial (rep=274, index=0): None
+490.7804 	EXP 	polygon: autoDraw = False
+490.7804 	EXP 	polygon: autoDraw = False
+490.7804 	EXP 	polygon: opacity = 1.0
+492.5446 	EXP 	polygon: autoDraw = True
+492.7354 	EXP 	New trial (rep=275, index=0): None
+492.7463 	EXP 	polygon: autoDraw = False
+492.7463 	EXP 	polygon: autoDraw = False
+492.7463 	EXP 	polygon: opacity = 1.0
+494.3119 	EXP 	polygon: autoDraw = True
+494.4986 	EXP 	New trial (rep=276, index=0): None
+494.5116 	EXP 	polygon: autoDraw = False
+494.5116 	EXP 	polygon: autoDraw = False
+494.5116 	EXP 	polygon: opacity = 1.0
+496.2457 	EXP 	polygon: autoDraw = True
+496.4396 	EXP 	New trial (rep=277, index=0): None
+496.4458 	EXP 	polygon: autoDraw = False
+496.4458 	EXP 	polygon: autoDraw = False
+496.4458 	EXP 	polygon: opacity = 1.0
+497.6480 	EXP 	polygon: autoDraw = True
+497.8391 	EXP 	New trial (rep=278, index=0): None
+497.8510 	EXP 	polygon: autoDraw = False
+497.8510 	EXP 	polygon: autoDraw = False
+497.8510 	EXP 	polygon: opacity = 0.1
+499.4134 	EXP 	polygon: autoDraw = True
+499.6013 	EXP 	New trial (rep=279, index=0): None
+499.6134 	EXP 	polygon: autoDraw = False
+499.6134 	EXP 	polygon: autoDraw = False
+499.6134 	EXP 	polygon: opacity = 0.33
+501.3139 	EXP 	polygon: autoDraw = True
+501.5036 	EXP 	New trial (rep=280, index=0): None
+501.5140 	EXP 	polygon: autoDraw = False
+501.5140 	EXP 	polygon: autoDraw = False
+501.5140 	EXP 	polygon: opacity = 0.33
+502.7196 	EXP 	polygon: autoDraw = True
+502.9199 	EXP 	New trial (rep=281, index=0): None
+502.9308 	EXP 	polygon: autoDraw = False
+502.9308 	EXP 	polygon: autoDraw = False
+502.9308 	EXP 	polygon: opacity = 0.66
+504.2494 	EXP 	polygon: autoDraw = True
+504.4597 	EXP 	New trial (rep=282, index=0): None
+504.4677 	EXP 	polygon: autoDraw = False
+504.4677 	EXP 	polygon: autoDraw = False
+504.4677 	EXP 	polygon: opacity = 0.66
+506.1496 	EXP 	polygon: autoDraw = True
+506.3392 	EXP 	New trial (rep=283, index=0): None
+506.3512 	EXP 	polygon: autoDraw = False
+506.3512 	EXP 	polygon: autoDraw = False
+506.3512 	EXP 	polygon: opacity = 1.0
+507.7332 	EXP 	polygon: autoDraw = True
+507.9228 	EXP 	New trial (rep=284, index=0): None
+507.9321 	EXP 	polygon: autoDraw = False
+507.9321 	EXP 	polygon: autoDraw = False
+507.9321 	EXP 	polygon: opacity = 0.66
+509.4172 	EXP 	polygon: autoDraw = True
+509.6216 	EXP 	New trial (rep=285, index=0): None
+509.6327 	EXP 	polygon: autoDraw = False
+509.6327 	EXP 	polygon: autoDraw = False
+509.6327 	EXP 	polygon: opacity = 0.66
+511.0197 	EXP 	polygon: autoDraw = True
+511.2242 	EXP 	New trial (rep=286, index=0): None
+511.2335 	EXP 	polygon: autoDraw = False
+511.2335 	EXP 	polygon: autoDraw = False
+511.2335 	EXP 	polygon: opacity = 0.1
+512.5504 	EXP 	polygon: autoDraw = True
+512.7384 	EXP 	New trial (rep=287, index=0): None
+512.7503 	EXP 	polygon: autoDraw = False
+512.7503 	EXP 	polygon: autoDraw = False
+512.7503 	EXP 	polygon: opacity = 1.0
+514.0372 	EXP 	polygon: autoDraw = True
+514.2254 	EXP 	New trial (rep=288, index=0): None
+514.2345 	EXP 	polygon: autoDraw = False
+514.2345 	EXP 	polygon: autoDraw = False
+514.2345 	EXP 	polygon: opacity = 1.0
+515.9352 	EXP 	polygon: autoDraw = True
+516.1252 	EXP 	New trial (rep=289, index=0): None
+516.1350 	EXP 	polygon: autoDraw = False
+516.1350 	EXP 	polygon: autoDraw = False
+516.1350 	EXP 	polygon: opacity = 1.0
+517.3521 	EXP 	polygon: autoDraw = True
+517.5402 	EXP 	New trial (rep=290, index=0): None
+517.5556 	EXP 	polygon: autoDraw = False
+517.5556 	EXP 	polygon: autoDraw = False
+517.5556 	EXP 	polygon: opacity = 0.1
+519.3044 	EXP 	polygon: autoDraw = True
+519.4928 	EXP 	New trial (rep=291, index=0): None
+519.5051 	EXP 	polygon: autoDraw = False
+519.5051 	EXP 	polygon: autoDraw = False
+519.5051 	EXP 	polygon: opacity = 0.33
+520.7694 	EXP 	polygon: autoDraw = True
+520.9585 	EXP 	New trial (rep=292, index=0): None
+520.9698 	EXP 	polygon: autoDraw = False
+520.9698 	EXP 	polygon: autoDraw = False
+520.9698 	EXP 	polygon: opacity = 0.33
+522.5387 	EXP 	polygon: autoDraw = True
+522.7417 	EXP 	New trial (rep=293, index=0): None
+522.7580 	EXP 	polygon: autoDraw = False
+522.7580 	EXP 	polygon: autoDraw = False
+522.7580 	EXP 	polygon: opacity = 0.66
+524.3220 	EXP 	polygon: autoDraw = True
+524.5276 	EXP 	New trial (rep=294, index=0): None
+524.5406 	EXP 	polygon: autoDraw = False
+524.5406 	EXP 	polygon: autoDraw = False
+524.5406 	EXP 	polygon: opacity = 0.33
+525.9378 	EXP 	polygon: autoDraw = True
+526.1303 	EXP 	New trial (rep=295, index=0): None
+526.1426 	EXP 	polygon: autoDraw = False
+526.1426 	EXP 	polygon: autoDraw = False
+526.1426 	EXP 	polygon: opacity = 0.66
+527.7581 	EXP 	polygon: autoDraw = True
+527.9642 	EXP 	New trial (rep=296, index=0): None
+527.9715 	EXP 	polygon: autoDraw = False
+527.9715 	EXP 	polygon: autoDraw = False
+527.9715 	EXP 	polygon: opacity = 0.66
+529.4915 	EXP 	polygon: autoDraw = True
+529.6966 	EXP 	New trial (rep=297, index=0): None
+529.7076 	EXP 	polygon: autoDraw = False
+529.7076 	EXP 	polygon: autoDraw = False
+529.7076 	EXP 	polygon: opacity = 0.33
+531.3111 	EXP 	polygon: autoDraw = True
+531.5133 	EXP 	New trial (rep=298, index=0): None
+531.5257 	EXP 	polygon: autoDraw = False
+531.5257 	EXP 	polygon: autoDraw = False
+531.5257 	EXP 	polygon: opacity = 0.66
+533.2911 	EXP 	polygon: autoDraw = True
+533.4766 	EXP 	New trial (rep=299, index=0): None
+533.4951 	EXP 	polygon: autoDraw = False
+533.4951 	EXP 	polygon: autoDraw = False
+533.4951 	EXP 	polygon: opacity = 0.1
+535.1743 	EXP 	polygon: autoDraw = True
+535.3748 	EXP 	polygon: autoDraw = False
+535.3748 	EXP 	polygon: autoDraw = False
+537.3601 	EXP 	text_2: autoDraw = True
+541.3589 	EXP 	text_2: autoDraw = False
+541.3589 	EXP 	text_2: autoDraw = False
+541.3975 	EXP 	window1: mouseVisible = True
