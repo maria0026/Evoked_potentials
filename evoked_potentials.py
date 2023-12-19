@@ -89,9 +89,7 @@ sygnaly = mgr.get_samples()
 # Pobierz wszystkie znaczniki
 tags = mgr.get_tags()
 
-
 sygnaly=sygnaly.T
-
 sygnaly*=0.07150000333786011
 '''
 plt.plot(sygnaly[:,0])
@@ -103,11 +101,7 @@ for i in range(0, sygnaly.shape[1]):
     sygnaly[:,i]=sygnaly[:,i]-((sygnaly[:,-2])+(sygnaly[:,-1]))/2
     t,sygnal_przefiltrowany=filtry(sygnaly[:,i], sampling)
     sygnaly[:,i]=sygnal_przefiltrowany
-'''
-plt.plot(sygnaly[:,0])
-plt.xlim(0,1000)
-plt.show()
-'''
+
 sygnaly=pd.DataFrame(sygnaly)
 
 names=['0.1', '0.33', '0.66', '1']
@@ -125,27 +119,179 @@ for tag in tags:
         tag4 = np.append(tag4, tag["start_timestamp"])
 #print(len(tagi))
 
-
+srednia1=usredniaj_tagi(sygnaly, tag1, sampling)
+srednia2=usredniaj_tagi(sygnaly, tag2, sampling)
+srednia3=usredniaj_tagi(sygnaly, tag3, sampling)  
 srednia4=usredniaj_tagi(sygnaly, tag4, sampling)  
 
-#print(lista1)  
 t=np.arange(-0.3,0.8,1/sampling)
-plt.plot(t,srednia4[:,16])
-plt.show()
-
-srednia3=usredniaj_tagi(sygnaly, tag3, sampling)  
-plt.plot(t,srednia3[:,18])
-plt.show()
-
 
 #sredni potencjal we wszystkich kanalach dla 4 tagu
 template_elektrody(srednia4, t, channels_names)
 
 #wybranie 1 kanalu-Pz do identyfikacji zalamkow
 wybrany_kanal=14
-sygnal=srednia4[:,wybrany_kanal]
-plt.plot(t,sygnal)
+sygnal1=srednia1[:,wybrany_kanal]
+sygnal2=srednia2[:,wybrany_kanal]
+sygnal3=srednia3[:,wybrany_kanal]
+sygnal4=srednia4[:,wybrany_kanal]
+
+def minima(sygnal):
+    # Find all local minima
+    #local_minima_indices = []
+    local_minima_indices = np.where((sygnal[1:-1] < sygnal[:-2]) & (sygnal[1:-1] < sygnal[2:]))[0] + 1
+    '''
+    for i in range(1, len(sygnal) - 1):
+        if sygnal[i] < sygnal[i - 1] and sygnal[i] < sygnal[i + 1]:
+            local_minima_indices.append(i)
+    '''
+    # Extract values corresponding to local minima
+    local_minima_values = sygnal[local_minima_indices]
+    return local_minima_indices, local_minima_values
+
+def maxima(sygnal):
+    # Find all local minima
+    local_maxima_indices = np.where((sygnal[1:-1] > sygnal[:-2]) & (sygnal[1:-1] > sygnal[2:]))[0] + 1
+    #local_maxima_indices = []
+    '''
+    for i in range(1, len(sygnal) - 1):
+        if sygnal[i] > sygnal[i - 1] and sygnal[i] > sygnal[i + 1]:
+            local_maxima_indices.append(i)
+    '''
+    #Extract values corresponding to local minima
+    local_maxima_values = sygnal[local_maxima_indices]
+    return local_maxima_indices, local_maxima_values
+
+def find_p1_and_n2(sygnal):
+    local_minima_indices, local_minima_values = minima(sygnal)
+    local_maxima_indices, local_maxima_values = maxima(sygnal)
+
+    #Find P1
+    p1 = np.max(local_maxima_values)
+    # Return index of p1 in local maxima
+    index = np.argmax(local_maxima_values)
+    #Find index of p1
+    p1_index = local_maxima_indices[index]
+    #Find N2
+    for indeks in local_minima_indices:
+        if indeks > p1_index+15:
+            n2_index = indeks
+            break
+    #Find n2
+    n2 = sygnal[n2_index]
+    return p1, p1_index, n2, n2_index
+
+
+p1_1, p1_index1, n2_1, n2_index1 = find_p1_and_n2(sygnal1)
+p1_2, p1_index2, n2_2, n2_index2 = find_p1_and_n2(sygnal2)
+p1_3, p1_index3, n2_3, n2_index3 = find_p1_and_n2(sygnal3)
+p1_4, p1_index4, n2_4, n2_index4 = find_p1_and_n2(sygnal4)
+
+#create a subplot
+fig, ax = plt.subplots(2,2, figsize=(10,8))
+ax[0,0].plot(t,sygnal1)
+ax[0,0].scatter(t[p1_index1], p1_1, color='green')
+ax[0,0].scatter(t[n2_index1], n2_1, color='red')
+ax[0,0].set_title('Intensywność 0,1')
+ax[0,0].set_ylabel('U [uV]')
+ax[0,0].set_xlabel('t [s]')
+ax[0,1].plot(t,sygnal2)
+ax[0,1].scatter(t[p1_index2], p1_2, color='green')
+ax[0,1].scatter(t[n2_index2], n2_2, color='red')
+ax[0,1].set_title('Intensywność 0,33')
+ax[0,1].set_xlabel('t [s]')
+ax[0,1].set_ylabel('U [uV]')
+ax[1,0].plot(t,sygnal3)
+ax[1,0].scatter(t[p1_index3], p1_3, color='green')
+ax[1,0].scatter(t[n2_index3], n2_3, color='red')
+ax[1,0].set_title('Intensywność 0,66')
+ax[1,0].set_xlabel('t [s]')
+ax[1,0].set_ylabel('U [uV]')
+ax[1,1].plot(t,sygnal4)
+ax[1,1].scatter(t[p1_index4], p1_4, color='green')
+ax[1,1].scatter(t[n2_index4], n2_4, color='red')
+ax[1,1].set_title('Intensywność 1')
+ax[1,1].set_xlabel('t [s]')
+ax[1,1].set_ylabel('U [uV]')
 plt.show()
 
-#amplituda P1 jako różnica między ekstremalną wartością załamka P1 a ekstremalną wartością załamka N2.
-#wybranie P1
+
+#pierwszy sposób analizy - amplituda  P1 jako różnica między ekstremalną wartością załamka P1 a ekstremalną wartością załamka N2
+amplituda1=p1_1-n2_1
+amplituda2=p1_2-n2_2
+amplituda3=p1_3-n2_3
+amplituda4=p1_4-n2_4
+print("Pierwszy sposób analizy")
+print("Amplituda P1 1", amplituda1)
+print("Amplituda P1 2", amplituda2)
+print("Amplituda P1 3", amplituda3)
+print("Amplituda P1 4", amplituda4)
+
+
+#drugi sposób analizy - amplituda P1 jako amplituda P1 w stosunku do zera.
+amplituda1=p1_1
+amplituda2=p1_2
+amplituda3=p1_3
+amplituda4=p1_4
+print("Drugi sposób analizy")
+print("Amplituda P1 1", amplituda1)
+print("Amplituda P1 2", amplituda2)
+print("Amplituda P1 3", amplituda3)
+print("Amplituda P1 4", amplituda4)
+
+#porównanie aplitud testem parametrycznym
+#H0-amplitudy są takie same
+#H1-amplitudy są różne
+
+#Losowe przypisanie numerów warunków: hipoteza zerowa jest prawdziwa. 
+def test_permutacyjny(sygnaly, tag1, tag2, sampling, S_true):
+    wybrany_kanal=14
+    #trzeba policzyć średnie potencjały z wymieszanych sygnałów oznaczonych tagiem np. 1 i 2
+    #więc trzeba zmienić czym są tag- wylosować po trochę z 1 i 2
+    roznica_amplitud = np.array([])
+    for i in range(1000): #robimy 1000 iteracji 
+        #take 50 elements from tag1 and 50 elements from tag2
+        tag1_1 = np.random.choice(tag1, 50)
+        tag1_1 = np.append(tag1_1, np.random.choice(tag2, 50))   
+        potencjal_wywolany1=usredniaj_tagi(sygnaly, tag1_1, sampling)
+        p1_1, p1_index1, n2_1, n2_index1 = find_p1_and_n2(potencjal_wywolany1[:,wybrany_kanal])
+        
+        amplituda1=p1_1-n2_1
+        #print(amplituda1)
+        tag2_2 = np.random.choice(tag1, 50)
+        tag2_2 = np.append(tag2_2, np.random.choice(tag2, 50))
+        potencjal_wywolany2=usredniaj_tagi(sygnaly, tag2_2, sampling)
+        p1_2, p1_index2, n2_2, n2_index2 = find_p1_and_n2(potencjal_wywolany2[:,wybrany_kanal])
+        amplituda2=p1_2-n2_2
+        #print(amplituda2)
+        S=amplituda2-amplituda1
+        #print(S)
+        roznica_amplitud= np.append(roznica_amplitud, S)
+
+    srednia_centyl = np.percentile(roznica_amplitud, 95)
+    plt.hist(roznica_amplitud)
+    plt.vlines(srednia_centyl, 0, 200, 'g')
+    plt.vlines(S_true, 0, 200, 'r',label='Rzeczywista różnica amplitud')
+    plt.xlabel('Różnica amplitud [uV]')
+    plt.ylabel('Liczba wystąpień')
+    plt.legend()
+    plt.show()
+#inny sposob
+amplituda1=p1_1-n2_1
+amplituda2=p1_2-n2_2
+amplituda3=p1_3-n2_3
+amplituda4=p1_4-n2_4
+
+#test_permutacyjny(sygnaly, tag1, tag4, sampling, S)
+#1 a 2
+S=amplituda1-amplituda2
+test_permutacyjny(sygnaly, tag1, tag2, sampling, S)
+print("1,2")
+#1 a 3
+S=amplituda1-amplituda3
+test_permutacyjny(sygnaly, tag1, tag3, sampling, S)
+print("1,3")
+#1 a 4
+S=amplituda1-amplituda4
+test_permutacyjny(sygnaly, tag1, tag4, sampling, S)
+
