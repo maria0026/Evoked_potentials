@@ -48,10 +48,14 @@ def template_elektrodes(evoked_potentials, os, channels_names):
 
     ax1 = plt.subplot(gs[0, 1])
     ax1.plot(os,evoked_potentials[:,0])
+    ax1.set_xlabel('t [s]')
+    ax1.set_ylabel('A [uV]')
     ax1.set_title(channels_names[0])
 
     ax2 = plt.subplot(gs[0, 3])
     ax2.plot(os,evoked_potentials[:,1])
+    ax2.set_xlabel('t [s]')
+    ax2.set_ylabel('A [uV]')
     ax2.set_title(channels_names[1])
 
 
@@ -59,16 +63,22 @@ def template_elektrodes(evoked_potentials, os, channels_names):
         for j in range(5):
             ax = plt.subplot(gs[i + 1, j])
             ax.plot(os,evoked_potentials[:,i * 5 + j + 3 -1])
+            ax.set_xlabel('t [s]')
+            ax.set_ylabel('A [uV]')
             ax.set_title(channels_names[i * 5 + j + 3 -1])
             #ax.set_title(f'Plot {i * 5 + j + 3}')
 
 
     ax3 = plt.subplot(gs[4, 1])
     ax3.plot(os,evoked_potentials[:,17])
+    ax3.set_xlabel('t [s]')
+    ax3.set_ylabel('A [uV]')
     ax3.set_title(channels_names[17])
 
     ax4 = plt.subplot(gs[4, 3])
     ax4.plot(os,evoked_potentials[:,18])
+    ax4.set_xlabel('t [s]')
+    ax4.set_ylabel('A [uV]')
     ax4.set_title(channels_names[18])
 
     # Adjust layout
